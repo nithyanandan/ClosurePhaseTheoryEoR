@@ -261,7 +261,7 @@ If the antenna gains are known to be stable, uncalibrated spatial coherence can 
 
 Since the visible sky will be identical at the same {\it local sidereal time} (LST) when repeated across multiple days of observation, $\phi_\textrm{abc}^\textrm{F}$ and $\phi_\textrm{abc}^\textrm{H{\sc i}}$ will remain constant whereas $\phi_\textrm{abc}^\textrm{N}$ will be independent across these observations. This allows for coherent averaging of $\phi_\textrm{abc}^\textrm{m}$ and reduce the variance due to $\phi_\textrm{abc}^\textrm{N}$.
 
-Day-to-day variations in ionosphere will not affect $\phi_\textrm{abc}^\textrm{m}$ measured over different days as long as either the instrument has a small field of view or the size of the array is small compared to the predominant spatial scales in the ionospheric variations. For example, this has been observed to be the case for HERA \cite{car18}. In such scenarios, $\phi_\textrm{abc}^\textrm{m}$ can be averaged across multiple days for a fixed LST before computing $P_\textrm{abc}(k_\parallel)$ in Eq.~(\ref{eqn:delay-power-spectrum}), where $\Xi_\textrm{abc}(\tau)=\Xi_\textrm{a'b'c'}^*(\tau)$. 
+Day-to-day variations in ionosphere will not affect $\phi_\textrm{abc}^\textrm{m}$ measured over different days as long as either the instrument has a small field of view or the size of the array is small compared to the predominant spatial scales in the ionospheric variations. For example, this has been observed to be the case for HERA \cite{car18}. In such scenarios, $\phi_\textrm{abc}^\textrm{m}$ can be averaged across multiple days at a fixed LST before computing $P_\textrm{abc}(k_\parallel)$ in Eq.~(\ref{eqn:delay-power-spectrum}), where $\Xi_\textrm{abc}(\tau)=\Xi_\textrm{a'b'c'}^*(\tau)$. 
 
 \subsubsection{Averaging antenna triads}\label{sec:triad-avg}
 
@@ -312,14 +312,11 @@ Our approach is generically applicable to non-redundant arrays as well. However,
 
 \section{Summary}\label{sec:summary}
 
-\begin{itemize}
-\item Current low frequency EoR experiments are facing numerous challenges. One of the primary limiting challenges is the need for high-precision spectral calibration.
-\item We propose a new approach that uses bi-spectrum phase which is impervious to antenna-based calibration
-\item We demonstrate that different spectral characteristics of the EoR H~{\sc i} and bright foregrounds in bi-spectrum phase can be used to separate them in delay spectrum.
-\item We note the prospects of detection and EoR model constraints can be further improved in a number of ways relative to the simple analysis presented here.
-\item Data obtained with 47-dish HERA in a single season of observing will have enough information to either detect EoR or indicate clearly what the limitations are.
-\item Analysis of data is underway and will be presented in forthcoming papers.
-\end{itemize}
+Current low-frequency EoR experiments based on redshifted 21~cm measurements are found to be limited by spectral systematics. One of the primary limiting challenges is the need for high-precision spectral calibration. We propose a new approach that uses bi-spectrum phase. It represents an intrinsic property of the sky and is thus impervious to antenna-based calibration, unlike current approaches.
+  
+We show that it has parallels with current approaches and demonstrate that differences in spectral characteristics of the EoR H~{\sc i} and bright foregrounds in bi-spectrum phase can be used to separate them using a delay-spectrum approach. We note the prospects of detection and EoR model constraints can be further improved in a number of ways relative to the simple analysis presented here. We have listed a number of challenges that may limit this approach while noting that even current approaches are subject to most of these challenges.
+  
+Data obtained with 47-dish HERA in a single season ($\sim$~150 nights) of observing will have enough information to either detect EoR or indicate clearly what the limitations are using our approach. Analysis of data is underway and will be presented in forthcoming papers.
 
 \begin{acknowledgments}
 We wish to acknowledge the insightful discussions with Aaron Parsons, James Aguirre, Rajaram Nityananda, and James Moran that helped significantly in the preparation of this manuscript.
