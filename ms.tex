@@ -146,7 +146,7 @@ where, $V_\textrm{ab}(f)$ denotes the spatial coherence spectrum measured betwee
   V_\textrm{ab}^\textrm{m}(f) &= g_\textrm{a}(f)\, g_\textrm{b}^*(f)\, V_\textrm{ab}^\textrm{T}(f) + V_\textrm{ab}^\textrm{N}(f),
 \end{align}
 where, the measured spatial coherence, $V_\textrm{ab}^\textrm{m}(f)$, is the sum of contributions from thermal noise, $V_\textrm{ab}^\textrm{N}(f)$, and sky spatial coherence, $V_\textrm{ab}^\textrm{T}(f)$, corrupted by the antenna gains. The corresponding bi-spectrum is given by:
-\begin{align}
+\begin{align}\label{eqn:bispectrum-terms}
   B_\textrm{abc}^\textrm{m} &= |g_\textrm{a}|^2\, |g_\textrm{b}|^2\, |g_\textrm{c}|^2\, B_\textrm{abc}^\textrm{T} \\
   &+ g_\textrm{a}\,|g_\textrm{b}|^2\,g_\textrm{c}^*\,V_\textrm{ab}^\textrm{T}V_\textrm{bc}^\textrm{T}V_\textrm{ca}^\textrm{N} + |g_\textrm{a}|^2\,g_\textrm{b}^*\,g_\textrm{c}\,V_\textrm{ab}^\textrm{T}V_\textrm{bc}^\textrm{N}V_\textrm{ca}^\textrm{T} \nonumber \\
   &+ g_\textrm{a}^*\,g_\textrm{b}\,|g_\textrm{c}|^2\,V_\textrm{ab}^\textrm{N}V_\textrm{bc}^\textrm{T}V_\textrm{ca}^\textrm{T} + g_\textrm{a}\,g_\textrm{b}^*V_\textrm{ab}^\textrm{T}V_\textrm{bc}^\textrm{N}V_\textrm{ca}^\textrm{N} \nonumber \\
@@ -154,7 +154,7 @@ where, the measured spatial coherence, $V_\textrm{ab}^\textrm{m}(f)$, is the sum
 \end{align}
 where, the dependence on $f$ has been dropped for convenience hereafter unless specifically indicated. All terms on the R.H.S. except on the first line are uncorrelated due to the presence of the noise term and thus average to zero. Hence, 
 \begin{align}
-  \langle B_\textrm{abc}^\textrm{m}\rangle &= \langle |g_\textrm{a}|^2\, |g_\textrm{b}|^2\, |g_\textrm{c}|^2\, B_\textrm{abc}^\textrm{T}\rangle.
+  \langle B_\textrm{abc}^\textrm{m}\rangle &= \langle |g_\textrm{a}|^2\, |g_\textrm{b}|^2\, |g_\textrm{c}|^2\, B_\textrm{abc}^\textrm{T}\rangle. \label{eqn:closure-asymptotic}
 \end{align}
 The phase of the measured bi-spectrum is independent of the antenna gains and thus identical to that of the true bi-spectrum corrupted only by noise. Denoting the bi-spectrum phase as $\phi_\textrm{abc}(f)$, 
 \begin{align}
@@ -289,27 +289,26 @@ Another primary application of this approach is to estimate the average $T_{21}(
 
 \subsection{Prospects and Challenges}\label{sec:prospects-challenges}
 
-We have presented the concept behind this new approach using simple analysis. There are a number of ways in which the prospects of detecting EoR can be improved.
+We have presented a simple analysis of the concept behind this new approach. There are a number of ways in which the prospects of detecting EoR can be improved.
 
 \begin{enumerate}
-\item The completed layout of HERA will consist of 350 antennas. More data.
-\item Optimized analysis to get maximum sensitivity
-\item One-dimensional power spectrum, improved sensitivity from binning
+\item The completed layout of HERA will consist of 350 antennas yielding $\sim$~10--100 times more measurements than at present. This will reduce both thermal noise and systematics significantly. 
+\item Analysis techniques such as inverse-covariance weighting \cite{liu14a,liu14b,dil15} will be employed in analyzing data to maximize sensitivity.
+\item Our analysis demonstrates EoR detection prospects on individual classes of antenna triads ($k_\perp$-modes) and $k_\parallel$-modes. Cylindrical and spherical binning in $k$-modes with optimal weighting, analogous to that employed in power spectrum approaches, will further improve sensitivity compared to the simple demonstration-scale analysis presented here.
+% \item Biggest advantage is avoiding need for high-precision antenna-based calibration
 \end{enumerate}
 
 We identify the following challenges for this approach.
 
 \begin{enumerate}
-\item {\it EoR window} is smaller
-\item Baseline-based gain terms
-\item Off-diagonal Jones matrix in an antenna
-\item Non-redundancy -- antenna beams and other causes
-\item Other systematics
+\item As described in \S\ref{sec:cp-FG-wedge}, the {\it EoR window} is shrunk in this approach and thus may have smaller number of uncontaminated $k$-modes containing cosmological information. But considering a major systematic arising from antenna-based calibration is avoided, this trade-off may still be desirable.
+\item Unlike in power spectrum approach, our approach cannot pre-filter for foreground contributions using delay and fringe rate filtering. This is because they introduce spatial filters on the sky structure that depend on the orientation and length of the antenna spacings and thus the three antenna spacings in $\phi_\textrm{abc}^\textrm{m}$ will observe a filtered sky that will not be identical thus invalidating the properties of bi-spectrum phase on which this analysis is based. The presence of bright foreground component may provide a higher $\rho_\textrm{ab}^\textrm{N}$ and thus a lower $\sigma_{\phi_\textrm{abc}^\textrm{N}}$, assuming $V_\textrm{ab}^\textrm{N}(f)$ does not depend significantly on the sky. However, our approach without such baseline-dependent filtering in delay and fringe rate has still shown separation of cosmological signal from foregrounds in $k_\parallel$-modes. Further, owing to its simplicity, our approach is not very susceptible to loss of cosmological usually introduced by such filters.
+\item Presence of significant baseline-based gain terms will introduce systematic errors in addition to the noise-like terms in Eq.~(\ref{eqn:bispectrum-terms}). If they are small relative to antenna-based gains, they may be treated as additional perturbation terms in Eq.~(\ref{eqn:closure-asymptotic}). If their variation across different antenna spacings are random and/or spectrally smooth, their effects can still be minimized by incoherent averaging described in \S\ref{sec:averaging} though overall sensitivity may have been degraded. This is an issue that will affect current approaches as well. Thus far, such baseline-based gains have not been found to be a significant limiting factor. 
+\item Presence of off-diagonal terms in the direction-independent Jones matrix of an antenna indicative of polarization leakage between the dual-polarization feeds of an antenna are still antenna-based and yet will introduce systematic departures from Eq.~(\ref{eqn:bispectrum-terms}). Some of the remedies described above for baseline-based gain terms are applicable for this issue as well. Current approaches are also susceptible to this issue but so far it has not been found to be a dominant limitation.
+\item Presence of non-identical antenna beams (power patterns) filters the sky differently for the three components in the triad and thus will introduce departures from expected properties of $\phi_\textrm{abc}^\textrm{m}$. These pose a challenge to current approaches as well and some of the proposed remedies may be applicable in this context as well. 
 \end{enumerate}
 
-The above challenges are not a problem if they are spectrally smooth.
-
-Current HERA in a season of observing will have enough data to provide constraints or clearly indicate the limitations.
+Our approach is generically applicable to non-redundant arrays as well. However, as in current approaches, effects that introduce non-identical behavior in the triad components in general will pose a challenge to this approach and the effectiveness of remedial techniques will depend on the magnitude of these effects. Current HERA, with 47 antennas, in a season of observing will have enough data to either provide preliminary constraints on the EoR if not limited by spectral systematics or clearly indicate the nature of these systematic limitations.
 
 \section{Summary}\label{sec:summary}
 
