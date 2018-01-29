@@ -159,20 +159,20 @@ where, the dependence on $f$ has been dropped for convenience hereafter unless s
 \end{align}
 The phase of the measured bi-spectrum is independent of the antenna gains and thus identical to that of the true bi-spectrum corrupted only by noise. Denoting the bi-spectrum phase as $\phi_\Delta(f)$, 
 \begin{align}
-  \phi_\Delta^\textrm{m} &= \phi_\Delta^\textrm{T} + \phi_\Delta^\textrm{N} \label{eqn:cpphase-sum-sky-noise} \\
+  \phi_\Delta^\textrm{m} &= \phi_\Delta^\textrm{T} + \delta\phi_\Delta^\textrm{N} \label{eqn:cpphase-sum-sky-noise} \\
   &= \phi_\textrm{ab}^\textrm{m} + \phi_\textrm{bc}^\textrm{m} + \phi_\textrm{ca}^\textrm{m} \label{eqn:cpphase-sum-of-visphases},
 \end{align}
-where, $\phi_\textrm{ab}^\textrm{m} = \phi_\textrm{a} - \phi_\textrm{b} + \phi_\textrm{ab}^\textrm{T} + \phi_\textrm{ab}^\textrm{N}$ and $\phi_\textrm{a}$ denote the phase of the measured spatial coherence $V_\textrm{ab}^\textrm{m}$ and phase of complex antenna gain $g_\textrm{a}$, respectively. 
+where, $\delta\phi_\textrm{ab}^\textrm{N}$ is the perturbation due to thermal noise superimposed on true phase, $\phi_\textrm{ab}^\textrm{m} = \phi_\textrm{a} - \phi_\textrm{b} + \phi_\textrm{ab}^\textrm{T} + \delta\phi_\textrm{ab}^\textrm{N}$ and $\phi_\textrm{a}$ denote the phase of the measured spatial coherence $V_\textrm{ab}^\textrm{m}$ and phase of complex antenna gain $g_\textrm{a}$, respectively. 
 
-Defining the signal-to-noise ratio (SNR) in the visibilities as $\rho_\textrm{ab}^\textrm{N} = |V_\textrm{ab}^\textrm{T}|/|V_\textrm{ab}^\textrm{N}|$, where, $V_\textrm{ab}^\textrm{N}$ includes both real and imaginary parts, the probability distribution of $\phi_\textrm{ab}^\textrm{N}$ depends on $\rho_\textrm{ab}^\textrm{N}$ as \cite{cra89}:
+Defining the signal-to-noise ratio (SNR) in the visibilities as $\rho_\textrm{ab}^\textrm{N} = |V_\textrm{ab}^\textrm{T}|/|V_\textrm{ab}^\textrm{N}|$, where, $V_\textrm{ab}^\textrm{N}$ includes both real and imaginary parts, the probability distribution of $\delta\phi_\textrm{ab}^\textrm{N}$ depends on $\rho_\textrm{ab}^\textrm{N}$ as \cite{cra89}:
 \begin{align}
-  P(\phi_\textrm{ab}^\textrm{N}) &= \frac{1}{2\pi} e^{-(\rho_\textrm{ab}^\textrm{N})^2} \left(1 + G\sqrt{\pi}\,e^{G^2}(1+\mathrm{erf}\,G)\right),
+  P(\delta\phi_\textrm{ab}^\textrm{N}) &= \frac{1}{2\pi} e^{-(\rho_\textrm{ab}^\textrm{N})^2} \left(1 + G\sqrt{\pi}\,e^{G^2}(1+\mathrm{erf}\,G)\right),
 \end{align}
-where, $G=G(\phi_\textrm{ab}^\textrm{N})$ is defined by $G(\theta)=\rho\cos\theta$, and $\mathrm{erf}$ is the error function. For $\rho_\textrm{ab}^\textrm{N}\gg 1$, $P(\phi_\textrm{ab}^\textrm{N})$ approaches a Gaussian distribution with standard deviation:
+where, $G=G(\delta\phi_\textrm{ab}^\textrm{N})$ is defined by $G(\theta)=\rho\cos\theta$, and $\mathrm{erf}$ is the error function. For $\rho_\textrm{ab}^\textrm{N}\gg 1$, $P(\delta\phi_\textrm{ab}^\textrm{N})$ approaches a Gaussian distribution with standard deviation:
 \begin{align}
   \sigma_{\phi_\textrm{ab}^\textrm{m}} &= \frac{1}{\sqrt{2}\,\rho_\textrm{ab}^\textrm{N}}.
 \end{align}
-For $\rho_\textrm{ab}^\textrm{N}=0$, $P(\phi_\textrm{ab}^\textrm{N})$ reduces to a uniform distribution in $[-\pi,\pi]$. From Eq.~(\ref{eqn:cpphase-sum-of-visphases}), it can be seen that for $\rho_\textrm{ab}^\textrm{N},\,\rho_\textrm{bc}^\textrm{N},\,\rho_\textrm{ca}^\textrm{N}\gg 1$, $\phi_\Delta^\textrm{m}$ will also approach a Gaussian distribution with standard deviation:
+For $\rho_\textrm{ab}^\textrm{N}=0$, $P(\delta\phi_\textrm{ab}^\textrm{N})$ reduces to a uniform distribution in $[-\pi,\pi]$. From Eq.~(\ref{eqn:cpphase-sum-of-visphases}), it can be seen that for $\rho_\textrm{ab}^\textrm{N},\,\rho_\textrm{bc}^\textrm{N},\,\rho_\textrm{ca}^\textrm{N}\gg 1$, $\phi_\Delta^\textrm{m}$ will also approach a Gaussian distribution with standard deviation:
 \begin{align}
   \sigma_{\phi_\Delta^\textrm{m}} &= \frac{1}{\sqrt{2}}\left[\left(\frac{1}{\rho_\textrm{ab}^\textrm{N}}\right)^2 + \left(\frac{1}{\rho_\textrm{bc}^\textrm{N}}\right)^2 + \left(\frac{1}{\rho_\textrm{ca}^\textrm{N}}\right)^2\right]^{1/2}. \label{eqn:cprms-noise}
 \end{align}
@@ -180,7 +180,7 @@ Even for small values of $\rho$, $\phi_\Delta^\textrm{m}$ is likely to approach 
 \begin{align}
   \sigma_{\phi_\Delta^\textrm{avg}}^2 = \bigg\langle |\phi_\Delta^\textrm{N}|^2\bigg\rangle &= \frac{\sigma_{\phi_\Delta^\textrm{m}}^2}{N_\textrm{m}},
 \end{align}
-where, $N_\textrm{m}$ is the number of independent measurements. It may be noted that the thermal noise contributions in bi-spectrum phase measured on antenna triads that share at most one antenna are still considered uncorrelated independent of $\rho_\textrm{ab}^\textrm{N}$ \cite{kul89}.
+where, $N_\textrm{m}$ is the number of independent measurements. It may be noted that the thermal noise contributions in bi-spectrum phase measured on antenna triads that share at most one antenna are still considered uncorrelated, independent of $\rho_\textrm{ab}^\textrm{N}$ \cite{kul89}.
 
 \begin{figure}[htb]
 \includegraphics{phasor}% Here is how to import EPS art
