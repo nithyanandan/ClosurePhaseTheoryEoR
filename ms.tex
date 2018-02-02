@@ -145,7 +145,7 @@ The bi-spectrum in the context of interferometry has been investigated in \cite{
   B_\Delta(f) &= V_{ab}(f)\,V_{bc}(f)\,V_{ca}(f),
 \end{align}
 where, $V_{ab}(f)$ denotes the spatial coherence spectrum measured between antennas $a$ and $b$, and $f$ denotes frequency. It can be shown that if the instrument and/or ionosphere introduce complex antenna-based gains denoted by $g_a$ at any antenna $a$, then: 
-\begin{align}
+\begin{align}\label{eqn:vis-antgains}
   V_{ab}^\textrm{m}(f) &= g_a(f)\, g_b^*(f)\, V_{ab}^\textrm{T}(f) + V_{ab}^\textrm{N}(f),
 \end{align}
 where, the measured spatial coherence, $V_{ab}^\textrm{m}(f)$, is the sum of contributions from thermal noise, $V_{ab}^\textrm{N}(f)$, and sky spatial coherence, $V_{ab}^\textrm{T}(f)$, corrupted by the antenna gains. The corresponding bi-spectrum is given by:
@@ -178,18 +178,18 @@ For $\rho_{ab}^\textrm{N}=0$, $P(\delta\phi_{ab}^\textrm{N})$ reduces to a unifo
 \begin{align}
   \sigma_{\phi_\Delta^\textrm{m}} &= \frac{1}{\sqrt{2}}\left[\left(\frac{1}{\rho_{ab}^\textrm{N}}\right)^2 + \left(\frac{1}{\rho_{bc}^\textrm{N}}\right)^2 + \left(\frac{1}{\rho_{ca}^\textrm{N}}\right)^2\right]^{1/2}. \label{eqn:cprms-noise}
 \end{align}
-Even for small values of $\rho$, $\phi_\Delta^\textrm{m}$ is likely to approach a Gaussian distribution due to the Central Limit Theorem. Fig.~\ref{fig:cpphase-cartoon} illustrates the distribution of $\phi_\Delta^\textrm{m}$ in the complex plane for high and low values of $\rho_{ab}^\textrm{N},\rho_{bc}^\textrm{N},\rho_{ca}^\textrm{N}$. The standard deviation due to thermal noise can be further reduced while preserving phase coherency by averaging independent measurements of $\phi_\Delta^\textrm{m}$ as:
-\begin{align}
-  \sigma_{\phi_\Delta^\textrm{avg}}^2 = \bigg\langle |\delta\phi_\Delta^\textrm{N}|^2\bigg\rangle &= \frac{\sigma_{\phi_\Delta^\textrm{m}}^2}{N_\textrm{m}},
-\end{align}
-where, $N_\textrm{m}$ is the number of independent measurements. It may be noted that the thermal noise contributions in bi-spectrum phase measured on antenna triads that share at most one antenna are still considered uncorrelated, independent of $\rho_{ab}^\textrm{N}$ \cite{kul89}.
+Even for small values of $\rho$, $\phi_\Delta^\textrm{m}$ is likely to approach a Gaussian distribution due to the Central Limit Theorem. Fig.~\ref{fig:cpphase-cartoon} illustrates the distribution of $\phi_\Delta^\textrm{m}$ in the complex plane for high and low values of $\rho_{ab}^\textrm{N},\rho_{bc}^\textrm{N},\rho_{ca}^\textrm{N}$. The standard deviation due to thermal noise can be further reduced while preserving phase coherency by averaging independent measurements of $\phi_\Delta^\textrm{m}$, yielding $\sigma_{\phi_\Delta^\textrm{avg}}^2 = \sigma_{\phi_\Delta^\textrm{m}}^2 / N_\textrm{m}$,
+% \begin{align}
+%   \sigma_{\phi_\Delta^\textrm{avg}}^2 = \bigg\langle |\delta\phi_\Delta^\textrm{N}|^2\bigg\rangle &= \frac{\sigma_{\phi_\Delta^\textrm{m}}^2}{N_\textrm{m}},
+% \end{align}
+where, $N_\textrm{m}$ is the number of independent measurements. It may be noted that $\delta\phi_\Delta^\textrm{N}$ on antenna triads that share at most one antenna are still considered uncorrelated, independent of $\rho_{ab}^\textrm{N}$ \cite{kul89}.
 
 \begin{figure}[htb]
 \includegraphics{phasor}
-\caption{Illustration of closure phase behavior as a function of signal-to-noise ratio in the complex plane. $S$ denotes the true signal amplitude and $N$ the standard deviation from noise. The presence of noise introduces a phase uncertainty, whose standard deviation, $\sigma_{\phi_\Delta}$, is smaller if $S/N$ is larger (left) and vice versa (right). \label{fig:cpphase-cartoon}}
+\caption{Closure phase behavior as a function of signal-to-noise ratio in the complex plane. $S$ denotes the true signal amplitude and $N$, the standard deviation due to noise. Noise introduces a phase uncertainty, whose standard deviation, $\sigma_{\phi_\Delta}$, is smaller if $S/N$ is larger (left) and vice versa (right). \label{fig:cpphase-cartoon}}
 \end{figure}
 
-Eq.~(\ref{eqn:cpphase-sum-sky-noise}) is valid when the gain terms are purely antenna-dependent, i.e., in the absence of any dependency on the antenna pair or baseline that cannot be factorized into purely antenna-dependent terms. Such baseline-dependent terms will be present when mutual coupling across antennas and correlated errors between the signal pathways of the antennas are significant. Baseline-based responses will introduce departures from Eq.~(\ref{eqn:cpphase-sum-sky-noise}) that will depend on the magnitude of such effects. In this paper, baseline-dependent gain terms will be ignored. Paper I presents a preliminary analysis of the magnitude of baseline-based terms in the HERA interferometer. We will explore this issue in more detail in our forthcoming data analysis paper. 
+Eq.~(\ref{eqn:cpphase-sum-sky-noise}) is valid when Eq.~(\ref{eqn:vis-antgains}) is valid where the gain terms are purely antenna-dependent, i.e., in the absence of any dependency on the antenna pair or baseline that cannot be factorized into purely antenna-dependent terms. Such baseline-dependent terms will be present when mutual coupling across antennas and correlated errors between the signal pathways of the antennas are significant, which will introduce departures from Eq.~(\ref{eqn:cpphase-sum-sky-noise}) that will depend on the magnitude of such effects. Paper I presents a preliminary analysis of the magnitude of baseline-based terms for HERA. In this paper, we ignore baseline-dependent gain terms. We will explore this issue in more detail in our forthcoming data analysis paper. 
 
 \section{Modeling}\label{sec:modeling}
 
@@ -197,7 +197,7 @@ We describe the instrument and sky model we adopt to demonstrate our approach to
 
 \subsection{Instrument Model}\label{sec:instrument}
 
-We use the Hydrogen Epoch of Reionization Array \cite[HERA;][]{deb17,thy16,ewa16,neb16,patra17} as an example in demonstrating our approach. HERA is located at the Karoo desert in South Africa at a latitude of $-30.73^\circ$. It will consist of 350 close-packed 14~m dishes with the shortest antenna spacing being 14.6~m. Its layout -- a triple split-core hexagonal grid -- is optimized for both the redundant-spacing calibration and the delay spectrum technique for detection of the H~{\sc i} 21~cm signal from cosmic reionization \cite{dil16}. 
+We use the Hydrogen Epoch of Reionization Array \cite[HERA;][]{deb17,thy16,ewa16,neb16,patra17} as an example in demonstrating our approach. Located at the Karoo desert in South Africa at a latitude of $-30.73^\circ$, HERA will consist of 350 close-packed 14~m dishes with the shortest antenna spacing being 14.6~m. Its layout -- a triple split-core hexagonal grid -- is optimized for both the redundant-spacing calibration and the delay spectrum technique for detecting the cosmic EoR H~{\sc i} 21~cm signal \cite{dil16}. 
 % We use the antenna power pattern described in \cite{deb17} to model the visibilities and bi-spectrum phase. 
 In principle, the HERA layout offers redundant, independent measurements of $\phi_\Delta^\textrm{m}$ on many classes of antenna triplets. 
 
@@ -205,14 +205,14 @@ In principle, the HERA layout offers redundant, independent measurements of $\ph
 
 We construct an all-sky model that includes the realization of a fiducial `faint galaxies' EoR model \cite{gre17} using 21cmFAST \cite{mes11} and a radio foreground model that includes compact and diffuse synchrotron emission from the Galaxy and extragalactic sources \cite{thy15a}. The models chosen here are only for demonstrating the potential of the technique which will be valid for other models as well.
 
-Fig.~\ref{fig:vis-spectra} shows the amplitudes of the spatial coherence spectra measured at the three 14.6~m antenna spacings comprised of the sky (foreground synchrotron and H~{\sc i} from the EoR) and thermal noise contributions with 1~min integration. It is seen that the foreground contributions exceed the EoR signal by a factor $\sim 10^4$ as expected. It is also noted that $400\lesssim \rho_{ab},\,\rho_{bc},\,\rho_{ca} \lesssim 1600$, which implies that fluctuations in $\phi_\Delta^\textrm{m}$ caused by thermal noise will follow a Gaussian distribution with standard deviation given in Eq.~\ref{eqn:cprms-noise}.
+Fig.~\ref{fig:vis-spectra} shows the amplitudes of the spatial coherence spectra measured on three non-redundant 14.6~m antenna spacings due to the sky (foreground synchrotron and H~{\sc i} from the EoR) and thermal noise contributions with 1~min integration. It is seen that the foreground contributions exceed the EoR signal by a factor $\sim 10^4$ as expected. It is also noted that $400\lesssim \rho_{ab},\,\rho_{bc},\,\rho_{ca} \lesssim 1600$, which implies that fluctuations in $\phi_\Delta^\textrm{m}$ caused by thermal noise will follow a Gaussian distribution with standard deviation given in Eq.~\ref{eqn:cprms-noise}.
 
 \begin{figure}[htb]
 \includegraphics[width=\linewidth]{visamp_spectra_asm_eor_noise}
 \caption{Spatial coherence amplitude spectra measured on three 14.6~m antenna spacings shown in red, blue and cyan. The black curve shows the typical noise in the measured spatial coherence spectra obtained with 1~min integration. The solid colored curves show amplitudes from all-sky foreground synchrotron from diffuse and compact components. The dotted curves show the amplitudes from EoR signal on the corresponding antenna spacings from a fiducial model obtained using 21cmFAST. Typically, the EoR signal is $\gtrsim 10^4$ times fainter than the foregrounds. \label{fig:vis-spectra}}
 \end{figure}
 
-Fig.~\ref{fig:cp-spectra} shows the spectra of the bi-spectrum phase, $\phi_\Delta$, for the foreground and EoR components separately. It is clear that the foregrounds contributions to $\phi_\Delta$ are characterized by a smoother spectrum while the EoR signal is rapidly fluctuating in comparison. To identify with Eq.~\ref{eqn:cpphase-sum-sky-noise}, we write $\phi_\Delta^\textrm{m}$ as:
+Fig.~\ref{fig:cp-spectra} shows the spectra of the bi-spectrum phase, $\phi_\Delta$, for the foreground and EoR components separately. It is clear that the foreground contributions to $\phi_\Delta$ are characterized by a smoother spectrum while the EoR signal is rapidly fluctuating in comparison. To identify with Eq.~\ref{eqn:cpphase-sum-sky-noise}, we write $\phi_\Delta^\textrm{m}$ as:
 \begin{align}\label{eqn:cp-components}
   \phi_\Delta^\textrm{m} &= \left(\phi_\Delta^\textrm{F} + \delta\phi_\Delta^\textrm{H{\sc i}}\right) + \delta\phi_\Delta^\textrm{N}
   % &= \phi_\Delta^\textrm{T} + \phi_\Delta^\textrm{N}, \nonumber
