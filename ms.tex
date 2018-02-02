@@ -136,7 +136,7 @@ However, despite obtaining sufficient observational data, these experiments rema
 
 These experiments operate under the challenge of extreme dynamic range requirements set by the foreground continuum emission $\gtrsim 10^4$ \cite{dim02,ali08,ber09,ber10,dat10,gho12}. Their success depends on precise and accurate calibration of the instrument's spectral response, including the effect of the ionosphere. The difficulty in obtaining such precise calibration \cite[for e.g.,][]{dat09,barry16,tro16} has been a limiting factor in setting limits to the H~{\sc i} 21~cm signal from EoR \cite{ali15,patil16,patil17}. A number of new approaches to achieve such precision in calibration are being explored \cite{liu10,zhe14,sie17,dil17}. Likewise, a number of approaches probing the non-Gaussian statistics of the cosmic epoch have been proposed \cite{lid07,bar08,harker09,wat14,kit16,ali06,son15,shi16,maj17}. However, all of them are subject to the calibration challenges described above. 
 
-We present an alternate approach using the phase of the complex bi-spectrum (also referred to in radio interferometry as closure phase) to detect the signal from the EoR. This quantity is impervious to antenna-based complex gains introduced by the instrument and the ionosphere, and thus can remove the need for high-precision calibration currently impeding existing approaches. Besides, bi-spectrum phase can serve as a useful diagnostic tool of the system performance (see also companion paper \cite{car18}). Here, we explore its potential as a strategy and its viability to detect the cosmic signal \cite[see also][]{car16}.
+We present an alternate approach using the phase of the complex bi-spectrum (also referred to in radio interferometry as closure phase) to detect the signal from the EoR. This quantity is impervious to antenna-based complex gains introduced by the instrument and the ionosphere, and thus can remove the need for high-precision calibration currently impeding existing approaches. Besides, bi-spectrum phase can serve as a useful diagnostic tool of the system performance \cite[see also companion paper][hereafter referred to as paper I]{car18}. Here, we explore its potential as a strategy and its viability to detect the cosmic signal \cite[see also][]{car16}.
 
 \section{Information in Bi-spectrum Phase}\label{sec:CPinfo}
 
@@ -155,18 +155,18 @@ where, the measured spatial coherence, $V_{ab}^\textrm{m}(f)$, is the sum of con
   &+ g_a^*\,g_b\,|g_c|^2\,V_{ab}^\textrm{N}V_{bc}^\textrm{T}V_{ca}^\textrm{T} + g_a\,g_b^*V_{ab}^\textrm{T}V_{bc}^\textrm{N}V_{ca}^\textrm{N} \nonumber \\
   &+ g_b\,g_c^*V_{ab}^\textrm{N}V_{bc}^\textrm{T}V_{ca}^\textrm{N} + g_c\,g_a^*V_{ab}^\textrm{N}V_{bc}^\textrm{N}V_{ca}^\textrm{T} + V_{ab}^\textrm{N}V_{bc}^\textrm{N}V_{ca}^\textrm{N}, \nonumber 
 \end{align}
-where, the dependence on $f$ has been dropped for convenience hereafter unless specifically indicated. All terms on the R.H.S. except on the first line are uncorrelated due to the presence of the noise term and thus average to zero. Hence, 
+where, the dependence on $f$ has been dropped for convenience hereafter unless specifically indicated. All terms except the first on the R.H.S. are uncorrelated due to the presence of the noise term and average to zero. Hence, 
 \begin{align}
   \langle B_\Delta^\textrm{m}\rangle &= \langle |g_a|^2\, |g_b|^2\, |g_c|^2\, B_\Delta^\textrm{T}\rangle. \label{eqn:closure-asymptotic}
 \end{align}
-The phase of the measured bi-spectrum is independent of the antenna gains and thus identical to that of the true bi-spectrum corrupted only by noise. Denoting the bi-spectrum phase as $\phi_\Delta(f)$, 
+The phase of the measured bi-spectrum is independent of the antenna gains and thus identical to that of the true bi-spectrum corrupted only by noise. Denoting the bi-spectrum phase as $\phi_\Delta$, 
 \begin{align}
   \phi_\Delta^\textrm{m} &= \phi_\Delta^\textrm{T} + \delta\phi_\Delta^\textrm{N} \label{eqn:cpphase-sum-sky-noise} \\
   &= \phi_{ab}^\textrm{m} + \phi_{bc}^\textrm{m} + \phi_{ca}^\textrm{m} \label{eqn:cpphase-sum-of-visphases},
 \end{align}
 where, $\delta\phi_{ab}^\textrm{N}$ is the perturbation due to thermal noise superimposed on true phase, $\phi_{ab}^\textrm{m} = \phi_a - \phi_b + \phi_{ab}^\textrm{T} + \delta\phi_{ab}^\textrm{N}$ and $\phi_a$ denote the phase of the measured spatial coherence $V_{ab}^\textrm{m}$ and phase of complex antenna gain $g_a$, respectively. 
 
-Defining the signal-to-noise ratio (SNR) in the visibilities as $\rho_{ab}^\textrm{N} = |V_{ab}^\textrm{T}|/|V_{ab}^\textrm{N}|$, where, $V_{ab}^\textrm{N}$ includes both real and imaginary parts, the probability distribution of $\delta\phi_{ab}^\textrm{N}$ depends on $\rho_{ab}^\textrm{N}$ as \cite{cra89}:
+Defining the signal-to-noise ratio (SNR) in the spatial coherence as $\rho_{ab}^\textrm{N} = |V_{ab}^\textrm{T}|/|V_{ab}^\textrm{N}|$, where, $V_{ab}^\textrm{N}$ includes both real and imaginary parts, the probability distribution of $\delta\phi_{ab}^\textrm{N}$ depends on $\rho_{ab}^\textrm{N}$ as \cite{cra89}:
 \begin{align}
   P(\delta\phi_{ab}^\textrm{N}) &= \frac{1}{2\pi} e^{-(\rho_{ab}^\textrm{N})^2} \left(1 + G\sqrt{\pi}\,e^{G^2}(1+\mathrm{erf}\,G)\right),
 \end{align}
@@ -180,7 +180,7 @@ For $\rho_{ab}^\textrm{N}=0$, $P(\delta\phi_{ab}^\textrm{N})$ reduces to a unifo
 \end{align}
 Even for small values of $\rho$, $\phi_\Delta^\textrm{m}$ is likely to approach a Gaussian distribution due to the Central Limit Theorem. Fig.~\ref{fig:cpphase-cartoon} illustrates the distribution of $\phi_\Delta^\textrm{m}$ in the complex plane for high and low values of $\rho_{ab}^\textrm{N},\rho_{bc}^\textrm{N},\rho_{ca}^\textrm{N}$. The standard deviation due to thermal noise can be further reduced while preserving phase coherency by averaging independent measurements of $\phi_\Delta^\textrm{m}$ as:
 \begin{align}
-  \sigma_{\phi_\Delta^\textrm{avg}}^2 = \bigg\langle |\phi_\Delta^\textrm{N}|^2\bigg\rangle &= \frac{\sigma_{\phi_\Delta^\textrm{m}}^2}{N_\textrm{m}},
+  \sigma_{\phi_\Delta^\textrm{avg}}^2 = \bigg\langle |\delta\phi_\Delta^\textrm{N}|^2\bigg\rangle &= \frac{\sigma_{\phi_\Delta^\textrm{m}}^2}{N_\textrm{m}},
 \end{align}
 where, $N_\textrm{m}$ is the number of independent measurements. It may be noted that the thermal noise contributions in bi-spectrum phase measured on antenna triads that share at most one antenna are still considered uncorrelated, independent of $\rho_{ab}^\textrm{N}$ \cite{kul89}.
 
