@@ -211,16 +211,18 @@ For $\rho_{ab}^\textrm{N}=0$, $P(\delta\phi_{ab}^\textrm{N})$ reduces to a unifo
 % \end{align}
 % Even for small values of $\rho$, $\phi_\Delta^\textrm{m}$ is likely to approach a Gaussian distribution due to the Central Limit Theorem.
 
-Fig.~\ref{fig:cpphase-cartoon} illustrates the distribution of $\phi_\Delta^\textrm{m}$ in the complex plane for high and low values of $\rho_{ab}^\textrm{N},\rho_{bc}^\textrm{N},\rho_{ca}^\textrm{N}$. The standard deviation due to thermal noise can be further reduced while preserving phase coherency by averaging independent measurements of $\phi_\Delta^\textrm{m}$, yielding $\sigma_{\phi_\Delta^\textrm{avg}}^2 = \sigma_{\phi_\Delta^\textrm{m}}^2 / N_\textrm{m}$,
+% Fig.~\ref{fig:cpphase-cartoon} illustrates the distribution of $\phi_\Delta^\textrm{m}$ in the complex plane for high and low values of $\rho_{ab}^\textrm{N},\rho_{bc}^\textrm{N},\rho_{ca}^\textrm{N}$. 
+
+The standard deviation due to thermal noise can be further reduced while preserving phase coherency by averaging independent measurements of $\phi_\Delta^\textrm{m}$, yielding $\sigma_{\phi_\Delta^\textrm{avg}}^2 = \sigma_{\phi_\Delta^\textrm{m}}^2 / N_\textrm{m}$,
 % \begin{align}
 %   \sigma_{\phi_\Delta^\textrm{avg}}^2 = \bigg\langle |\delta\phi_\Delta^\textrm{N}|^2\bigg\rangle &= \frac{\sigma_{\phi_\Delta^\textrm{m}}^2}{N_\textrm{m}},
 % \end{align}
 where, $N_\textrm{m}$ is the number of independent measurements. It may be noted that $\delta\phi_\Delta^\textrm{N}$ on antenna triads that share at most one antenna are still considered uncorrelated, independent of $\rho_{ab}^\textrm{N}$ \cite{kul89}.
 
-\begin{figure}[htb]
-\includegraphics{phasor}
-\caption{Closure phase behavior as a function of signal-to-noise ratio in the complex plane. $S$ denotes the true signal amplitude and $N$, the standard deviation due to noise. Noise introduces a phase uncertainty, whose standard deviation, $\sigma_{\phi_\Delta}$, is smaller if $S/N$ is larger (left) and vice versa (right). \label{fig:cpphase-cartoon}}
-\end{figure}
+% \begin{figure}[htb]
+% \includegraphics{phasor}
+% \caption{Closure phase behavior as a function of signal-to-noise ratio in the complex plane. $S$ denotes the true signal amplitude and $N$, the standard deviation due to noise. Noise introduces a phase uncertainty, whose standard deviation, $\sigma_{\phi_\Delta}$, is smaller if $S/N$ is larger (left) and vice versa (right). \label{fig:cpphase-cartoon}}
+% \end{figure}
 
 Eq.~(\ref{eqn:cpphase-sum}) is valid when Eq.~(\ref{eqn:vis-antgains}) is valid where the gain terms are purely antenna-dependent, i.e., in the absence of any dependency on the antenna pair or baseline that cannot be factorized into purely antenna-dependent terms. Such baseline-dependent terms will be present when mutual coupling across antennas and correlated errors between the signal pathways of the antennas are significant, which will introduce departures from Eq.~(\ref{eqn:cpphase-sum}) that will depend on the magnitude of such effects. Paper I presents a preliminary analysis of the magnitude of baseline-based terms for HERA. In this paper, we ignore baseline-dependent gain terms. We will explore this issue in more detail in our forthcoming data analysis paper. 
 
