@@ -164,7 +164,7 @@ We present an alternate approach using the phase of the complex bi-spectrum (als
 
 \section{Information in Bi-spectrum Phase}\label{sec:CPinfo}
 
-The bi-spectrum in the context of interferometry has been investigated in \cite{jen58,kul89,tay99,tho01} and recently revisited in \cite{car18}. It is defined as:
+The bi-spectrum in the context of interferometry has been investigated in \cite{jen58,kul89,tay99,tho01,mon06} and recently revisited in \cite{car18}. It is defined as:
 \begin{align}
   B_\nabla(f) &= V_{ab}(f)\,V_{bc}(f)\,V_{ca}(f),
 \end{align}
@@ -186,14 +186,16 @@ where, the dependence on $f$ has been dropped for convenience hereafter unless s
 All noise-like terms on the R.H.S. are uncorrelated due to the presence of visibility noise term and average to zero.
 % All terms except the first on the R.H.S. are uncorrelated due to the presence of the noise term and average to zero.
 Hence, $\langle B_\nabla^\textrm{m}\rangle = \langle |g_a|^2\, |g_b|^2\, |g_c|^2\, B_\nabla^\textrm{T}\rangle$.
+
 % \begin{align}
 %   \langle B_\nabla^\textrm{m}\rangle &= \langle |g_a|^2\, |g_b|^2\, |g_c|^2\, B_\nabla^\textrm{T}\rangle. \label{eqn:closure-asymptotic}
 % \end{align}
-The phase of the measured bi-spectrum is independent of the antenna gains and thus identical to that of the true bi-spectrum corrupted only by noise. Denoting the bi-spectrum phase as $\phi_\nabla$, 
+
+Denoting the bi-spectrum phase as $\phi_\nabla$, 
 \begin{align}
   \phi_\nabla^\textrm{m} &= \phi_{ab}^\textrm{m} + \phi_{bc}^\textrm{m} + \phi_{ca}^\textrm{m} = \phi_\nabla^\textrm{T} + \delta\phi_\nabla^\textrm{N} \label{eqn:cpphase-sum},
 \end{align}
-where, $\delta\phi_{ab}^\textrm{N}$ is the perturbation due to thermal noise superimposed on true phase, $\phi_{ab}^\textrm{m} = \phi_a - \phi_b + \phi_{ab}^\textrm{T} + \delta\phi_{ab}^\textrm{N}$ and $\phi_a$ denote the phase of the measured spatial coherence $V_{ab}^\textrm{m}$ and phase of complex antenna gain $g_a$, respectively. 
+where, $\delta\phi_{ab}^\textrm{N}$ is the perturbation due to thermal noise superimposed on true phase, $\phi_{ab}^\textrm{m} = \phi_a - \phi_b + \phi_{ab}^\textrm{T} + \delta\phi_{ab}^\textrm{N}$ and $\phi_a$ denote the phase of the measured spatial coherence $V_{ab}^\textrm{m}$ and phase of complex antenna gain $g_a$, respectively. The measured bi-spectrum phase, $\phi_\nabla^\textrm{m}$, is independent of the antenna gains and identical to that of the true bi-spectrum corrupted only by noise. Hence, $\phi_\nabla^\textrm{m}$ contains purely information about the sky's spatial structure. Some of its other properties include \cite{mon07} -- overall translation invariance to sky structure; $\phi_\nabla^\textrm{T}=0$ or $\pi$ implies centrosymmetry, and conversely, other values imply a skewed structure; and, a resolved object is required for $\phi_\nabla^\textrm{T}\ne 0$.
 
 Defining the signal-to-noise ratio (SNR) in the spatial coherence as $\rho_{ab}^\textrm{N} = |V_{ab}^\textrm{T}|/|V_{ab}^\textrm{N}|$, where, $V_{ab}^\textrm{N}$ includes both real and imaginary parts, the probability distribution of $\delta\phi_{ab}^\textrm{N}$ depends on $\rho_{ab}^\textrm{N}$ as \cite{cra89}:
 \begin{align}
@@ -278,7 +280,7 @@ Thus, when $\rho_{ab}^\textrm{H{\sc i}} < \rho_{ab}^\textrm{N}$, $\sigma_{\phi_\
 
 \subsection{EoR window and Foreground wedge}\label{sec:cp-FG-wedge}
 
-While any method that relies on separating a signal from contaminants using differences in spectral characteristics is applicable, we employ the {\it Delay Spectrum} approach \cite{par12a,par12b}. Since the $\phi_\nabla$ spectrum can wrap around the boundaries at $\pm\pi$, a Fourier transform of this quantity will introduce non-physical spectral structure. We define $\xi_\nabla = e^{i\phi_\nabla}$, which eliminates the effects of sharp sign transitions at $\phi_\nabla=\pm\pi$. We perform a delay transform as follows:
+While any method that relies on separating a signal from contaminants using differences in spectral characteristics is applicable, we employ the {\it Delay Spectrum} approach \cite{par12a,par12b}. Since the $\phi_\nabla$ spectrum can wrap around the boundaries at $\pm\pi$, a Fourier transform of this quantity will introduce non-physical spectral structure. We define $\xi_\nabla = e^{i\phi_\nabla}$, which is unaffected by discontinuities at $\phi_\nabla=\pm\pi$. We perform a delay transform:
 \begin{align}\label{eqn:cpdspec}
   \Xi_\nabla(\tau) &= \int \xi_\nabla(f)\,W(f)\,e^{i2\pi f\tau}\,\mathrm{d}f,
 \end{align}
@@ -302,7 +304,7 @@ We define the delay cross-power spectrum of $\xi_\nabla(f)$ as:
 \begin{align}
   P_\nabla(k_\parallel) &\equiv \mathfrak{Re}\bigg\{\Xi_\nabla(\tau)\Xi_{\nabla^\prime}^*(\tau)\bigg\} \left(\frac{\Delta D}{B_\textrm{eff}^2}\right), \label{eqn:delay-power-spectrum}
 \end{align}
-where, $B_\textrm{eff}$ is the bandwidth, $\Delta D\equiv \Delta D(z)$ is the comoving depth along the line of sight corresponding to $B_\textrm{eff}$ at redshift $z$, $k_\parallel\approx 2\pi\tau B_\textrm{eff}/\Delta D$ is line-of-sight wavenumber, and $\mathfrak{Re}\{\cdot\}$ denotes the real part. Here, $P_\nabla(k_\parallel)$ is in units of $h^{-1}$~Mpc.
+where, $\Delta D\equiv \Delta D(z)$ is the comoving depth along the line of sight corresponding to $B_\textrm{eff}$ at redshift $z$, $k_\parallel\approx 2\pi\tau B_\textrm{eff}/\Delta D$ is line-of-sight wavenumber, and $\mathfrak{Re}\{\cdot\}$ denotes the real part. Here, $P_\nabla(k_\parallel)$ is in units of $h^{-1}$~Mpc.
 % , and $h$, $H_0$ and $E(z)\equiv [\Omega_\textrm{M}(1+z)^3+\Omega_\textrm{k}(1+z)^2+\Omega_\Lambda]^{1/2}$ are standard terms in cosmology.
 In this paper, we use cosmological parameters from 
 % $\Omega_\textrm{M}=0.27$, $\Omega_\Lambda=0.73$, $\Omega_\textrm{K}=1-\Omega_\textrm{M}-\Omega_\Lambda$, $H_0=100\,h\,$km$\,$s$^{-1}\,$Mpc$^{-1}$ 
