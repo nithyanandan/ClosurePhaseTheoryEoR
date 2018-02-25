@@ -50,6 +50,7 @@ prd
 \usepackage{amssymb}   % for math
 \usepackage{hyperref}% add hypertext capabilities
 \usepackage{aas_macros}
+\usepackage[caption=false]{subfig}
 %\usepackage[mathlines]{lineno}% Enable numbering of text and display math
 %\linenumbers\relax % Commence numbering lines
 
@@ -253,7 +254,7 @@ Fig.~\ref{fig:cp-spectra} shows the spectra of the bi-spectrum phase, $\phi_\nab
 where, the terms in the parenthesis are purely sky-based. $\delta\phi_\nabla^\textrm{H{\sc i}}$ and $\delta\phi_\nabla^\textrm{H{\sc i}}$ are to be interpreted as perturbations due to the H~{\sc i} and noise fluctuations respectively, relative to the dominant phase from foregrounds, $\phi_\nabla^\textrm{F}$.
 
 \begin{figure}[htb]
-\includegraphics[width=0.85\linewidth]{closure_phase_spectra_1_15_16}
+\includegraphics[width=0.85\linewidth]{closure_phase_spectra_0_1_8}
 \caption{Closure phase spectra of individual components in the sky model -- single point source (cyan) with $\phi_\nabla=0$, compact sources (orange), diffuse foregrounds (blue), all-sky diffuse and compact components combined (red), and the EoR \HI\ fluctuations (gray) -- for an equilateral triad of side 14.6~m in the HERA-19 layout highlighted in the upper right corner. It is seen that the EoR signal is highly fluctuating relative to all the foreground components. The sharp sign transitions at $\phi_\nabla=\pm \pi$ are phase wraps and are not of a physical origin. \label{fig:cp-spectra}}
 \end{figure}
 
@@ -344,10 +345,13 @@ For bi-spectrum phase, we consider 14.6~m equilateral antenna triads. For simpli
 
 Fig.~\ref{fig:cpdps} shows the delay power spectrum, $P_\nabla(k_\parallel)$, of $\phi_\nabla^\textrm{m}$ obtained for the 150~MHz sub-band, a conservative initial S/N, $\rho_{ab}^\textrm{N}=400$, for these chosen parameters. The vertical lines show the boundaries of the {\it foreground wedge} (see \S\ref{sec:cp-FG-wedge}, Eq.~(\ref{eqn:cp-FG-wedge})) and the foreground contributions decline rapidly beyond these boundaries. In the {\it EoR window} at $|k_\parallel| \gtrsim 0.5\,h$~Mpc$^{-1}$, the contributions from the cosmological \HI\ fluctuations, $\delta\phi_\nabla^\textrm{H{\sc i}}$, dominate over $\phi_\nabla^\textrm{F} + \delta\phi_\nabla^\textrm{N}$. It clearly shows that $N_\textrm{m}$ used in this example is sufficient to make $\rho_{ab}^\textrm{N} < \rho_{ab}^\textrm{H{\sc i}}$ and the cosmic signal detectable in individual line-of-sight modes, $|k_\parallel| \gtrsim 0.5\,h$~Mpc$^{-1}$. 
 
-\begin{figure}[htb]
-\includegraphics[width=\linewidth]{cpdps_150MHz_nsamples_1048576}
+\begin{figure*}[htb]
+  \subfloat[][125~MHz subband ($z\approx 10.4$)]{\label{fig:cpdps-125}\includegraphics[width=0.3\linewidth]{cpdps_125MHz_SNR_200_nsamples_1048576}}
+  \subfloat[][150~MHz subband ($z\approx 8.5$)]{\label{fig:cpdps-150}\includegraphics[width=0.3\linewidth]{cpdps_150MHz_SNR_200_nsamples_1048576}}
+  \subfloat[][175~MHz subband ($z\approx 7.1$)]{\label{fig:cpdps-175}\includegraphics[width=0.3\linewidth]{cpdps_175MHz_SNR_200_nsamples_1048576}}
+% \includegraphics[width=\linewidth]{cpdps_150MHz_nsamples_1048576}
 \caption{Delay power spectra of simulated bi-spectrum phases that include contributions from foregrounds, EoR signal, and thermal noise. The vertical dashed black lines delineate the {\it foreground wedge} (see Eq.~(\ref{eqn:cp-FG-wedge})). The red curve denotes when only foregrounds are present, $\phi_\nabla^\textrm{m}=\phi_\nabla^\textrm{F}$. The anisotropic foreground model employed \cite{thy15a} results in the asymmetry around $k_\parallel=0$. The orange curve is for thermal noise superimposed on the foreground component, $\phi_\nabla^\textrm{m}=\phi_\nabla^\textrm{F}+\delta\phi_\nabla^\textrm{N}$, after averaging $N_\textrm{m} \sim 10^6$ measurements. The black dotted curve is when contribution from a fiducial EoR model is also present, $\phi_\nabla^\textrm{m}=\phi_\nabla^\textrm{F}+\delta\phi_\nabla^\textrm{H{\sc i}}+\delta\phi_\nabla^\textrm{N}$, after averaging same number of measurements. The black dashed curve is the same as the black dotted curve except the fiducial EoR model is 10 times stronger in intensity. With sufficient mitigation of thermal noise fluctuations, the EoR contribution is significantly detectable at $|k_\parallel| \gtrsim 0.5\,h$~Mpc$^{-1}$. The significance of the detection depends on the strength of EoR H~{\sc i} emission relative to the foregrounds. An increase in EoR strength by a factor of 10 shows a $\sim 100$-fold increase in power spectrum in the {\it EoR window}, indicating its sensitive dependence on $\rho_{ab}^\textrm{H{\sc i}}$. Thus, the cosmological H~{\sc i} brightness temperature, $T_\textrm{b}^\textrm{H{\sc i}}(z)$, can be inferred if a reliable foreground model is available. \label{fig:cpdps}}
-\end{figure}
+\end{figure*}
 
 \subsection{Estimation of EoR H~{\sc i} Brightness Temperature}\label{sec:spin-temp}
 
