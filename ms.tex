@@ -174,20 +174,8 @@ where, the measured spatial coherence, $V_{ij}^\textrm{m}(f)$, is the sum of con
 \begin{align}\label{eqn:bispectrum-terms}
   B_\nabla^\textrm{m} &= B_\nabla^\textrm{T}\prod_i |g_i|^2 \,\, + \,\, \textrm{noise-like terms}
 \end{align}
-% \begin{align}\label{eqn:bispectrum-terms}
-%   B_\Delta^\textrm{m} &= |g_a|^2\, |g_b|^2\, |g_c|^2\, B_\Delta^\textrm{T} \\
-%   &+ g_a\,|g_b|^2\,g_c^*\,V_{ab}^\textrm{T}V_{bc}^\textrm{T}V_{ca}^\textrm{N} + |g_a|^2\,g_b^*\,g_c\,V_{ab}^\textrm{T}V_{bc}^\textrm{N}V_{ca}^\textrm{T} \nonumber \\
-%   &+ g_a^*\,g_b\,|g_c|^2\,V_{ab}^\textrm{N}V_{bc}^\textrm{T}V_{ca}^\textrm{T} + g_a\,g_b^*V_{ab}^\textrm{T}V_{bc}^\textrm{N}V_{ca}^\textrm{N} \nonumber \\
-%   &+ g_b\,g_c^*V_{ab}^\textrm{N}V_{bc}^\textrm{T}V_{ca}^\textrm{N} + g_c\,g_a^*V_{ab}^\textrm{N}V_{bc}^\textrm{N}V_{ca}^\textrm{T} + V_{ab}^\textrm{N}V_{bc}^\textrm{N}V_{ca}^\textrm{N}, \nonumber 
-% \end{align}
 where, the dependence on $f$ has been omitted for convenience hereafter unless indicated otherwise.
-All noise-like terms on the R.H.S. are uncorrelated and have zero mean due to the presence of $V_{ij}^\textrm{N}$.
-% All terms except the first on the R.H.S. are uncorrelated due to the presence of the noise term and average to zero.
-Hence, $\langle B_\nabla^\textrm{m}\rangle = \langle B_\nabla^\textrm{T} \prod_i |g_i|^2 \rangle$.
-
-% \begin{align}
-%   \langle B_\nabla^\textrm{m}\rangle &= \langle |g_a|^2\, |g_b|^2\, |g_c|^2\, B_\nabla^\textrm{T}\rangle. \label{eqn:closure-asymptotic}
-% \end{align}
+All noise-like terms on the R.H.S. are uncorrelated and have zero mean due to the presence of $V_{ij}^\textrm{N}$. Hence, $\langle B_\nabla^\textrm{m}\rangle = \langle B_\nabla^\textrm{T} \prod_i |g_i|^2 \rangle$.
 
 Denoting the bi-spectrum phase\footnote{Note that this usage of bi-spectrum phase, $\phi_\nabla^\textrm{m}$, deviates from cosmologists' use of bi-spectrum, $B_\nabla^\textrm{m}$. The latter is usually averaged spherically in $k$-bins and still requires precise antenna calibration, whereas we use the power spectrum of $e^{i\phi_\nabla^\textrm{m}}$ and is not subject to the high-precision calibration requirement.} as $\phi_\nabla$, 
 \begin{align}
@@ -199,31 +187,12 @@ Defining the signal-to-noise ratio in the spatial coherence as $\rho_{ij}^\textr
 \begin{align}
   P(\delta\phi_{ij}^\textrm{N}) &= \frac{1}{2\pi} e^{-(\rho_{ij}^\textrm{N})^2} \left(1 + G\sqrt{\pi}\,e^{G^2}(1+\mathrm{erf}\,G)\right),
 \end{align}
-where, $G=G(\delta\phi_{ij}^\textrm{N})$ is defined by $G(\theta)=\rho\cos\theta$, and $\mathrm{erf}$ is the error function. For $\rho_{ij}^\textrm{N}\gg 1$, $P(\delta\phi_{ij}^\textrm{N})$ approaches a Gaussian distribution with standard deviation, $\sigma_{\phi_{ij}^\textrm{m}} = (\sqrt{2}\,\rho_{ij}^\textrm{N})^{-1}$.
-% \begin{align}
-%   \sigma_{\phi_{ab}^\textrm{m}} &= \frac{1}{\sqrt{2}\,\rho_{ab}^\textrm{N}}.
-% \end{align}
-For $\rho_{ij}^\textrm{N}=0$, $P(\delta\phi_{ij}^\textrm{N})$ reduces to a uniform distribution in $[-\pi,\pi]$. From Eq.~(\ref{eqn:cpphase-sum}), it can be seen that for $\rho_{ij}^\textrm{N}\gg 1$, and $\phi_\nabla^\textrm{m}$ will also approach a Gaussian distribution with variance:
+where, $G=G(\delta\phi_{ij}^\textrm{N})$ is defined by $G(\theta)=\rho\cos\theta$, and $\mathrm{erf}$ is the error function. For $\rho_{ij}^\textrm{N}\gg 1$, $P(\delta\phi_{ij}^\textrm{N})$ approaches a Gaussian distribution with standard deviation, $\sigma_{\phi_{ij}^\textrm{m}} = (\sqrt{2}\,\rho_{ij}^\textrm{N})^{-1}$. For $\rho_{ij}^\textrm{N}=0$, $P(\delta\phi_{ij}^\textrm{N})$ reduces to a uniform distribution in $[-\pi,\pi]$. From Eq.~(\ref{eqn:cpphase-sum}), it can be seen that for $\rho_{ij}^\textrm{N}\gg 1$, and $\phi_\nabla^\textrm{m}$ will also approach a Gaussian distribution with variance:
 \begin{align}
   \sigma_{\phi_\nabla^\textrm{m}}^2 &= \sum_{ij}\,(\sqrt{2}\,\rho_{ij}^\textrm{N})^{-2}. \label{eqn:cprms-noise}
 \end{align}
-% \begin{align}
-%   \sigma_{\phi_\nabla^\textrm{m}} &= \frac{1}{\sqrt{2}}\left[\left(\frac{1}{\rho_{ab}^\textrm{N}}\right)^2 + \left(\frac{1}{\rho_{bc}^\textrm{N}}\right)^2 + \left(\frac{1}{\rho_{ca}^\textrm{N}}\right)^2\right]^{1/2}. \label{eqn:cprms-noise}
-% \end{align}
-% Even for small values of $\rho$, $\phi_\nabla^\textrm{m}$ is likely to approach a Gaussian distribution due to the Central Limit Theorem.
 
-% Fig.~\ref{fig:cpphase-cartoon} illustrates the distribution of $\phi_\nabla^\textrm{m}$ in the complex plane for high and low values of $\rho_{ab}^\textrm{N},\rho_{bc}^\textrm{N},\rho_{ca}^\textrm{N}$. 
-
-The standard deviation due to thermal noise can be further reduced while preserving phase coherency by averaging independent measurements of $\phi_\nabla^\textrm{m}$, yielding $\sigma_{\phi_\nabla^\textrm{avg}}^2 = \sigma_{\phi_\nabla^\textrm{m}}^2 / N_\textrm{m}$,
-% \begin{align}
-%   \sigma_{\phi_\nabla^\textrm{avg}}^2 = \bigg\langle |\delta\phi_\nabla^\textrm{N}|^2\bigg\rangle &= \frac{\sigma_{\phi_\nabla^\textrm{m}}^2}{N_\textrm{m}},
-% \end{align}
-where, $N_\textrm{m}$ is the number of independent measurements. It may be noted that $\delta\phi_\nabla^\textrm{N}$ on antenna triads that share at most one antenna are still considered uncorrelated, independent of $\rho_{ab}^\textrm{N}$ \cite{kul89}.
-
-% \begin{figure}[htb]
-% \includegraphics{phasor}
-% \caption{Closure phase behavior as a function of signal-to-noise ratio in the complex plane. $S$ denotes the true signal amplitude and $N$, the standard deviation due to noise. Noise introduces a phase uncertainty, whose standard deviation, $\sigma_{\phi_\nabla}$, is smaller if $S/N$ is larger (left) and vice versa (right). \label{fig:cpphase-cartoon}}
-% \end{figure}
+The standard deviation due to thermal noise can be further reduced while preserving phase coherency by averaging independent measurements of $\phi_\nabla^\textrm{m}$, yielding $\sigma_{\phi_\nabla^\textrm{avg}}^2 = \sigma_{\phi_\nabla^\textrm{m}}^2 / N_\textrm{m}$, where, $N_\textrm{m}$ is the number of independent measurements. It may be noted that $\delta\phi_\nabla^\textrm{N}$ on antenna triads that share at most one antenna are still considered uncorrelated, independent of $\rho_{ab}^\textrm{N}$ \cite{kul89}.
 
 Eq.~(\ref{eqn:cpphase-sum}) is valid when Eq.~(\ref{eqn:vis-antgains}) is valid where the gain terms are purely antenna-dependent, i.e., in the absence of any dependency on the antenna pair or baseline that cannot be factorized into purely antenna-dependent terms. Such baseline-dependent terms will be present when mutual coupling across antennas and correlated errors between the signal pathways of the antennas are significant, which will introduce departures from Eq.~(\ref{eqn:cpphase-sum}) that will depend on the magnitude of such effects. We will explore this issue in more detail in our forthcoming data analysis paper. 
 
@@ -247,7 +216,6 @@ Fig.~\ref{fig:vis-spectra} shows the amplitudes of the spatial coherence spectra
 Fig.~\ref{fig:cp-spectra} shows the spectra of the bi-spectrum phase, $\phi_\nabla$, for the foreground and EoR components separately. It is clear that the foreground contributions to $\phi_\nabla$ are characterized by a smoother spectrum whereas the EoR signal is rapidly fluctuating. Identifying with Eq.~\ref{eqn:cpphase-sum},
 \begin{align}\label{eqn:cp-components}
   \phi_\nabla^\textrm{m} &= \left(\phi_\nabla^\textrm{F} + \delta\phi_\nabla^\textrm{H{\sc i}}\right) + \delta\phi_\nabla^\textrm{N}
-  % &= \phi_\nabla^\textrm{T} + \phi_\nabla^\textrm{N}, \nonumber
 \end{align}
 where, the terms in the parenthesis are purely sky-based. $\delta\phi_\nabla^\textrm{H{\sc i}}$ and $\delta\phi_\nabla^\textrm{H{\sc i}}$ are to be interpreted as perturbations due to the \HI\ and noise fluctuations respectively, relative to the dominant phase from foregrounds, $\phi_\nabla^\textrm{F}$. Writing $V_{ij}^\textrm{m}=V_{ij}^\textrm{F}+V_{ij}^\textrm{H{\sc i}}+V_{ij}^\textrm{N}$, and when $V_{ij}^\textrm{F}$ dominates $V_{ij}^\textrm{m}$ ($\delta\phi_\nabla^\textrm{H{\sc i}}, \delta\phi_\nabla^\textrm{N} \ll 1$), $B_\nabla^\textrm{m}$ can be expanded to linear order in $V_{ij}^\textrm{H{\sc i}}$, $V_{ij}^\textrm{N}$, $\delta\phi_\nabla^\textrm{H{\sc i}}$ and $\delta\phi_\nabla^\textrm{N}$, and it can be shown that 
 \begin{align}
@@ -268,15 +236,9 @@ If a number of independent measurements are available, they could be used to ave
 \begin{align}
   \sigma_{\phi_\nabla^\textrm{m}}^2 &= \sum_{ij}\, (\sqrt{2}\,\rho_{ij}^\textrm{H{\sc i}})^{-2}, \label{eqn:cprms-EoR}
 \end{align}
-% \begin{align}
-%   \sigma_{\phi_\nabla^\textrm{m}} &= \frac{1}{\sqrt{2}}\left[\left(\frac{1}{\rho_{ab}^\textrm{H{\sc i}}}\right)^2 + \left(\frac{1}{\rho_{bc}^\textrm{H{\sc i}}}\right)^2 + \left(\frac{1}{\rho_{ca}^\textrm{H{\sc i}}}\right)^2\right]^{1/2}, \label{eqn:cprms-EoR}
-% \end{align}
 where, $\rho_{ij}^\textrm{H{\sc i}} = |V_{ij}^\textrm{T}|/|V_{ij}^\textrm{H{\sc i}}| \approx |V_{ij}^\textrm{F}|/|V_{ij}^\textrm{H{\sc i}}|$. This approximation is valid because usually $\rho_{ij}^\textrm{H{\sc i}} \gtrsim 10^4 \gg 1$. 
-% and $V_{ab}^\textrm{T} \approx V_{ab}^\textrm{F}$. 
 
-Thus, when $\rho_{ij}^\textrm{H{\sc i}} < \rho_{ij}^\textrm{N}$, $\sigma_{\phi_\nabla^\textrm{m}}$ can be used to estimate $|V_{ij}^\textrm{F}|/|V_{ij}^\textrm{H{\sc i}}|$, which in turn can be used to infer $|V_{ij}^\textrm{H{\sc i}}|$ if $V_{ij}^\textrm{F}$ is known. $|V_{ij}^\textrm{H{\sc i}}|$ is directly related to the EoR H~{\sc i} brightness temperature fluctuations, $\langle(\delta T_\textrm{b}^\textrm{H{\sc i}})^2\rangle$, which can be inferred as a function of frequency, or redshift. This is discussed further in sections that follow. % The accuracy in $\langle(\delta T_\textrm{b}^\textrm{H{\sc i}}(z))^2\rangle$ estimate will be set by the accuracy of the $V_{ab}^\textrm{F}$ model.
-
-% \subsection{Separability using Delay Spectrum}\label{sec:delay-spectrum}
+Thus, when $\rho_{ij}^\textrm{H{\sc i}} < \rho_{ij}^\textrm{N}$, $\sigma_{\phi_\nabla^\textrm{m}}$ can be used to estimate $|V_{ij}^\textrm{F}|/|V_{ij}^\textrm{H{\sc i}}|$, which in turn can be used to infer $|V_{ij}^\textrm{H{\sc i}}|$ if $V_{ij}^\textrm{F}$ is known. $|V_{ij}^\textrm{H{\sc i}}|$ is directly related to the EoR H~{\sc i} brightness temperature fluctuations, $\langle(\delta T_\textrm{b}^\textrm{H{\sc i}})^2\rangle$, which can be inferred as a function of frequency, or redshift. This is discussed further in sections that follow.
 
 \subsection{Delay Power Spectrum of Bi-spectrum Phase}\label{sec:cp-FG-wedge}
 
@@ -296,31 +258,11 @@ From Eq.~(\ref{eqn:cpphase-sum}), since $\xi_\nabla = \prod_{ij} e^{i\phi_{ij}}$
 \begin{align}
 \Xi_\nabla(\tau) &= \Xi_{ab}(\tau)\circledast \Xi_{bc}(\tau)\circledast \Xi_{ca}(\tau)\circledast \mathcal{W}(\tau), \label{eqn:cpdspec-convolution}
 \end{align}
-where, $\{\xi_{ij}(f),\,\Xi_{ij}(\tau)\}$, and $\{W(f),\,\mathcal{W}(\tau)\}$ are Fourier transform pairs, and $\circledast$ denotes convolution.  Foreground contribution to spatial coherence is known to be confined to delay modes within the {\it horizon limits} 
-% expected to be restricted to a wedge-shaped region in three-dimensional wavenumber ($k$) coordinates
-\cite{bow09,liu09,liu14a,liu14b,dat10,liu11,gho12,mor12,par12b,tro12,ved12,dil13,pob13,thy13,thy15a,thy15b,thy16,dil14}. % The maximum extent along $\tau$ ($\propto k_\parallel$) to which foreground contribution in spatial coherence extends is a direct measure of the fastest spectral variation in the foreground component. This maximum delay is proportional to the spacing between antennas ($\propto k_\perp$) measuring the spatial coherence. This gives rise to the {\it foreground wedge}. 
-Since $\Xi_\nabla(\tau)$ results from the convolution of the delay spectrum responses of the spatial coherence phases, the foreground contribution to $\Xi_\nabla(\tau)$ is expected to be more extended along $\tau$ (and $k_\parallel$) relative to $\Xi_{ij}(\tau)$. This relation will be explored in a forthcoming study. 
-
-% further along also expected to be confined to delay modes
-% \begin{align}
-%   |\tau_\textrm{F}| \lesssim B_\textrm{eff}^{-1} + \sum_{ij\in\{ab,bc,ca\}}|\bm{b}_{ij}|/c, \label{eqn:cp-FG-wedge}
-% \end{align}
-% where, $\bm{b}_{ij}$, denotes the three antenna spacings, $1/B_\textrm{eff}$ represents the width added by $\mathcal{W}(\tau)$ in the convolution, and $c$ is the speed of light. 
-
-% The presence of three antenna spacings makes their correspondence with $k_\perp$ not straightforward unlike in a power spectrum approach. The maximum $k_\parallel$-mode of foreground contamination extends farther and the {\it EoR window} is shrunken relative to a power spectrum approach. However, the {\it EoR window} still has a finite extent in which the spectral features imprinted by $\delta\phi_\nabla^\textrm{H{\sc i}}$ dominate, and contamination from $\phi_\nabla^\textrm{F}$ is minimal, in $k_\parallel$-modes corresponding to:
-% \begin{align}
-%   |\tau_\textrm{F}| < |\tau| \leq 1/(2\,\Delta f), \label{eqn:cp-EoR-window}
-% \end{align}
-% where, $\Delta f$ is the frequency resolution, and $1/(2\,\Delta f)$ denotes the shortest line-of-sight spatial, or largest $k_\parallel$, modes in the measurements.
+where, $\{\xi_{ij}(f),\,\Xi_{ij}(\tau)\}$, and $\{W(f),\,\mathcal{W}(\tau)\}$ are Fourier transform pairs, and $\circledast$ denotes convolution.  Foreground contribution to spatial coherence is known to be confined to delay modes within the {\it horizon limits} \cite{bow09,liu09,liu14a,liu14b,dat10,liu11,gho12,mor12,par12b,tro12,ved12,dil13,pob13,thy13,thy15a,thy15b,thy16,dil14}. Since $\Xi_\nabla(\tau)$ results from the convolution of the delay spectrum responses of the spatial coherence phases, the foreground contribution to $\Xi_\nabla(\tau)$ is expected to be more extended along $\tau$ (and $k_\parallel$) relative to $\Xi_{ij}(\tau)$. This relation will be explored in a forthcoming study. 
 
 \subsection{Improving signal to noise in measurements}\label{sec:averaging}
 
 We require $\sigma_{\phi_\nabla^\textrm{H{\sc i}}} > \sigma_{\phi_\nabla^\textrm{N}}$ such that $\phi_\nabla^\textrm{F}, \delta\phi_\nabla^\textrm{H{\sc i}} > \delta\phi_\nabla^\textrm{N}$ in order to detect EoR and estimate $\rho_{ab}^\textrm{H{\sc i}}$. This can be achieved by a combination of the following.
-
-%\subsubsection{Spatial Coherence and Bi-spectrum Phase  %Averaging}\label{sec:vis-avg}
-
-%First, if antenna-based gains are temporally stable, uncalibrated spatial coherence measurements (visibilities) can be averaged over the phase coherence timescale, which is usually determined by field of view and antenna spacing, or the timescale of ionospheric and/or instrumental fluctuations, whichever is lesser. % Beyond this timescale, the spatial coherence is either intrinsically different or has to be calibrated. 
-%This will provide the initial $\rho_{ab}^\textrm{N}$ and will serve as a basic measurement unit upon which the S/N can be further improved using the following steps. 
 
 First, $\phi_\nabla^\textrm{m}$ can be averaged coherently until the variation due to the transiting sky exceeds the decrease in noise due to averaging \cite{car18}. An Allan Variance estimate for HERA showed this timescale to be $\lesssim 2$~min \cite{car18}.
 
@@ -330,26 +272,19 @@ Third, the measurements of redundant triads can be averaged coherently in $\phi_
 
 Lastly, for measurements spaced in time larger than the coherence timescale,  since the EoR signal is statistically isotropic in space while the foregrounds are not, such measurements can be used to first compute the individual delay cross-power spectra, $P_\nabla(k_\parallel)$, pairwise across temporally spaced measurements $\Xi_\nabla(\tau)$ and $\Xi_{\nabla^\prime}^*(\tau)$ and then be averaged incoherently. 
 
-% \section{Discussion}\label{sec:discussion}
-
 \subsection{Detection of Cosmic Reionization}\label{sec:EoR-detection}
 
-The primary application of this technique is to detect the EoR \HI\ signal. We consider the spectral band 100--200~MHz divided into 512 spectral channels, each 195.3125~kHz wide. Using an {\it Airy} power pattern for the HERA dish, we used PRISim \footnote{PRISim is the open source Precision Radio Interferometry Simulator Python package available at \href{https://github.com/nithyanandan/PRISim}{https://github.com/nithyanandan/PRISim}.} to simulate the synchrotron foregrounds, an EoR model, and noise as described in \S\ref{sec:modeling} and obtain $V_{ij}^\textrm{F}(f)$, $V_{ij}^\textrm{H{\sc i}}(f)$, and $V_{ij}^\textrm{N}(f)$, on various antenna spacings for a conservative phase-coherent integration interval of 1~min (see \S\ref{sec:averaging}) \cite{car18}. % These are shown in Fig.~\ref{fig:vis-spectra}, indicating $\rho_{ab}^\textrm{N} \gtrsim 100$ and are in the high S/N regime, where $\delta\phi_{ab}^\textrm{N}$ and $\delta\phi_\nabla^\textrm{N}$ are well approximated by a Gaussian distribution. 
+The primary application of this technique is to detect the EoR \HI\ signal. We consider the spectral band 100--200~MHz divided into 512 spectral channels, each 195.3125~kHz wide. Using an {\it Airy} power pattern for the HERA dish, we used PRISim \footnote{PRISim is the open source Precision Radio Interferometry Simulator Python package available at \href{https://github.com/nithyanandan/PRISim}{https://github.com/nithyanandan/PRISim}.} to simulate the synchrotron foregrounds, an EoR model, and noise as described in \S\ref{sec:modeling} and obtain $V_{ij}^\textrm{F}(f)$, $V_{ij}^\textrm{H{\sc i}}(f)$, and $V_{ij}^\textrm{N}(f)$, on various antenna spacings for a conservative phase-coherent integration interval of 1~min (see \S\ref{sec:averaging}) \cite{car18}. 
 
 For bi-spectrum phase, we consider 14.6~m equilateral antenna triads and assume ideal redundancy for the array. The total number of such measurements is assumed to be $N_\textrm{m} \sim 10^6$ (after allowing for $\sim$~50\% efficiency of data quality from $\sim 30$ redundant 14.6~m equilateral triads with HERA-47, $\sim$~8~hours of observing per day at 1~min integration intervals, repeated over $\sim$~150 nights). For each of these measurements, $\delta\phi_\nabla^\textrm{N}$ was drawn from a Gaussian distribution using $\sigma_{\phi_\nabla^\textrm{N}}$ in Eq.~(\ref{eqn:cprms-noise}). As various combinations of coherent and incoherent averaging depend on the specific instrument characteristics, we keep this analysis generic by assuming there are $N_\textrm{c}$ coherent measurements of $\phi_\nabla^\textrm{m}$ and for each of these measurements, there are $N_\textrm{ic}$ incoherent measurements such that $N_\textrm{c}N_\textrm{ic}=N_\textrm{m}$. $\phi_\nabla^\textrm{m}$ is averaged coherently over $N_\textrm{c}$ measurements, and then averaged incoherently in $P_\nabla(k_\parallel)$ measured for all incoherent pairs of $\phi_\nabla^\textrm{m}$. For computing $\Xi_\nabla(\tau)$, we choose $W(f)$ by applying inverse Fourier transform of the squared delay response of a {\it Blackman-Harris} spectral weighting \cite{har78} as proposed in \cite{thy16}, using sub-bands centered at 125~MHz, 150~MHz, and 175~MHz, with an effective bandwidth of $B_\textrm{eff}\simeq 10$~MHz (to minimize EoR signal evolution over the redshift range).
 
-Fig.~\ref{fig:cpdps} shows the delay cross-power spectra, $P_\nabla(k_\parallel)$, of $\phi_\nabla^\textrm{m}$ obtained for the three sub-bands, with an initial S/N, $\rho_{ij}^\textrm{N}=200$. 
-% The vertical lines show the expected {\it horizon limits} (Eq.~(\ref{eqn:cp-FG-wedge})) beyond which the foreground contributions decline rapidly. 
-At $|k_\parallel| \gtrsim 0.5\,h$~Mpc$^{-1}$, the contributions from the cosmological \HI\ fluctuations, $\delta\phi_\nabla^\textrm{H{\sc i}}$ (in gray and black), dominate over $\phi_\nabla^\textrm{F} + \delta\phi_\nabla^\textrm{N}$ in the 150~MHz and 175~MHz sub-bands. The use of cross-power delay spectrum removes the noise bias and results in occasional negative values in the presence of noise. It also shows that $N_\textrm{m}$ used in this example is sufficient to make $\rho_{ij}^\textrm{H{\sc i}} < \rho_{ij}^\textrm{N}$ and the EoR signal detectable in individual line-of-sight modes, $|k_\parallel| \gtrsim 0.5\,h$~Mpc$^{-1}$. The absence of a clear detection in the 125~MHz sub-band is discussed below.
+Fig.~\ref{fig:cpdps} shows the delay cross-power spectra, $P_\nabla(k_\parallel)$, of $\phi_\nabla^\textrm{m}$ obtained for the three sub-bands, with an initial S/N, $\rho_{ij}^\textrm{N}=200$. At $|k_\parallel| \gtrsim 0.5\,h$~Mpc$^{-1}$, the contributions from the cosmological \HI\ fluctuations, $\delta\phi_\nabla^\textrm{H{\sc i}}$ (in gray and black), dominate over $\phi_\nabla^\textrm{F} + \delta\phi_\nabla^\textrm{N}$ in the 150~MHz and 175~MHz sub-bands. The use of cross-power delay spectrum removes the noise bias and results in occasional negative values in the presence of noise. It also shows that $N_\textrm{m}$ used in this example is sufficient to make $\rho_{ij}^\textrm{H{\sc i}} < \rho_{ij}^\textrm{N}$ and the EoR signal detectable in individual line-of-sight modes, $|k_\parallel| \gtrsim 0.5\,h$~Mpc$^{-1}$. The absence of a clear detection in the 125~MHz sub-band is discussed below.
 
 \begin{figure*}[htb]
   \subfloat[][125~MHz sub-band ($z\approx 10.4$)]{\label{fig:cpdps-125}\includegraphics[width=0.32\linewidth]{cpdps_125MHz_SNR_200_nsamples_1048576}}
   \subfloat[][150~MHz sub-band ($z\approx 8.5$)]{\label{fig:cpdps-150}\includegraphics[width=0.32\linewidth]{cpdps_150MHz_SNR_200_nsamples_1048576}}
   \subfloat[][175~MHz sub-band ($z\approx 7.1$)]{\label{fig:cpdps-175}\includegraphics[width=0.32\linewidth]{cpdps_175MHz_SNR_200_nsamples_1048576}}
-% \includegraphics[width=\linewidth]{cpdps_150MHz_nsamples_1048576}
-\caption{Delay power spectra of simulated bi-spectrum phases in sub-bands centered at 125~MHz (left), 150~MHz (middle), and 175~MHz (right) that include contributions from foregrounds, EoR signal, and thermal noise. 
-% The vertical dashed lines delineate the expected {\it horizon limits} (see Eq.~(\ref{eqn:cp-FG-wedge})). 
-The red curve denotes when only foregrounds are present, $\phi_\nabla^\textrm{m}=\phi_\nabla^\textrm{F}$. The anisotropic foreground model employed \cite{thy15a} results in the asymmetry around $k_\parallel=0\,h^{-1}$~Mpc. The orange curve is for thermal noise superimposed on the foreground component, $\phi_\nabla^\textrm{m}=\phi_\nabla^\textrm{F}+\delta\phi_\nabla^\textrm{N}$, after averaging $N_\textrm{m} \sim 10^6$ measurements. The gray curve is when contribution from a fiducial EoR model is also present, $\phi_\nabla^\textrm{m}=\phi_\nabla^\textrm{F}+\delta\phi_\nabla^\textrm{H{\sc i}}+\delta\phi_\nabla^\textrm{N}$, after averaging same number of measurements. The black curve is the same as the gray one except the fiducial EoR model is 10 times stronger in intensity. The dot and vertical markers denote positive and negative values respectively. The latter are a result of removal of noise bias obtained by using cross-power spectra (Eq.~\ref{eqn:delay-power-spectrum}). With sufficient mitigation of $\delta\phi_\nabla^\textrm{N}$, the EoR \HI\ contribution is significantly detectable at $|k_\parallel| \gtrsim 0.5\,h$~Mpc$^{-1}$ at $z\approx 8.5$ and $z\approx 7.1$. At $z\approx 10.4$, the EoR contribution is virtually inseparable from the foregrounds because the foregrounds are brighter and the EoR signal is weaker \cite[][see power spectrum amplitude of {\sc faint galaxies} model at $k=0.5$~Mpc$^{-1}$ in their Fig.~2]{gre17b}. The detection significance is noted to depend on the strength of EoR H~{\sc i} emission relative to the foregrounds. An increase in EoR strength by a factor of 10 shows $\sim 100$-fold increase in $P_\nabla(k_\parallel)$ in $|k_\parallel| \gtrsim 0.5\,h$~Mpc$^{-1}$ at $z\approx 8.5$ and $z\approx 7.1$, indicating its sensitive dependence on $\rho_{ij}^\textrm{H{\sc i}}$. In essence, the measurement represents a line-to-continuum ratio, such that the cosmological EoR H~{\sc i} brightness temperature fluctuations, $\langle(\delta T_\textrm{b}^\textrm{H{\sc i}}(z))^2\rangle$, can be inferred if a reliable foreground model is available. \label{fig:cpdps}}
+\caption{Delay power spectra of simulated bi-spectrum phases in sub-bands centered at 125~MHz (left), 150~MHz (middle), and 175~MHz (right) that include contributions from foregrounds, EoR signal, and thermal noise. The red curve denotes when only foregrounds are present, $\phi_\nabla^\textrm{m}=\phi_\nabla^\textrm{F}$. The anisotropic foreground model employed \cite{thy15a} results in the asymmetry around $k_\parallel=0\,h^{-1}$~Mpc. The orange curve is for thermal noise superimposed on the foreground component, $\phi_\nabla^\textrm{m}=\phi_\nabla^\textrm{F}+\delta\phi_\nabla^\textrm{N}$, after averaging $N_\textrm{m} \sim 10^6$ measurements. The gray curve is when contribution from a fiducial EoR model is also present, $\phi_\nabla^\textrm{m}=\phi_\nabla^\textrm{F}+\delta\phi_\nabla^\textrm{H{\sc i}}+\delta\phi_\nabla^\textrm{N}$, after averaging same number of measurements. The black curve is the same as the gray one except the fiducial EoR model is 10 times stronger in intensity. The dot and vertical markers denote positive and negative values respectively. The latter are a result of removal of noise bias obtained by using cross-power spectra (Eq.~\ref{eqn:delay-power-spectrum}). With sufficient mitigation of $\delta\phi_\nabla^\textrm{N}$, the EoR \HI\ contribution is significantly detectable at $|k_\parallel| \gtrsim 0.5\,h$~Mpc$^{-1}$ at $z\approx 8.5$ and $z\approx 7.1$. At $z\approx 10.4$, the EoR contribution is virtually inseparable from the foregrounds because the foregrounds are brighter and the EoR signal is weaker \cite[][see power spectrum amplitude of {\sc faint galaxies} model at $k=0.5$~Mpc$^{-1}$ in their Fig.~2]{gre17b}. The detection significance is noted to depend on the strength of EoR H~{\sc i} emission relative to the foregrounds. An increase in EoR strength by a factor of 10 shows $\sim 100$-fold increase in $P_\nabla(k_\parallel)$ in $|k_\parallel| \gtrsim 0.5\,h$~Mpc$^{-1}$ at $z\approx 8.5$ and $z\approx 7.1$, indicating its sensitive dependence on $\rho_{ij}^\textrm{H{\sc i}}$. In essence, the measurement represents a line-to-continuum ratio, such that the cosmological EoR H~{\sc i} brightness temperature fluctuations, $\langle(\delta T_\textrm{b}^\textrm{H{\sc i}}(z))^2\rangle$, can be inferred if a reliable foreground model is available. \label{fig:cpdps}}
 \end{figure*}
 
 \subsection{EoR H~{\sc i} Brightness Temperature Fluctuations} \label{sec:Tb-variance}
@@ -370,37 +305,15 @@ Beyond the simple demonstration of our approach presented here, there are many w
 
 Challenges to this approach arise from effects that introduce systematic spectral errors in Eq.~(\ref{eqn:cp-components}). Due to the triple convolution in Eq.~(\ref{eqn:cpdspec-convolution}), there may be  fewer sensitive $k_\parallel$-modes. Presence of significant baseline-based gain terms, off-diagonal terms in the direction-independent Jones matrix of an antenna indicative of polarization leakage between the dual-polarization feeds, and direction-dependent antenna gain terms will introduce systematic departures from Eq.~(\ref{eqn:cp-components}). Excision of radio frequency interference (RFI) affected frequencies, if not carefully corrected for, will introduce spectral artifacts, contaminate the relatively foreground-free $k_\parallel$-modes, and reduce sensitivity. It must be noted that most existing approaches face these challenges as well.
 
-% \begin{itemize}
-% \item The completed layout of HERA will consist of 350 antennas yielding $\sim$~10--100 times more measurements than at present. This will reduce both thermal noise and systematics significantly. 
-% \item Analysis techniques such as inverse-covariance weighting \cite{liu14a,liu14b,dil15} could be employed in analyzing data to maximize sensitivity.
-% \item Our analysis demonstrates the EoR HI detection prospects on individual classes of antenna triads ($k_\perp$-modes) and $k_\parallel$-modes. Cylindrical and spherical binning in $k$-modes using all triad classes with optimal weighting, analogous to that employed in power spectrum approaches, will further improve sensitivity compared to the simple demonstration-scale analysis presented here.
-% \item To reduce the magnitude of continuum (smooth spectrum) power leakage into higher $k_\parallel$-modes, the smooth variation in $\xi_\nabla(f)$ may be removed first before applying Eq.~(\ref{eqn:cpdspec}). This will render $\xi_\nabla(f)$ largely free of foregrounds and further improve the sensitivity. This may also reduce loss of sensitivity caused by radio frequency interference (RFI) by mitigating artificially sharp spectral features (see more discussion below). From this perspective, it will provide significantly higher sensitivity than the conservative approach presented in our work.
-% \end{itemize}
-
-% We also emphasize that there are a number of challenges to the bi-spectrum phase approach to HI 21cm cosmology. 
-
-% \begin{itemize}
-% \item The {\it EoR window} is shrunk in this approach and thus may have smaller number of uncontaminated $k$-modes containing cosmological information
-% (\S\ref{sec:cp-FG-wedge}). But given that a major systematic arising from antenna-based calibration is avoided, this trade-off may still be advantageous.
-% \item Unlike the power spectrum approach, ours cannot pre-filter for foreground contributions using delay and fringe rate filtering. This is because such filtering introduces spatial filters on the sky structure that depend on the orientation and length of the antenna spacings and thus the three antenna spacings in $\phi_\nabla^\textrm{m}$ will observe a filtered sky that will not be identical thus invalidating the properties of bi-spectrum phase on which this analysis is based. The presence of bright foreground component may provide a higher $\rho_{ab}^\textrm{N}$ and thus a lower $\sigma_{\phi_\nabla^\textrm{N}}$, assuming $V_{ab}^\textrm{N}(f)$ does not depend significantly on the sky. However, our approach without such baseline-dependent filtering in delay and fringe rate has still shown separation of cosmological signal from foregrounds in $k_\parallel$-modes. Further, owing to its simplicity, our approach is not very susceptible to loss of cosmological signal usually introduced by such filters (REFERENCE: CHANG AND KOLOPANIS).
-% \item Presence of significant baseline-based gain terms will introduce systematic errors in addition to the noise-like terms in Eq.~(\ref{eqn:bispectrum-terms}). If they are small relative to antenna-based gains, they may be treated as additional perturbation terms in Eq.~(\ref{eqn:closure-asymptotic}). If their variation across different antenna spacings are random and/or spectrally smooth, their effects can still be minimized by averaging described in \S\ref{sec:averaging}. 
-% \item Presence of off-diagonal terms in the direction-independent Jones matrix of an antenna indicative of polarization leakage between the dual-polarization feeds are still antenna-based and yet will introduce systematic departures from Eq.~(\ref{eqn:bispectrum-terms}). 
-% \item Presence of non-identical antenna beams (power patterns) filters the sky differently for the three components in the triad and thus will introduce departures from expected properties of $\phi_\nabla^\textrm{m}$. 
-% \item Flagging of frequency channels affected by radio frequency interference (RFI) will introduce artificially sharp spectral structures which will leak power into higher $k_\parallel$ modes, just as in existing power spectrum approaches. Careful spectral interpolation in flagged channels may be able to recover the smooth contributions from foreground synchrotron. Algorithms to immunize analysis against RFI that are currently in use for power spectrum approaches may be employed to arrest loss of sensitivity in critical $k_\parallel$ modes. 
-% \end{itemize}
-
 \section{Summary}\label{sec:summary}
 
 A primary limitation to existing low-frequency EoR 21~cm cosmology experiments remains high-precision spectral calibration in order to remove the strong continuum foregrounds. We propose a new approach that uses bi-spectrum phase, which represents an intrinsic property of the sky and is thus impervious to antenna-based calibration and associated errors, unlike existing approaches.
   
-% We employ a delay-spectrum approach to separate the continuum foregrounds from the cosmological line signal in the bi-spectrum phase spectra. 
 The primary goal of the proposed technique is to obtain an interferometric detection of the \HI\ 21~cm signal from the neutral IGM during cosmic reionization. The next goal will be to relate the measured EoR \HI\ bi-spectrum phase power spectrum to the astrophysical quantities of interest, particularly, the brightness temperature fluctuations. The magnitude of the line signal relative to that of the foreground continuum in the bi-spectrum phase power spectrum, is essentially a measure of the line-to-continuum ratio, since the line signal introduces small, frequency-dependent, perturbations on the phase of the spatial coherence. Hence, the line signal strength can be calibrated against a foreground model.
 
 Ultimately, the quantitative interpretation will entail a standard forward-modeling process, comparing measurements to the predictions of bi-spectrum phase power spectra for different sky models. This work investigates one such realization, to demonstrate that a quantitative relationship exists between the EoR signal strength and the bi-spectrum phase power spectra.
 
 Our study has used a highly redundant array, but the approach is applicable to non-redundant arrays too. This paper is an exposition of the basic approach to \HI\ 21~cm cosmology using the spectral response in the bi-spectrum phase. In future work, we will investigate the challenges listed above, such as RFI flagging and baseline-dependent responses, using the HERA data.
-
-% Analysis of fiducial models shows that data obtained with the 47-dish HERA in a single season ($\sim$~150 nights) of observing will have the sensitivity to either detect the HI signal from reionization, or indicate clearly what the limitations are, using our approach. % We summarize a few prospects that could improve the analysis, and list some of the challenges that could limit the results.
 
 \begin{acknowledgments}
 We acknowledge the insightful and helpful inputs from Gianni Bernardi, Judd Bowman, James Aguirre, Aaron Parsons, Jonathan Pober, Adam Beardsley, and Peter Williams that helped in the preparation of this manuscript. The National Radio Astronomy Observatory is a facility of the National Science Foundation operated under cooperative agreement by Associated Universities, Inc. We acknowledge support from the Royal Society and the Newton Fund under grant NA150184.
