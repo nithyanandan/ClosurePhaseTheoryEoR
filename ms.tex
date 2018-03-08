@@ -199,28 +199,31 @@ Fig.~\ref{fig:cp-spectra} shows the spectra of the bi-spectrum phase, $\phi_\nab
 %   \Big|\delta\phi_\nabla^\textrm{H{\sc i}}\Big|^2 + \Big|\delta\phi_\nabla^\textrm{N}\Big|^2 &\approx \sum_{ij} \Big|\frac{V_{ij}^\textrm{H{\sc i}}}{V_{ij}^\textrm{F}}\Big|^2 + \Big|\frac{V_{ij}^\textrm{N}}{V_{ij}^\textrm{F}}\Big|^2,
 % \end{align}
 % where, $V_{ij}^\textrm{F}$ and $V_{ij}^\textrm{H{\sc i}}$ denote contributions from the foregrounds and the EoR \HI\ signal to the spatial coherence, respectively. 
-When the variance of $\delta\phi_\nabla^\textrm{N}$ is sufficiently reduced, the fluctuations in $\phi_\nabla^\textrm{m}$ will be dominated by $\delta\phi_\nabla^\textrm{H{\sc i}}$, caused by EoR \HI\ fluctuations, whose variance is effectively a measure of the EoR \HI\ line strength to foreground continuum ratio.
+
+% When the variance of $\delta\phi_\nabla^\textrm{N}$ is sufficiently reduced, the fluctuations in $\phi_\nabla^\textrm{m}$ will be dominated by $\delta\phi_\nabla^\textrm{H{\sc i}}$, caused by EoR \HI\ fluctuations, whose variance is effectively a measure of the EoR \HI\ line strength to foreground continuum ratio.
 
 \begin{figure}[htb]
-\includegraphics[width=0.85\linewidth]{closure_phase_spectra_0_1_8}
-\caption{Bi-spectrum phase spectra of individual components in the sky model -- single point source (black) with $\phi_\nabla=0$, compact sources (cyan), diffuse foregrounds (blue), diffuse and compact components combined (red), and the EoR \HI\ fluctuations (gray) -- for a 14.6~m equilateral triad in the HERA-19 layout depicted in the upper right corner. The \HI\ component is highly fluctuating relative to the foregrounds. The phase wrap discontinuities at $\phi_\nabla=\pm \pi$ are not of a physical origin. The orange sub-bands are same as in Fig.~\ref{fig:vis-spectra}. \label{fig:cp-spectra}}
+\includegraphics[width=\linewidth]{closure_phase_spectra_0_1_8}
+\caption{Bi-spectrum phase spectra of individual components in the sky model -- single point source (black) with $\phi_\nabla=0$, compact sources (cyan), diffuse foregrounds (blue), diffuse and compact components combined (red), and the EoR \HI\ fluctuations (gray) -- for a 14.6~m equilateral triad in the HERA layout. The \HI\ component is highly fluctuating relative to the foregrounds. The phase wrap discontinuities at $\phi_\nabla=\pm \pi$ are not of a physical origin. The orange sub-bands are same as in Fig.~\ref{fig:vis-spectra}. \label{fig:cp-spectra}}
 \end{figure}
 
 \section{Extraction of the cosmic signal}\label{sec:extraction}
 
 The different spectral characteristics -- smooth $\phi_\nabla^\textrm{F}$ and fluctuating $\delta\phi_\nabla^\textrm{H{\sc i}}$ -- indicate that techniques similar to the power spectrum approaches could be employed to separate the cosmic signal from foregrounds but avoiding the need for high-precision spectral calibration that most existing approaches rely on.
 
-If a number of independent measurements are available, they could be used to average $\phi_\nabla^\textrm{m}$ to reduce the standard deviation of $\delta\phi_\nabla^\textrm{N}$ (noise uncertainty) by taking advantage of its Gaussian distribution. When $\delta\phi_\nabla^\textrm{N}$ is sufficiently low, $\delta\phi_\nabla^\textrm{H{\sc i}}$ will dominate the spectral fluctuations in $\phi_\nabla^\textrm{m}$, while $\phi_\nabla^\textrm{F}$ will be dominant overall but spectrally smooth. Then the standard deviation in $\phi_\nabla^\textrm{m}$ will be similar in form to Eq.~(\ref{eqn:cprms-noise}):
-\begin{align}
-  \sigma_{\phi_\nabla^\textrm{m}}^2 &= \sum_{ij}\, (\sqrt{2}\,\rho_{ij}^\textrm{H{\sc i}})^{-2}, \label{eqn:cprms-EoR}
-\end{align}
-where, $\rho_{ij}^\textrm{H{\sc i}} = |V_{ij}^\textrm{T}|/|V_{ij}^\textrm{H{\sc i}}| \approx |V_{ij}^\textrm{F}|/|V_{ij}^\textrm{H{\sc i}}|$. This approximation is valid because usually $\rho_{ij}^\textrm{H{\sc i}} \gtrsim 10^4 \gg 1$. 
+If a number of independent measurements are available, they could be used to average $\phi_\nabla^\textrm{m}$ to reduce the standard deviation of $\delta\phi_\nabla^\textrm{N}$ by taking advantage of its Gaussian distribution. When $\delta\phi_\nabla^\textrm{N}$ is sufficiently low, $\delta\phi_\nabla^\textrm{H{\sc i}}$ will dominate the spectral fluctuations in $\phi_\nabla^\textrm{m}$, while $\phi_\nabla^\textrm{F}$ will be dominant overall but spectrally smooth. The variance in $\delta\phi_\nabla^\textrm{H{\sc i}}$ is effectively a measure of the EoR \HI\ line strength to foreground continuum ratio.
 
-Thus, when $\rho_{ij}^\textrm{H{\sc i}} < \rho_{ij}^\textrm{N}$, $\sigma_{\phi_\nabla^\textrm{m}}$ can be used to estimate $|V_{ij}^\textrm{F}|/|V_{ij}^\textrm{H{\sc i}}|$, which in turn can be used to infer $|V_{ij}^\textrm{H{\sc i}}|$ if $V_{ij}^\textrm{F}$ is known. $|V_{ij}^\textrm{H{\sc i}}|$ is directly related to the EoR H~{\sc i} brightness temperature fluctuations, $\langle(\delta T_\textrm{b}^\textrm{H{\sc i}})^2\rangle$, which can be inferred as a function of frequency, or redshift. This is discussed further in sections that follow.
+% Then the standard deviation in $\phi_\nabla^\textrm{m}$ will be similar in form to Eq.~(\ref{eqn:cprms-noise}):
+% \begin{align}
+%   \sigma_{\phi_\nabla^\textrm{m}}^2 &= \sum_{ij}\, (\sqrt{2}\,\rho_{ij}^\textrm{H{\sc i}})^{-2}, \label{eqn:cprms-EoR}
+% \end{align}
+% where, $\rho_{ij}^\textrm{H{\sc i}} = |V_{ij}^\textrm{T}|/|V_{ij}^\textrm{H{\sc i}}| \approx |V_{ij}^\textrm{F}|/|V_{ij}^\textrm{H{\sc i}}|$. This approximation is valid because usually $\rho_{ij}^\textrm{H{\sc i}} \gtrsim 10^4 \gg 1$. 
+
+Thus, when $\rho_{ij}^\textrm{H{\sc i}} < \rho_{ij}^\textrm{N}$, $\sigma_{\phi_\nabla^\textrm{m}}$ can be used to estimate $|V_{ij}^\textrm{F}|/|V_{ij}^\textrm{H{\sc i}}|$, which in turn can be used to infer $|V_{ij}^\textrm{H{\sc i}}|$ if $V_{ij}^\textrm{F}$ is known. $|V_{ij}^\textrm{H{\sc i}}|$ is directly related to the EoR H~{\sc i} brightness temperature fluctuations, $\langle(\delta T_\textrm{b}^\textrm{H{\sc i}})^2\rangle$, which can be inferred as a function of frequency, or redshift. This is discussed further below.
 
 \subsection{Delay Power Spectrum of Bi-spectrum Phase}\label{sec:cp-FG-wedge}
 
-While any method that relies on separating a signal from contaminants using differences in spectral characteristics is applicable, we employ the {\it Delay Spectrum} approach \cite{par12a,par12b}. Since the $\phi_\nabla$ spectrum can have discontinuities at $\phi_\nabla=\pm\pi$, it can have non-physical spectral features. Hence, we define $\xi_\nabla = e^{i\phi_\nabla}$, which is unaffected by these discontinuities. We perform a delay transform:
+While any method that relies on separating a signal from contaminants using differences in spectral characteristics is applicable, we employ the {\it Delay Spectrum} approach \cite{par12a,par12b}. Since the $\phi_\nabla$ spectrum can have discontinuities at $\phi_\nabla=\pm\pi$, and hence non-physical spectral features, we define $\xi_\nabla = e^{i\phi_\nabla^\textrm{m}}$, which is unaffected by these discontinuities. We perform a delay transform:
 \begin{align}\label{eqn:cpdspec}
   \Xi_\nabla(\tau) &= \int \xi_\nabla(f)\,W(f)\,e^{i2\pi f\tau}\,\mathrm{d}f,
 \end{align}
@@ -232,11 +235,7 @@ We define the delay cross-power spectrum of $\xi_\nabla(f)$ as:
 \end{align}
 where, $\Delta D\equiv \Delta D(z)$ is the comoving depth along the line of sight corresponding to $B_\textrm{eff}$ at redshift $z$, $k_\parallel\approx 2\pi\tau B_\textrm{eff}/\Delta D$ is line-of-sight wavenumber, and $\mathfrak{Re}\{\cdot\}$ denotes the real part. In this paper, we use cosmological parameters from \cite{planck15xiii} with $H_0=100\,h$~km~s$^{-1}$~Mpc$^{-1}$. $P_\nabla(k_\parallel)$ is in units of $h^{-1}$~Mpc. When $\Xi_\nabla(\tau)=\Xi_{\nabla^\prime}(\tau)$, $P_\nabla(k_\parallel)$ reduces to delay auto-power spectrum. In \S\ref{sec:averaging}, we describe the usage of Eq.~(\ref{eqn:delay-power-spectrum}) in different contexts. 
 
-From Eq.~(\ref{eqn:cpphase-sum}), since $\xi_\nabla = \prod_{ij} e^{i\phi_{ij}}$,
-\begin{align}
-\Xi_\nabla(\tau) &= \Xi_{ab}(\tau)\circledast \Xi_{bc}(\tau)\circledast \Xi_{ca}(\tau)\circledast \mathcal{W}(\tau), \label{eqn:cpdspec-convolution}
-\end{align}
-where, $\{\xi_{ij}(f),\,\Xi_{ij}(\tau)\}$, and $\{W(f),\,\mathcal{W}(\tau)\}$ are Fourier transform pairs, and $\circledast$ denotes convolution.  Foreground contribution to spatial coherence is known to be confined to delay modes within the {\it horizon limits} \cite{bow09,liu09,liu14a,liu14b,dat10,liu11,gho12,mor12,par12b,tro12,ved12,dil13,pob13,thy13,thy15a,thy15b,thy16,dil14}. Since $\Xi_\nabla(\tau)$ results from the convolution of the delay spectrum responses of the spatial coherence phases, the foreground contribution to $\Xi_\nabla(\tau)$ is expected to be more extended along $\tau$ (and $k_\parallel$) relative to $\Xi_{ij}(\tau)$. This relation will be explored in a forthcoming study. 
+From Eq.~(\ref{eqn:cpphase-sum}), since $\xi_\nabla = \prod_{ij} e^{i\phi_{ij}^\textrm{m}}$, it can be shown that $\Xi_\nabla(\tau) = \Xi_{ab}(\tau)\circledast \Xi_{bc}(\tau)\circledast \Xi_{ca}(\tau)\circledast \mathcal{W}(\tau)$, where, $\{\xi_{ij}(f),\,\Xi_{ij}(\tau)\}$, and $\{W(f),\,\mathcal{W}(\tau)\}$ are Fourier transform pairs, and $\circledast$ denotes convolution. Foreground contribution to spatial coherence is known to be confined to delay modes within the {\it horizon limits} \cite{bow09,liu09,liu14a,liu14b,dat10,liu11,gho12,mor12,par12b,tro12,ved12,dil13,pob13,thy13,thy15a,thy15b,thy16,dil14}. Since $\Xi_\nabla(\tau)$ results from the convolution of the delay spectrum responses of $e^{i\phi_{ij}^\textrm{m}}$, the foreground contribution to $\Xi_\nabla(\tau)$ is expected to be more extended along $\tau$ (and $k_\parallel$) relative to $\Xi_{ij}(\tau)$. This relation will be explored in a forthcoming study. 
 
 \subsection{Improving signal to noise in measurements}\label{sec:averaging}
 
