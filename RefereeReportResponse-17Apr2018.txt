@@ -52,17 +52,18 @@ so is the pure noise term in the equation, and so I don't understand
 why only that pure noise term was included.
 
 [Response] Due to constraints on space, we include all cross-terms and
-noise-only terms in B_\nabla^N. Thus it comprises of all terms including
-cross-terms that contain visibility noise. And in our analysis, the
-triads are made of antennas i \ne j \ne k. Thus B_\nabla^N is zero-mean.
+noise-only terms under B_\nabla^N. Thus it comprises of all terms 
+including cross-terms that contain visibility noise. And in our
+analysis, the triads are made of antennas i \ne j \ne k. Thus
+B_\nabla^N is zero-mean.
 
 5) On a different, but related note, I think that the noise term
 B_{\Del}^N only has mean zero if one assumes that the noise
 contributions from different baselines are uncorrelated. It's not
 sufficient to just say that it has zero mean because it contains V^N.
 
-[Response] The referee is correct. We assume the noise across baselines
-is uncorrelated.
+[Response] The referee is correct. We assume the noise across
+baselines is uncorrelated.
 
 6) Ultimately, I felt that the authors should probably have discussed
 a little more whether in practice one would expect a) negligible gain
@@ -75,7 +76,11 @@ difficult to estimate without data, we have left it for the data
 analysis paper. We will present the results of such data analysis from
 HERA in a forthcoming paper. For purposes of concept demonstration, in
 this paper we have assumed non-antenna based gains are negligible, and
-noise is uncorrelated across baselines.
+noise is uncorrelated across baselines. Diagnostics from some
+preliminary data is discussed in a companion paper Carilli et al.
+(2018). Our forthcoming paper will include a full analysis detailing
+the propagation of such non-ideal beahvior into the final power
+spectrum.
 
 7) I think the authors should clarify that \delta \phi_{ij}^N is *not*
 the phase of B_{\Del}^N, lest the unsuspecting reader think otherwise.
@@ -106,6 +111,12 @@ sources), a statistical distribution like a Poisson distribution would
 be an appropriate description. That would certainly contribute to the
 variance.
 
+[Response] In this analysis, we have taken one realization of the sky
+as available from low frequency surveys, primarily the Haslam map at
+408 MHz for the diffuse sky. Thus the sky model has no variance across
+repeating LST or redundant triads because a single realization and
+a fully deterministic sky is used, unlike noise. 
+
 9) Note that the previous point also affects comment 7) above. If
 \delta \phi_{ij}^N goes like n/s, then yes, if n is Gaussian and s is
 some definite signal with no variance, then n/s will be Gaussian. But
@@ -113,6 +124,11 @@ if s has its own distribution, then n/s may not be Gaussian. I'm not
 asking for a full treatment of all probability distributions, but
 (assuming that I'm right about these points), some discussions of the
 caveats would be important.
+
+[Response] The referee would be right if we using statistical
+realizations of the sky model. However, since we are using a fully
+deterministic sky model, the effects of sky distribution will not
+apply.
 
 10) In the 3rd paragraph of Section IV, shouldn't it be |V_F| rather
 than V_F? At least that's what I would've thought given the definition
@@ -124,43 +140,43 @@ of rho.
 worth mentioning which sorts of axes they imagine computing these
 cross spectra.
 
-[Response] This is discussed in Section IV B. Cross-power spectrum
+[Response] Section IV B addresses this question. Cross-power spectrum
 would be used in cases where redundancy cannot be assumed. In section
-IV B, incoherent averaging is done over corss-power spectrum. For
+IV B, incoherent averaging is done over cross-power spectrum. For
 example, the sky is redundant in LST, that is it repeats every day at
-a given LST. In this case, the closure phases themselves can be averaged
-coherently before computing the power spectrum. Similarly, if the
-baselines are truly redundant, those closure phases can be coherently
-averaged. But if such a redundancy in baselines or neighboring LST scans
-cannot be assumed, one would have to perform incoherent averaging on
-cross-power spectra along axes which lack redundancy. The assumption
-behind incoherent averaging of cross-power spectra is that the
-cosmological signal is statistically isotropic in space whereas the
-foregrounds and noise measurements can be averaged down (though not
-as fast as coherent averaging).
+a given LST. In this case, the closure phases themselves can be
+averaged coherently before computing the power spectrum. Similarly, if
+the baselines are truly redundant, those closure phases can be
+coherently averaged. But if such a redundancy in baselines or
+neighboring LST scans cannot be assumed, one would have to perform
+incoherent averaging on cross-power spectra along these axes which
+lack redundancy. The assumption behind incoherent averaging of
+cross-power spectra is that the cosmological signal is statistically
+isotropic in space whereas the foregrounds and noise measurements vary
+and can be averaged down (though not as fast as coherent averaging).
 
 12) I am curious: does Equation 3 vanish (in expectation) if I try to
 form a cross-power spectrum with two triads that share one edge?
 
-[Response] If the two triads are not redundant but share an edge, it
-depends on whether the measurement is sky noise dominated or receiver
-noise dominated. The former is generally the case at low frequencies.
-In such a scenario, there will be a non-zero correlation between the
-measurements on the two triads and thus the expectation of equation 3
-will not necessarily vanish. Even when the measurements are receiver
-noise dominated, and sufficient coherent averaging has been performed
-to an extent that receiver noise contributions have been rendered
-negligible, the correlations from residual sky noise may then be
-visible between the two triads.
+[Response] If the two triads are not redundant but share an edge (two
+antennas in common), it depends on whether the measurement is sky
+noise dominated or receiver noise dominated. The former is generally
+the case at low frequencies. In such a scenario, there will be a
+non-zero correlation between the measurements on the two triads and
+thus the expectation of equation 3 will not necessarily vanish. Even
+when the measurements are receiver noise dominated, and sufficient
+averaging has been performed to an extent that receiver noise
+contributions have been rendered negligible, the correlations from
+residual sky noise may then be visible between the two triads. 
 
 13) In Section IV C, "HERA-47" is not defined. I assume this is HERA
 with 47 dishes, but how are they arranged in this intermediate stage
 of HERA's buildout?
 
-[Response] The HERA-47 layout has been illustrated in the companion
-paper [Carilli et al. 2018]. We are unable to describe further due to
-lack of space but have modified appropriately with a citation to the
-companion paper. 
+[Response] We have modified appropriately with a citation to the
+companion paper [Carilli et al. 2018], where the HERA-47 layout has
+been illustrated in the companion paper. We are unable to describe
+further due to lack of space.
 
 14) Figure 3 needs to be made considerably easier to read. For one, it
 is the main result of the paper and deserves to be a much bigger plot.
@@ -169,6 +185,11 @@ that I am within 10 years of the age of the lead author of this
 paper). Some of the colors are quite similar, and I would also like to
 be able to know what the different curves are plotting without having
 to read the caption.
+
+[Response] The referee's concern is appreciated. We have modified the
+figure and employed colors with greater contrast. We have also
+provided more descriptive legends. Some of the redudnant axes labels
+have been suppressed in favor of more space for the figure's contents.
 
 15) The signal-to-noise ratio (inferred from Figure 3) seems to be
 quite high even at high k. Does this trend continue beyond the values
@@ -183,6 +204,14 @@ different k's.
 assuming that the HI fluctuations are Gaussian? (Which of course they
 aren't, although I'm fine with that assumption being made for
 simplicity for this paper).
+
+[Response] If the referee is referring to HI fluctuations in
+brightness temperature (which typically aren't Gaussian), no such
+assumption is made or necessary. If the referee is referring to
+perturbations in bi-spectrum phase caused by HI fluctuations, again a
+Gaussian assumption for those fluctuations is neither made nor
+necessary. Such an assumption is only made for the noise fluctuations
+for an easier treatment of its behavior with averaging.
 
 ----------------------------------------------------------------------
 Report of Referee B -- LQ16046/Thyagarajan
@@ -212,9 +241,13 @@ parameters such as the neutrino mass and the equation of state of the
 dark energy. Outside of the introduction, I believe that little or
 nothing would need to be changed in the rest of the paper.
 
+[Response] Added a sentence in the Abstract, and a paragraph in the
+Introduction about applicability to other 21 cm intensity mapping
+experiments that will measure the BAO.
+
 I do have one minor suggestion:
 
 Just after equation 1, a phrase should be reversed to read “small
 perturbations due to EoR HI signal and noise, respectively”.
 
-[Response] Fixed.
+[Response] Corrected.
