@@ -39,7 +39,7 @@ rise to 9 terms, including the i = j terms. Instead, I think the
 authors mean a single sum over 1-2, 2-3, 3-1.
 
 [Response] The referee is correct. We mean a single sum over 1-2, 2-3,
-and 3-1.
+and 3-1. A sentence has been added above equation 1 to clarify the notation we have adopted.
 
 4) I am not sure why the equation for B_{\Del}^m does not contain more
 terms. Each V_ij has the form (signal + noise), so when I multiply
@@ -55,7 +55,8 @@ why only that pure noise term was included.
 noise-only terms under B_\nabla^N. Thus it comprises of all terms 
 including cross-terms that contain visibility noise. And in our
 analysis, the triads are made of antennas i \ne j \ne k. Thus
-B_\nabla^N is zero-mean.
+B_\nabla^N is zero-mean (we assume baselines have independent noise, 
+see below).
 
 5) On a different, but related note, I think that the noise term
 B_{\Del}^N only has mean zero if one assumes that the noise
@@ -79,7 +80,7 @@ this paper we have assumed non-antenna based gains are negligible, and
 noise is uncorrelated across baselines. Diagnostics from some
 preliminary data is discussed in a companion paper Carilli et al.
 (2018). Our forthcoming paper will include a full analysis detailing
-the propagation of such non-ideal beahvior into the final power
+the propagation of such non-ideal behavior into the final power
 spectrum.
 
 7) I think the authors should clarify that \delta \phi_{ij}^N is *not*
@@ -111,11 +112,13 @@ sources), a statistical distribution like a Poisson distribution would
 be an appropriate description. That would certainly contribute to the
 variance.
 
-[Response] In this analysis, we have taken one realization of the sky
-as available from low frequency surveys, primarily the Haslam map at
-408 MHz for the diffuse sky. Thus the sky model has no variance across
-repeating LST or redundant triads because a single realization and
-a fully deterministic sky is used, unlike noise. 
+[Response] In this analysis, the ensemble considered is for each 
+frequency channel and not over frequency channels since the frequency 
+structure is to be preserved. Such an ensemble for noise could be 
+obtained across (redundant) triads and repeating LST on different days. However, a single realization of the foregrounds (whether point sources 
+or diffuse emission) coming from low frequency radio surveys such as 
+NVSS, Haslam map at 408 MHZ does not vary across redundant triads and repeating LST. Thus the sky model has no variance because a single realization (in other words, a fully deterministic sky) is used, 
+unlike noise. 
 
 9) Note that the previous point also affects comment 7) above. If
 \delta \phi_{ij}^N goes like n/s, then yes, if n is Gaussian and s is
@@ -128,7 +131,7 @@ caveats would be important.
 [Response] The referee would be right if we using statistical
 realizations of the sky model. However, since we are using a fully
 deterministic sky model, the effects of sky distribution will not
-apply.
+be applicable.
 
 10) In the 3rd paragraph of Section IV, shouldn't it be |V_F| rather
 than V_F? At least that's what I would've thought given the definition
@@ -148,12 +151,10 @@ a given LST. In this case, the closure phases themselves can be
 averaged coherently before computing the power spectrum. Similarly, if
 the baselines are truly redundant, those closure phases can be
 coherently averaged. But if such a redundancy in baselines or
-neighboring LST scans cannot be assumed, one would have to perform
-incoherent averaging on cross-power spectra along these axes which
-lack redundancy. The assumption behind incoherent averaging of
-cross-power spectra is that the cosmological signal is statistically
-isotropic in space whereas the foregrounds and noise measurements vary
-and can be averaged down (though not as fast as coherent averaging).
+time cannot be assumed, one would have to perform incoherent averaging 
+on cross-power spectra along these axes which lack redundancy. The assumption behind incoherent averaging of cross-power spectra is that 
+the cosmological signal is statistically isotropic in space whereas 
+the foregrounds and noise measurements vary and can be averaged down (though not as fast as coherent averaging).
 
 12) I am curious: does Equation 3 vanish (in expectation) if I try to
 form a cross-power spectrum with two triads that share one edge?
@@ -175,8 +176,7 @@ of HERA's buildout?
 
 [Response] We have modified appropriately with a citation to the
 companion paper [Carilli et al. 2018], where the HERA-47 layout has
-been illustrated in the companion paper. We are unable to describe
-further due to lack of space.
+been illustrated. 
 
 14) Figure 3 needs to be made considerably easier to read. For one, it
 is the main result of the paper and deserves to be a much bigger plot.
@@ -188,7 +188,7 @@ to read the caption.
 
 [Response] The referee's concern is appreciated. We have modified the
 figure and employed colors with greater contrast. We have also
-provided more descriptive legends. Some of the redudnant axes labels
+provided more descriptive legends. Some of the redundant axes labels
 have been suppressed in favor of more space for the figure's contents.
 
 15) The signal-to-noise ratio (inferred from Figure 3) seems to be
@@ -199,6 +199,11 @@ quickly with k. I wonder if this is a promising way to get at some
 high k information? I guess it's hard to tell because it's not clear
 what the intuition is like in terms of the scattering of power over
 different k's.
+
+[Response] This is a very interesting point that we have also been discussing. We do not have a conclusive intuition yet. This is 
+being actively investigated in a follow up work and will address this question in a forthcoming paper. It will involve evaluating the 
+k-space response of bi-spectrum phase from a wide range of EoR power spectrum models and directly compare with expectations from a 
+power spectrum approach.
 
 16) Do the conclusions of the last paragraph of Section II require
 assuming that the HI fluctuations are Gaussian? (Which of course they
