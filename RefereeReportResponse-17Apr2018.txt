@@ -120,9 +120,12 @@ variance.
 [Response] In this analysis, the ensemble considered is for each 
 frequency channel and not over frequency channels since the frequency 
 structure is to be preserved. Such an ensemble for noise could be 
-obtained across (redundant) triads and repeating LST on different days. However, a single realization of the foregrounds (whether point sources 
+obtained across (redundant) triads and repeating LST on different days. 
+However, a single realization of the foregrounds (whether point sources 
 or diffuse emission) coming from low frequency radio surveys such as 
-NVSS, Haslam map at 408 MHZ does not vary across redundant triads and repeating LST. Thus the sky model has no variance because a single realization (in other words, a fully deterministic sky) is used, 
+NVSS, Haslam map at 408 MHZ does not vary across redundant triads and 
+repeating LST. Thus the sky model has no variance because a single 
+realization (in other words, a fully deterministic sky) is used, 
 unlike noise. 
 
 9) Note that the previous point also affects comment 7) above. If
@@ -157,9 +160,11 @@ averaged coherently before computing the power spectrum. Similarly, if
 the baselines are truly redundant, those closure phases can be
 coherently averaged. But if such a redundancy in baselines or
 time cannot be assumed, one would have to perform incoherent averaging 
-on cross-power spectra along these axes which lack redundancy. The assumption behind incoherent averaging of cross-power spectra is that 
+on cross-power spectra along these axes which lack redundancy. The 
+assumption behind incoherent averaging of cross-power spectra is that 
 the cosmological signal is statistically isotropic in space whereas 
-the foregrounds and noise measurements vary and can be averaged down (though not as fast as coherent averaging).
+the foregrounds and noise measurements vary and can be averaged down 
+(though not as fast as coherent averaging).
 
 12) I am curious: does Equation 3 vanish (in expectation) if I try to
 form a cross-power spectrum with two triads that share one edge?
@@ -205,9 +210,12 @@ high k information? I guess it's hard to tell because it's not clear
 what the intuition is like in terms of the scattering of power over
 different k's.
 
-[Response] This is a very interesting point that we have also been discussing. We do not have a conclusive intuition yet. This is 
-being actively investigated in a follow up work and will address this question in a forthcoming paper. It will involve evaluating the 
-k-space response of bi-spectrum phase from a wide range of EoR power spectrum models and directly compare with expectations from a 
+[Response] This is a very interesting point that we have also been 
+discussing. We do not have a conclusive intuition yet. This is 
+being actively investigated in a follow up work and will address this 
+question in a forthcoming paper. It will involve evaluating the 
+k-space response of bi-spectrum phase from a wide range of EoR power 
+spectrum models and directly compare with expectations from a 
 power spectrum approach.
 
 16) Do the conclusions of the last paragraph of Section II require
