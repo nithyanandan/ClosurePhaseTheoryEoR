@@ -6,7 +6,7 @@ separate file.
 
 We are attaching two versions of the Latex file. One is the 
 updated ms.tex (ms.pdf). The other is ms_changes.tex (and 
-ms_changes.pdf) and it contain all the changes highlighted in 
+ms_changes.pdf) and it contains all the changes highlighted in 
 red. 
 
 Regarding the length of the manuscript, we believe there has 
@@ -32,7 +32,7 @@ WORD COUNT SUMMARY
 -----------------------------------------------------------------
 
 Subsequently, we made substantial changes to reduce the length by
-at least 100 words including substantial changes to figure sizes. 
+at least 1000 words including substantial changes to figure sizes. 
 We confirmed this through "texcount" on the command line and 
 carefully kept track of the word count at the time of initial 
 submission (5 March 2018) as well as the trimmed one (12 March 
