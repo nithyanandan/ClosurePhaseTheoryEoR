@@ -1,3 +1,8 @@
+We thank the referees for their valuable comments and suggestions. We
+are very delighted that both reviews have been very positive. In 
+addressing the comments, we find that the manuscript has gained in
+quality. We have responded to specific comments (see below).
+
 ----------------------------------------------------------------------
 Report of Referee A -- LQ16046/Thyagarajan
 ----------------------------------------------------------------------
@@ -248,7 +253,7 @@ nothing would need to be changed in the rest of the paper.
 
 [Response] Added a sentence in the Abstract, and a paragraph in the
 Introduction about applicability to other 21 cm intensity mapping
-experiments that will measure the BAO.
+experiments that will measure the BAO, for example.
 
 I do have one minor suggestion:
 

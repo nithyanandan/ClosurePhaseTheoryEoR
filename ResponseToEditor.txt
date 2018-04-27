@@ -1,0 +1,78 @@
+To the editorial staff:
+
+We appreciate the referees' reports and their positive views on 
+our work. We have responded to their comments, attached in a 
+separate file.
+
+We are attaching two versions of the Latex file. One is the 
+updated ms.tex (ms.pdf). The other is ms_changes.tex (and 
+ms_changes.pdf) and it contain all the changes highlighted in 
+red. 
+
+Regarding the length of the manuscript, we believe there has 
+been a mistake. In the email from PRL on 7 March 2018, the word 
+count summary was stated to be: 
+
+-----------------------------------------------------------------
+  Figure   Aspect Ratio   Wide?   Word Equivalent
+     1         1.54         No        117
+     2         1.06         No        161
+     3         3.73        Yes        200
+
+WORD COUNT SUMMARY
+    Note: Text word count excludes title, abstract, byline, PACS,
+          receipt date, acknowledgments, and references.
+
+              Text word count   4003
+        Equations word equiv.    192
+          Figures word equiv.    478
+           Tables word equiv.      0
+                              ------
+                       TOTAL    4673 (Maximum length is 3750)
+-----------------------------------------------------------------
+
+Subsequently, we made substantial changes to reduce the length by
+at least 100 words including substantial changes to figure sizes. 
+We confirmed this through "texcount" on the command line and 
+carefully kept track of the word count at the time of initial 
+submission (5 March 2018) as well as the trimmed one (12 March 
+2018). 
+
+In the recent email from PRL on 17 April 2018, the word count 
+was found by PRL to be: 
+-----------------------------------------------------------------
+  Figure   Aspect Ratio   Wide?   Word Equivalent
+     1         1.54         No        117
+     2         1.06         No        161
+     3         3.73        Yes        200
+
+WORD COUNT SUMMARY
+    Note: Text word count excludes title, abstract, byline, PACS,
+          receipt date, acknowledgments, and references.
+
+              Text word count   4003
+        Equations word equiv.    192
+          Figures word equiv.    478
+           Tables word equiv.      0
+                              ------
+                       TOTAL    4516 (Maximum length is 3750)
+-----------------------------------------------------------------
+You will notice that the word count for the text, equations, and 
+figures are exactly identical between 17 April and 7 March (which
+is impossible), although the total has changed from 4673 to 4516. 
+Not only has the itemized count not been updated, but the new 
+total is also inaccurate. 
+
+We understand the output of texcount may not be identical to the 
+software PRL uses. Therefore, we request PRL to give us an 
+accurate count which we can use as a reference to further trim 
+the manuscript, if necessary.
+
+In the meanwhile, we request that the editorial office pass on
+the revised manuscript to the referees for a speedy acceptance.
+
+Best regards,
+The authors.
+
+
+ 
