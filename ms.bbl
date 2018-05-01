@@ -1,12 +1,12 @@
 %merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
 %Control: key (0)
-%Control: author (72) initials jnrlst
+%Control: author (8) initials jnrlst
 %Control: editor formatted (1) identically to author
 %Control: production of article title (-1) disabled
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{0}%
+\begin{thebibliography}{69}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -50,4 +50,1979 @@
 \providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
 \let\auto@bib@innerbib\@empty
 %</preamble>
+\bibitem [{\citenamefont {{Planck Collaboration}}\ \emph
+  {et~al.}(2016{\natexlab{a}})\citenamefont {{Planck Collaboration}},
+  \citenamefont {{Adam}}, \citenamefont {{Ade}}, \citenamefont {{Aghanim}},
+  \citenamefont {{Akrami}}, \citenamefont {{Alves}}, \citenamefont
+  {{Arg{\"u}eso}}, \citenamefont {{Arnaud}}, \citenamefont {{Arroja}},
+  \citenamefont {{Ashdown}},\ and\ \citenamefont {et~al.}}]{planck15i}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{Planck
+  Collaboration}}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {{Adam}}}, \bibinfo {author} {\bibfnamefont {P.~A.~R.}\ \bibnamefont
+  {{Ade}}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {{Aghanim}}},
+  \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {{Akrami}}}, \bibinfo
+  {author} {\bibfnamefont {M.~I.~R.}\ \bibnamefont {{Alves}}}, \bibinfo
+  {author} {\bibfnamefont {F.}~\bibnamefont {{Arg{\"u}eso}}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {{Arnaud}}}, \bibinfo {author}
+  {\bibfnamefont {F.}~\bibnamefont {{Arroja}}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {{Ashdown}}}, \ and\ \bibinfo {author}
+  {\bibnamefont {et~al.}},\ }\href {\doibase 10.1051/0004-6361/201527101}
+  {\bibfield  {journal} {\bibinfo  {journal} {\aap}\ }\textbf {\bibinfo
+  {volume} {594}},\ \bibinfo {eid} {A1} (\bibinfo {year}
+  {2016}{\natexlab{a}})},\ \Eprint {http://arxiv.org/abs/1502.01582}
+  {arXiv:1502.01582} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Greig}}\ and\ \citenamefont
+  {{Mesinger}}(2017{\natexlab{a}})}]{gre17a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {{Greig}}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {{Mesinger}}},\ }\href {\doibase 10.1093/mnras/stw3026} {\bibfield  {journal}
+  {\bibinfo  {journal} {\mnras}\ }\textbf {\bibinfo {volume} {465}},\ \bibinfo
+  {pages} {4838} (\bibinfo {year} {2017}{\natexlab{a}})},\ \Eprint
+  {http://arxiv.org/abs/1605.05374} {arXiv:1605.05374} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Sunyaev}}\ and\ \citenamefont
+  {{Zeldovich}}(1972)}]{sun72}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~A.}\ \bibnamefont
+  {{Sunyaev}}}\ and\ \bibinfo {author} {\bibfnamefont {Y.~B.}\ \bibnamefont
+  {{Zeldovich}}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {\aap}\ }\textbf {\bibinfo {volume} {20}},\ \bibinfo {pages} {189} (\bibinfo
+  {year} {1972})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Scott}}\ and\ \citenamefont {{Rees}}(1990)}]{sco90}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {{Scott}}}\ and\ \bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont
+  {{Rees}}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {\mnras}\ }\textbf {\bibinfo {volume} {247}},\ \bibinfo {pages} {510}
+  (\bibinfo {year} {1990})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Madau}}\ \emph {et~al.}(1997)\citenamefont
+  {{Madau}}, \citenamefont {{Meiksin}},\ and\ \citenamefont {{Rees}}}]{mad97}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {{Madau}}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {{Meiksin}}},
+  \ and\ \bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont {{Rees}}},\
+  }\href {\doibase 10.1086/303549} {\bibfield  {journal} {\bibinfo  {journal}
+  {\apj}\ }\textbf {\bibinfo {volume} {475}},\ \bibinfo {pages} {429} (\bibinfo
+  {year} {1997})},\ \Eprint {http://arxiv.org/abs/arXiv:astro-ph/9608010}
+  {arXiv:astro-ph/9608010} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Tozzi}}\ \emph {et~al.}(2000)\citenamefont
+  {{Tozzi}}, \citenamefont {{Madau}}, \citenamefont {{Meiksin}},\ and\
+  \citenamefont {{Rees}}}]{toz00}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {{Tozzi}}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {{Madau}}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {{Meiksin}}}, \ and\
+  \bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont {{Rees}}},\ }\href
+  {\doibase 10.1086/308196} {\bibfield  {journal} {\bibinfo  {journal} {\apj}\
+  }\textbf {\bibinfo {volume} {528}},\ \bibinfo {pages} {597} (\bibinfo {year}
+  {2000})},\ \Eprint {http://arxiv.org/abs/arXiv:astro-ph/9903139}
+  {arXiv:astro-ph/9903139} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Iliev}}\ \emph {et~al.}(2002)\citenamefont
+  {{Iliev}}, \citenamefont {{Shapiro}}, \citenamefont {{Ferrara}},\ and\
+  \citenamefont {{Martel}}}]{ili02}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.~T.}\ \bibnamefont
+  {{Iliev}}}, \bibinfo {author} {\bibfnamefont {P.~R.}\ \bibnamefont
+  {{Shapiro}}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {{Ferrara}}}, \ and\ \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {{Martel}}},\ }\href {\doibase 10.1086/341869} {\bibfield  {journal}
+  {\bibinfo  {journal} {\apjl}\ }\textbf {\bibinfo {volume} {572}},\ \bibinfo
+  {pages} {L123} (\bibinfo {year} {2002})},\ \Eprint
+  {http://arxiv.org/abs/arXiv:astro-ph/0202410} {arXiv:astro-ph/0202410}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Fan}}\ \emph {et~al.}(2002)\citenamefont {{Fan}},
+  \citenamefont {{Narayanan}}, \citenamefont {{Strauss}}, \citenamefont
+  {{White}}, \citenamefont {{Becker}}, \citenamefont {{Pentericci}},\ and\
+  \citenamefont {{Rix}}}]{fan02}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {X.}~\bibnamefont
+  {{Fan}}}, \bibinfo {author} {\bibfnamefont {V.~K.}\ \bibnamefont
+  {{Narayanan}}}, \bibinfo {author} {\bibfnamefont {M.~A.}\ \bibnamefont
+  {{Strauss}}}, \bibinfo {author} {\bibfnamefont {R.~L.}\ \bibnamefont
+  {{White}}}, \bibinfo {author} {\bibfnamefont {R.~H.}\ \bibnamefont
+  {{Becker}}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {{Pentericci}}}, \ and\ \bibinfo {author} {\bibfnamefont {H.-W.}\
+  \bibnamefont {{Rix}}},\ }\href {\doibase 10.1086/339030} {\bibfield
+  {journal} {\bibinfo  {journal} {\aj}\ }\textbf {\bibinfo {volume} {123}},\
+  \bibinfo {pages} {1247} (\bibinfo {year} {2002})},\ \Eprint
+  {http://arxiv.org/abs/arXiv:astro-ph/0111184} {arXiv:astro-ph/0111184}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Fan}}\ \emph {et~al.}(2006)\citenamefont {{Fan}},
+  \citenamefont {{Carilli}},\ and\ \citenamefont {{Keating}}}]{fan06}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {X.}~\bibnamefont
+  {{Fan}}}, \bibinfo {author} {\bibfnamefont {C.~L.}\ \bibnamefont
+  {{Carilli}}}, \ and\ \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {{Keating}}},\ }\href {\doibase 10.1146/annurev.astro.44.051905.092514}
+  {\bibfield  {journal} {\bibinfo  {journal} {\araa}\ }\textbf {\bibinfo
+  {volume} {44}},\ \bibinfo {pages} {415} (\bibinfo {year} {2006})},\ \Eprint
+  {http://arxiv.org/abs/astro-ph/0602375} {astro-ph/0602375} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{Barkana}}\ and\ \citenamefont
+  {{Loeb}}(2007)}]{bar07}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {{Barkana}}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {{Loeb}}},\ }\href {\doibase 10.1088/0034-4885/70/4/R02} {\bibfield
+  {journal} {\bibinfo  {journal} {Reports on Progress in Physics}\ }\textbf
+  {\bibinfo {volume} {70}},\ \bibinfo {pages} {627} (\bibinfo {year} {2007})},\
+  \Eprint {http://arxiv.org/abs/astro-ph/0611541} {astro-ph/0611541}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Morales}}\ and\ \citenamefont
+  {{Wyithe}}(2010)}]{mor10}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~F.}\ \bibnamefont
+  {{Morales}}}\ and\ \bibinfo {author} {\bibfnamefont {J.~S.~B.}\ \bibnamefont
+  {{Wyithe}}},\ }\href {\doibase 10.1146/annurev-astro-081309-130936}
+  {\bibfield  {journal} {\bibinfo  {journal} {\araa}\ }\textbf {\bibinfo
+  {volume} {48}},\ \bibinfo {pages} {127} (\bibinfo {year} {2010})},\ \Eprint
+  {http://arxiv.org/abs/0910.3010} {arXiv:0910.3010} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Parsons}}\ \emph {et~al.}(2010)\citenamefont
+  {{Parsons}}, \citenamefont {{Backer}}, \citenamefont {{Foster}},
+  \citenamefont {{Wright}}, \citenamefont {{Bradley}}, \citenamefont
+  {{Gugliucci}}, \citenamefont {{Parashare}}, \citenamefont {{Benoit}},
+  \citenamefont {{Aguirre}}, \citenamefont {{Jacobs}}, \citenamefont
+  {{Carilli}}, \citenamefont {{Herne}}, \citenamefont {{Lynch}}, \citenamefont
+  {{Manley}},\ and\ \citenamefont {{Werthimer}}}]{par10}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~R.}\ \bibnamefont
+  {{Parsons}}}, \bibinfo {author} {\bibfnamefont {D.~C.}\ \bibnamefont
+  {{Backer}}}, \bibinfo {author} {\bibfnamefont {G.~S.}\ \bibnamefont
+  {{Foster}}}, \bibinfo {author} {\bibfnamefont {M.~C.~H.}\ \bibnamefont
+  {{Wright}}}, \bibinfo {author} {\bibfnamefont {R.~F.}\ \bibnamefont
+  {{Bradley}}}, \bibinfo {author} {\bibfnamefont {N.~E.}\ \bibnamefont
+  {{Gugliucci}}}, \bibinfo {author} {\bibfnamefont {C.~R.}\ \bibnamefont
+  {{Parashare}}}, \bibinfo {author} {\bibfnamefont {E.~E.}\ \bibnamefont
+  {{Benoit}}}, \bibinfo {author} {\bibfnamefont {J.~E.}\ \bibnamefont
+  {{Aguirre}}}, \bibinfo {author} {\bibfnamefont {D.~C.}\ \bibnamefont
+  {{Jacobs}}}, \bibinfo {author} {\bibfnamefont {C.~L.}\ \bibnamefont
+  {{Carilli}}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {{Herne}}},
+  \bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont {{Lynch}}}, \bibinfo
+  {author} {\bibfnamefont {J.~R.}\ \bibnamefont {{Manley}}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {D.~J.}\ \bibnamefont {{Werthimer}}},\ }\href
+  {\doibase 10.1088/0004-6256/139/4/1468} {\bibfield  {journal} {\bibinfo
+  {journal} {\aj}\ }\textbf {\bibinfo {volume} {139}},\ \bibinfo {pages} {1468}
+  (\bibinfo {year} {2010})},\ \Eprint {http://arxiv.org/abs/0904.2334}
+  {arXiv:0904.2334 [astro-ph.CO]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Tingay}}\ \emph {et~al.}(2013)\citenamefont
+  {{Tingay}}, \citenamefont {{Goeke}}, \citenamefont {{Bowman}}, \citenamefont
+  {{Emrich}}, \citenamefont {{Ord}}, \citenamefont {{Mitchell}}, \citenamefont
+  {{Morales}}, \citenamefont {{Booler}}, \citenamefont {{Crosse}},
+  \citenamefont {{Wayth}}, \citenamefont {{Lonsdale}}, \citenamefont
+  {{Tremblay}}, \citenamefont {{Pallot}}, \citenamefont {{Colegate}},
+  \citenamefont {{Wicenec}}, \citenamefont {{Kudryavtseva}}, \citenamefont
+  {{Arcus}}, \citenamefont {{Barnes}}, \citenamefont {{Bernardi}},
+  \citenamefont {{Briggs}}, \citenamefont {{Burns}}, \citenamefont {{Bunton}},
+  \citenamefont {{Cappallo}}, \citenamefont {{Corey}}, \citenamefont
+  {{Deshpande}}, \citenamefont {{Desouza}}, \citenamefont {{Gaensler}},
+  \citenamefont {{Greenhill}}, \citenamefont {{Hall}}, \citenamefont
+  {{Hazelton}}, \citenamefont {{Herne}}, \citenamefont {{Hewitt}},
+  \citenamefont {{Johnston-Hollitt}}, \citenamefont {{Kaplan}}, \citenamefont
+  {{Kasper}}, \citenamefont {{Kincaid}}, \citenamefont {{Koenig}},
+  \citenamefont {{Kratzenberg}}, \citenamefont {{Lynch}}, \citenamefont
+  {{Mckinley}}, \citenamefont {{Mcwhirter}}, \citenamefont {{Morgan}},
+  \citenamefont {{Oberoi}}, \citenamefont {{Pathikulangara}}, \citenamefont
+  {{Prabu}}, \citenamefont {{Remillard}}, \citenamefont {{Rogers}},
+  \citenamefont {{Roshi}}, \citenamefont {{Salah}}, \citenamefont {{Sault}},
+  \citenamefont {{Udaya-Shankar}}, \citenamefont {{Schlagenhaufer}},
+  \citenamefont {{Srivani}}, \citenamefont {{Stevens}}, \citenamefont
+  {{Subrahmanyan}}, \citenamefont {{Waterson}}, \citenamefont {{Webster}},
+  \citenamefont {{Whitney}}, \citenamefont {{Williams}}, \citenamefont
+  {{Williams}},\ and\ \citenamefont {{Wyithe}}}]{tin13}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~J.}\ \bibnamefont
+  {{Tingay}}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {{Goeke}}},
+  \bibinfo {author} {\bibfnamefont {J.~D.}\ \bibnamefont {{Bowman}}}, \bibinfo
+  {author} {\bibfnamefont {D.}~\bibnamefont {{Emrich}}}, \bibinfo {author}
+  {\bibfnamefont {S.~M.}\ \bibnamefont {{Ord}}}, \bibinfo {author}
+  {\bibfnamefont {D.~A.}\ \bibnamefont {{Mitchell}}}, \bibinfo {author}
+  {\bibfnamefont {M.~F.}\ \bibnamefont {{Morales}}}, \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {{Booler}}}, \bibinfo {author}
+  {\bibfnamefont {B.}~\bibnamefont {{Crosse}}}, \bibinfo {author}
+  {\bibfnamefont {R.~B.}\ \bibnamefont {{Wayth}}}, \bibinfo {author}
+  {\bibfnamefont {C.~J.}\ \bibnamefont {{Lonsdale}}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {{Tremblay}}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {{Pallot}}}, \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {{Colegate}}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {{Wicenec}}}, \bibinfo {author}
+  {\bibfnamefont {N.}~\bibnamefont {{Kudryavtseva}}}, \bibinfo {author}
+  {\bibfnamefont {W.}~\bibnamefont {{Arcus}}}, \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {{Barnes}}}, \bibinfo {author} {\bibfnamefont
+  {G.}~\bibnamefont {{Bernardi}}}, \bibinfo {author} {\bibfnamefont
+  {F.}~\bibnamefont {{Briggs}}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {{Burns}}}, \bibinfo {author} {\bibfnamefont {J.~D.}\
+  \bibnamefont {{Bunton}}}, \bibinfo {author} {\bibfnamefont {R.~J.}\
+  \bibnamefont {{Cappallo}}}, \bibinfo {author} {\bibfnamefont {B.~E.}\
+  \bibnamefont {{Corey}}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {{Deshpande}}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {{Desouza}}}, \bibinfo {author} {\bibfnamefont {B.~M.}\ \bibnamefont
+  {{Gaensler}}}, \bibinfo {author} {\bibfnamefont {L.~J.}\ \bibnamefont
+  {{Greenhill}}}, \bibinfo {author} {\bibfnamefont {P.~J.}\ \bibnamefont
+  {{Hall}}}, \bibinfo {author} {\bibfnamefont {B.~J.}\ \bibnamefont
+  {{Hazelton}}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {{Herne}}},
+  \bibinfo {author} {\bibfnamefont {J.~N.}\ \bibnamefont {{Hewitt}}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {{Johnston-Hollitt}}}, \bibinfo
+  {author} {\bibfnamefont {D.~L.}\ \bibnamefont {{Kaplan}}}, \bibinfo {author}
+  {\bibfnamefont {J.~C.}\ \bibnamefont {{Kasper}}}, \bibinfo {author}
+  {\bibfnamefont {B.~B.}\ \bibnamefont {{Kincaid}}}, \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {{Koenig}}}, \bibinfo {author}
+  {\bibfnamefont {E.}~\bibnamefont {{Kratzenberg}}}, \bibinfo {author}
+  {\bibfnamefont {M.~J.}\ \bibnamefont {{Lynch}}}, \bibinfo {author}
+  {\bibfnamefont {B.}~\bibnamefont {{Mckinley}}}, \bibinfo {author}
+  {\bibfnamefont {S.~R.}\ \bibnamefont {{Mcwhirter}}}, \bibinfo {author}
+  {\bibfnamefont {E.}~\bibnamefont {{Morgan}}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {{Oberoi}}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {{Pathikulangara}}}, \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {{Prabu}}}, \bibinfo {author} {\bibfnamefont
+  {R.~A.}\ \bibnamefont {{Remillard}}}, \bibinfo {author} {\bibfnamefont
+  {A.~E.~E.}\ \bibnamefont {{Rogers}}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {{Roshi}}}, \bibinfo {author} {\bibfnamefont {J.~E.}\
+  \bibnamefont {{Salah}}}, \bibinfo {author} {\bibfnamefont {R.~J.}\
+  \bibnamefont {{Sault}}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {{Udaya-Shankar}}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {{Schlagenhaufer}}}, \bibinfo {author} {\bibfnamefont {K.~S.}\ \bibnamefont
+  {{Srivani}}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {{Stevens}}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {{Subrahmanyan}}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {{Waterson}}}, \bibinfo {author} {\bibfnamefont {R.~L.}\ \bibnamefont
+  {{Webster}}}, \bibinfo {author} {\bibfnamefont {A.~R.}\ \bibnamefont
+  {{Whitney}}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {{Williams}}}, \bibinfo {author} {\bibfnamefont {C.~L.}\ \bibnamefont
+  {{Williams}}}, \ and\ \bibinfo {author} {\bibfnamefont {J.~S.~B.}\
+  \bibnamefont {{Wyithe}}},\ }\href {\doibase 10.1017/pasa.2012.007} {\bibfield
+   {journal} {\bibinfo  {journal} {\pasa}\ }\textbf {\bibinfo {volume} {30}},\
+  \bibinfo {eid} {e007} (\bibinfo {year} {2013})},\ \Eprint
+  {http://arxiv.org/abs/1206.6945} {arXiv:1206.6945 [astro-ph.IM]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{van Haarlem}}\ \emph {et~al.}(2013)\citenamefont
+  {{van Haarlem}}, \citenamefont {{Wise}}, \citenamefont {{Gunst}},
+  \citenamefont {{Heald}}, \citenamefont {{McKean}}, \citenamefont {{Hessels}},
+  \citenamefont {{de Bruyn}}, \citenamefont {{Nijboer}}, \citenamefont
+  {{Swinbank}}, \citenamefont {{Fallows}}, \citenamefont {{Brentjens}},
+  \citenamefont {{Nelles}}, \citenamefont {{Beck}}, \citenamefont {{Falcke}},
+  \citenamefont {{Fender}}, \citenamefont {{H{\"o}randel}}, \citenamefont
+  {{Koopmans}}, \citenamefont {{Mann}}, \citenamefont {{Miley}}, \citenamefont
+  {{R{\"o}ttgering}}, \citenamefont {{Stappers}}, \citenamefont {{Wijers}},
+  \citenamefont {{Zaroubi}}, \citenamefont {{van den Akker}}, \citenamefont
+  {{Alexov}}, \citenamefont {{Anderson}}, \citenamefont {{Anderson}},
+  \citenamefont {{van Ardenne}}, \citenamefont {{Arts}}, \citenamefont
+  {{Asgekar}}, \citenamefont {{Avruch}}, \citenamefont {{Batejat}},
+  \citenamefont {{B{\"a}hren}}, \citenamefont {{Bell}}, \citenamefont {{Bell}},
+  \citenamefont {{van Bemmel}}, \citenamefont {{Bennema}}, \citenamefont
+  {{Bentum}}, \citenamefont {{Bernardi}}, \citenamefont {{Best}}, \citenamefont
+  {{B{\^i}rzan}}, \citenamefont {{Bonafede}}, \citenamefont {{Boonstra}},
+  \citenamefont {{Braun}}, \citenamefont {{Bregman}}, \citenamefont
+  {{Breitling}}, \citenamefont {{van de Brink}}, \citenamefont {{Broderick}},
+  \citenamefont {{Broekema}}, \citenamefont {{Brouw}}, \citenamefont
+  {{Br{\"u}ggen}}, \citenamefont {{Butcher}}, \citenamefont {{van Cappellen}},
+  \citenamefont {{Ciardi}}, \citenamefont {{Coenen}}, \citenamefont {{Conway}},
+  \citenamefont {{Coolen}}, \citenamefont {{Corstanje}}, \citenamefont
+  {{Damstra}}, \citenamefont {{Davies}}, \citenamefont {{Deller}},
+  \citenamefont {{Dettmar}}, \citenamefont {{van Diepen}}, \citenamefont
+  {{Dijkstra}}, \citenamefont {{Donker}}, \citenamefont {{Doorduin}},
+  \citenamefont {{Dromer}}, \citenamefont {{Drost}}, \citenamefont {{van
+  Duin}}, \citenamefont {{Eisl{\"o}ffel}}, \citenamefont {{van Enst}},
+  \citenamefont {{Ferrari}}, \citenamefont {{Frieswijk}}, \citenamefont
+  {{Gankema}}, \citenamefont {{Garrett}}, \citenamefont {{de Gasparin}},
+  \citenamefont {{Gerbers}}, \citenamefont {{de Geus}}, \citenamefont
+  {{Grie{\ss}meier}}, \citenamefont {{Grit}}, \citenamefont {{Gruppen}},
+  \citenamefont {{Hamaker}}, \citenamefont {{Hassall}}, \citenamefont
+  {{Hoeft}}, \citenamefont {{Holties}}, \citenamefont {{Horneffer}},
+  \citenamefont {{van der Horst}}, \citenamefont {{van Houwelingen}},
+  \citenamefont {{Huijgen}}, \citenamefont {{Iacobelli}}, \citenamefont
+  {{Intema}}, \citenamefont {{Jackson}}, \citenamefont {{Jelic}}, \citenamefont
+  {{de Jong}}, \citenamefont {{Kant}}, \citenamefont {{Karastergiou}},
+  \citenamefont {{Koers}}, \citenamefont {{Kollen}}, \citenamefont
+  {{Kondratiev}}, \citenamefont {{Kooistra}}, \citenamefont {{Koopman}},
+  \citenamefont {{Koster}}, \citenamefont {{Kuniyoshi}}, \citenamefont
+  {{Kramer}}, \citenamefont {{Kuper}}, \citenamefont {{Lambropoulos}},
+  \citenamefont {{Law}}, \citenamefont {{van Leeuwen}}, \citenamefont
+  {{Lemaitre}}, \citenamefont {{Loose}}, \citenamefont {{Maat}}, \citenamefont
+  {{Macario}}, \citenamefont {{Markoff}}, \citenamefont {{Masters}},
+  \citenamefont {{McFadden}}, \citenamefont {{McKay-Bukowski}}, \citenamefont
+  {{Meijering}}, \citenamefont {{Meulman}}, \citenamefont {{Mevius}},
+  \citenamefont {{Millenaar}}, \citenamefont {{Miller-Jones}}, \citenamefont
+  {{Mohan}}, \citenamefont {{Mol}}, \citenamefont {{Morawietz}}, \citenamefont
+  {{Morganti}}, \citenamefont {{Mulcahy}}, \citenamefont {{Mulder}},
+  \citenamefont {{Munk}}, \citenamefont {{Nieuwenhuis}}, \citenamefont {{van
+  Nieuwpoort}}, \citenamefont {{Noordam}}, \citenamefont {{Norden}},
+  \citenamefont {{Noutsos}}, \citenamefont {{Offringa}}, \citenamefont
+  {{Olofsson}}, \citenamefont {{Omar}}, \citenamefont {{Orr{\'u}}},
+  \citenamefont {{Overeem}}, \citenamefont {{Paas}}, \citenamefont
+  {{Pandey-Pommier}}, \citenamefont {{Pandey}}, \citenamefont {{Pizzo}},
+  \citenamefont {{Polatidis}}, \citenamefont {{Rafferty}}, \citenamefont
+  {{Rawlings}}, \citenamefont {{Reich}}, \citenamefont {{de Reijer}},
+  \citenamefont {{Reitsma}}, \citenamefont {{Renting}}, \citenamefont
+  {{Riemers}}, \citenamefont {{Rol}}, \citenamefont {{Romein}}, \citenamefont
+  {{Roosjen}}, \citenamefont {{Ruiter}}, \citenamefont {{Scaife}},
+  \citenamefont {{van der Schaaf}}, \citenamefont {{Scheers}}, \citenamefont
+  {{Schellart}}, \citenamefont {{Schoenmakers}}, \citenamefont
+  {{Schoonderbeek}}, \citenamefont {{Serylak}}, \citenamefont {{Shulevski}},
+  \citenamefont {{Sluman}}, \citenamefont {{Smirnov}}, \citenamefont {{Sobey}},
+  \citenamefont {{Spreeuw}}, \citenamefont {{Steinmetz}}, \citenamefont
+  {{Sterks}}, \citenamefont {{Stiepel}}, \citenamefont {{Stuurwold}},
+  \citenamefont {{Tagger}}, \citenamefont {{Tang}}, \citenamefont {{Tasse}},
+  \citenamefont {{Thomas}}, \citenamefont {{Thoudam}}, \citenamefont
+  {{Toribio}}, \citenamefont {{van der Tol}}, \citenamefont {{Usov}},
+  \citenamefont {{van Veelen}}, \citenamefont {{van der Veen}}, \citenamefont
+  {{ter Veen}}, \citenamefont {{Verbiest}}, \citenamefont {{Vermeulen}},
+  \citenamefont {{Vermaas}}, \citenamefont {{Vocks}}, \citenamefont {{Vogt}},
+  \citenamefont {{de Vos}}, \citenamefont {{van der Wal}}, \citenamefont {{van
+  Weeren}}, \citenamefont {{Weggemans}}, \citenamefont {{Weltevrede}},
+  \citenamefont {{White}}, \citenamefont {{Wijnholds}}, \citenamefont
+  {{Wilhelmsson}}, \citenamefont {{Wucknitz}}, \citenamefont {{Yatawatta}},
+  \citenamefont {{Zarka}}, \citenamefont {{Zensus}},\ and\ \citenamefont {{van
+  Zwieten}}}]{van13}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~P.}\ \bibnamefont
+  {{van Haarlem}}}, \bibinfo {author} {\bibfnamefont {M.~W.}\ \bibnamefont
+  {{Wise}}}, \bibinfo {author} {\bibfnamefont {A.~W.}\ \bibnamefont {{Gunst}}},
+  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {{Heald}}}, \bibinfo
+  {author} {\bibfnamefont {J.~P.}\ \bibnamefont {{McKean}}}, \bibinfo {author}
+  {\bibfnamefont {J.~W.~T.}\ \bibnamefont {{Hessels}}}, \bibinfo {author}
+  {\bibfnamefont {A.~G.}\ \bibnamefont {{de Bruyn}}}, \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {{Nijboer}}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {{Swinbank}}}, \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {{Fallows}}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {{Brentjens}}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {{Nelles}}}, \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {{Beck}}}, \bibinfo {author} {\bibfnamefont
+  {H.}~\bibnamefont {{Falcke}}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {{Fender}}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {{H{\"o}randel}}}, \bibinfo {author} {\bibfnamefont
+  {L.~V.~E.}\ \bibnamefont {{Koopmans}}}, \bibinfo {author} {\bibfnamefont
+  {G.}~\bibnamefont {{Mann}}}, \bibinfo {author} {\bibfnamefont
+  {G.}~\bibnamefont {{Miley}}}, \bibinfo {author} {\bibfnamefont
+  {H.}~\bibnamefont {{R{\"o}ttgering}}}, \bibinfo {author} {\bibfnamefont
+  {B.~W.}\ \bibnamefont {{Stappers}}}, \bibinfo {author} {\bibfnamefont
+  {R.~A.~M.~J.}\ \bibnamefont {{Wijers}}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {{Zaroubi}}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {{van den Akker}}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {{Alexov}}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {{Anderson}}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {{Anderson}}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {{van Ardenne}}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {{Arts}}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {{Asgekar}}}, \bibinfo {author} {\bibfnamefont {I.~M.}\
+  \bibnamefont {{Avruch}}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {{Batejat}}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {{B{\"a}hren}}}, \bibinfo {author} {\bibfnamefont {M.~E.}\ \bibnamefont
+  {{Bell}}}, \bibinfo {author} {\bibfnamefont {M.~R.}\ \bibnamefont {{Bell}}},
+  \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {{van Bemmel}}}, \bibinfo
+  {author} {\bibfnamefont {P.}~\bibnamefont {{Bennema}}}, \bibinfo {author}
+  {\bibfnamefont {M.~J.}\ \bibnamefont {{Bentum}}}, \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {{Bernardi}}}, \bibinfo {author}
+  {\bibfnamefont {P.}~\bibnamefont {{Best}}}, \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {{B{\^i}rzan}}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {{Bonafede}}}, \bibinfo {author} {\bibfnamefont {A.-J.}\
+  \bibnamefont {{Boonstra}}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {{Braun}}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {{Bregman}}}, \bibinfo {author} {\bibfnamefont
+  {F.}~\bibnamefont {{Breitling}}}, \bibinfo {author} {\bibfnamefont {R.~H.}\
+  \bibnamefont {{van de Brink}}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {{Broderick}}}, \bibinfo {author} {\bibfnamefont {P.~C.}\
+  \bibnamefont {{Broekema}}}, \bibinfo {author} {\bibfnamefont {W.~N.}\
+  \bibnamefont {{Brouw}}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {{Br{\"u}ggen}}}, \bibinfo {author} {\bibfnamefont {H.~R.}\ \bibnamefont
+  {{Butcher}}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {{van
+  Cappellen}}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {{Ciardi}}},
+  \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {{Coenen}}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {{Conway}}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {{Coolen}}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {{Corstanje}}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {{Damstra}}}, \bibinfo {author}
+  {\bibfnamefont {O.}~\bibnamefont {{Davies}}}, \bibinfo {author}
+  {\bibfnamefont {A.~T.}\ \bibnamefont {{Deller}}}, \bibinfo {author}
+  {\bibfnamefont {R.-J.}\ \bibnamefont {{Dettmar}}}, \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {{van Diepen}}}, \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {{Dijkstra}}}, \bibinfo {author}
+  {\bibfnamefont {P.}~\bibnamefont {{Donker}}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {{Doorduin}}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {{Dromer}}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {{Drost}}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {{van Duin}}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {{Eisl{\"o}ffel}}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {{van Enst}}}, \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {{Ferrari}}}, \bibinfo {author} {\bibfnamefont
+  {W.}~\bibnamefont {{Frieswijk}}}, \bibinfo {author} {\bibfnamefont
+  {H.}~\bibnamefont {{Gankema}}}, \bibinfo {author} {\bibfnamefont {M.~A.}\
+  \bibnamefont {{Garrett}}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {{de Gasparin}}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {{Gerbers}}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {{de
+  Geus}}}, \bibinfo {author} {\bibfnamefont {J.-M.}\ \bibnamefont
+  {{Grie{\ss}meier}}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {{Grit}}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {{Gruppen}}},
+  \bibinfo {author} {\bibfnamefont {J.~P.}\ \bibnamefont {{Hamaker}}}, \bibinfo
+  {author} {\bibfnamefont {T.}~\bibnamefont {{Hassall}}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {{Hoeft}}}, \bibinfo {author} {\bibfnamefont
+  {H.~A.}\ \bibnamefont {{Holties}}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {{Horneffer}}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {{van der Horst}}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {{van Houwelingen}}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {{Huijgen}}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {{Iacobelli}}}, \bibinfo {author} {\bibfnamefont
+  {H.}~\bibnamefont {{Intema}}}, \bibinfo {author} {\bibfnamefont
+  {N.}~\bibnamefont {{Jackson}}}, \bibinfo {author} {\bibfnamefont
+  {V.}~\bibnamefont {{Jelic}}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {{de Jong}}}, \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {{Kant}}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {{Karastergiou}}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {{Koers}}}, \bibinfo {author} {\bibfnamefont
+  {H.}~\bibnamefont {{Kollen}}}, \bibinfo {author} {\bibfnamefont {V.~I.}\
+  \bibnamefont {{Kondratiev}}}, \bibinfo {author} {\bibfnamefont
+  {E.}~\bibnamefont {{Kooistra}}}, \bibinfo {author} {\bibfnamefont
+  {Y.}~\bibnamefont {{Koopman}}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {{Koster}}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {{Kuniyoshi}}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {{Kramer}}}, \bibinfo {author} {\bibfnamefont
+  {G.}~\bibnamefont {{Kuper}}}, \bibinfo {author} {\bibfnamefont
+  {P.}~\bibnamefont {{Lambropoulos}}}, \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {{Law}}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {{van Leeuwen}}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {{Lemaitre}}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {{Loose}}}, \bibinfo {author} {\bibfnamefont
+  {P.}~\bibnamefont {{Maat}}}, \bibinfo {author} {\bibfnamefont
+  {G.}~\bibnamefont {{Macario}}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {{Markoff}}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {{Masters}}}, \bibinfo {author} {\bibfnamefont {R.~A.}\
+  \bibnamefont {{McFadden}}}, \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {{McKay-Bukowski}}}, \bibinfo {author} {\bibfnamefont
+  {H.}~\bibnamefont {{Meijering}}}, \bibinfo {author} {\bibfnamefont
+  {H.}~\bibnamefont {{Meulman}}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {{Mevius}}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {{Millenaar}}}, \bibinfo {author} {\bibfnamefont
+  {J.~C.~A.}\ \bibnamefont {{Miller-Jones}}}, \bibinfo {author} {\bibfnamefont
+  {R.~N.}\ \bibnamefont {{Mohan}}}, \bibinfo {author} {\bibfnamefont {J.~D.}\
+  \bibnamefont {{Mol}}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {{Morawietz}}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {{Morganti}}}, \bibinfo {author} {\bibfnamefont {D.~D.}\ \bibnamefont
+  {{Mulcahy}}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {{Mulder}}},
+  \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {{Munk}}}, \bibinfo
+  {author} {\bibfnamefont {L.}~\bibnamefont {{Nieuwenhuis}}}, \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {{van Nieuwpoort}}}, \bibinfo {author}
+  {\bibfnamefont {J.~E.}\ \bibnamefont {{Noordam}}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {{Norden}}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {{Noutsos}}}, \bibinfo {author}
+  {\bibfnamefont {A.~R.}\ \bibnamefont {{Offringa}}}, \bibinfo {author}
+  {\bibfnamefont {H.}~\bibnamefont {{Olofsson}}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {{Omar}}}, \bibinfo {author} {\bibfnamefont
+  {E.}~\bibnamefont {{Orr{\'u}}}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {{Overeem}}}, \bibinfo {author} {\bibfnamefont
+  {H.}~\bibnamefont {{Paas}}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {{Pandey-Pommier}}}, \bibinfo {author} {\bibfnamefont
+  {V.~N.}\ \bibnamefont {{Pandey}}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {{Pizzo}}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {{Polatidis}}}, \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {{Rafferty}}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {{Rawlings}}}, \bibinfo {author} {\bibfnamefont
+  {W.}~\bibnamefont {{Reich}}}, \bibinfo {author} {\bibfnamefont {J.-P.}\
+  \bibnamefont {{de Reijer}}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {{Reitsma}}}, \bibinfo {author} {\bibfnamefont {G.~A.}\
+  \bibnamefont {{Renting}}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {{Riemers}}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {{Rol}}},
+  \bibinfo {author} {\bibfnamefont {J.~W.}\ \bibnamefont {{Romein}}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {{Roosjen}}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {{Ruiter}}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {{Scaife}}}, \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {{van der Schaaf}}}, \bibinfo {author}
+  {\bibfnamefont {B.}~\bibnamefont {{Scheers}}}, \bibinfo {author}
+  {\bibfnamefont {P.}~\bibnamefont {{Schellart}}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {{Schoenmakers}}}, \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {{Schoonderbeek}}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {{Serylak}}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {{Shulevski}}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {{Sluman}}}, \bibinfo {author}
+  {\bibfnamefont {O.}~\bibnamefont {{Smirnov}}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {{Sobey}}}, \bibinfo {author} {\bibfnamefont
+  {H.}~\bibnamefont {{Spreeuw}}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {{Steinmetz}}}, \bibinfo {author} {\bibfnamefont
+  {C.~G.~M.}\ \bibnamefont {{Sterks}}}, \bibinfo {author} {\bibfnamefont
+  {H.-J.}\ \bibnamefont {{Stiepel}}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {{Stuurwold}}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {{Tagger}}}, \bibinfo {author} {\bibfnamefont
+  {Y.}~\bibnamefont {{Tang}}}, \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {{Tasse}}}, \bibinfo {author} {\bibfnamefont
+  {I.}~\bibnamefont {{Thomas}}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {{Thoudam}}}, \bibinfo {author} {\bibfnamefont {M.~C.}\
+  \bibnamefont {{Toribio}}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {{van der Tol}}}, \bibinfo {author} {\bibfnamefont {O.}~\bibnamefont
+  {{Usov}}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {{van
+  Veelen}}}, \bibinfo {author} {\bibfnamefont {A.-J.}\ \bibnamefont {{van der
+  Veen}}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {{ter Veen}}},
+  \bibinfo {author} {\bibfnamefont {J.~P.~W.}\ \bibnamefont {{Verbiest}}},
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {{Vermeulen}}}, \bibinfo
+  {author} {\bibfnamefont {N.}~\bibnamefont {{Vermaas}}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {{Vocks}}}, \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {{Vogt}}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {{de Vos}}}, \bibinfo {author} {\bibfnamefont
+  {E.}~\bibnamefont {{van der Wal}}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {{van Weeren}}}, \bibinfo {author} {\bibfnamefont
+  {H.}~\bibnamefont {{Weggemans}}}, \bibinfo {author} {\bibfnamefont
+  {P.}~\bibnamefont {{Weltevrede}}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {{White}}}, \bibinfo {author} {\bibfnamefont {S.~J.}\
+  \bibnamefont {{Wijnholds}}}, \bibinfo {author} {\bibfnamefont
+  {T.}~\bibnamefont {{Wilhelmsson}}}, \bibinfo {author} {\bibfnamefont
+  {O.}~\bibnamefont {{Wucknitz}}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {{Yatawatta}}}, \bibinfo {author} {\bibfnamefont
+  {P.}~\bibnamefont {{Zarka}}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {{Zensus}}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {{van Zwieten}}},\ }\href {\doibase
+  10.1051/0004-6361/201220873} {\bibfield  {journal} {\bibinfo  {journal}
+  {\aap}\ }\textbf {\bibinfo {volume} {556}},\ \bibinfo {eid} {A2} (\bibinfo
+  {year} {2013})},\ \Eprint {http://arxiv.org/abs/1305.3550} {arXiv:1305.3550
+  [astro-ph.IM]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Thyagarajan}}\ \emph {et~al.}(2013)\citenamefont
+  {{Thyagarajan}}, \citenamefont {{Udaya Shankar}}, \citenamefont
+  {{Subrahmanyan}}, \citenamefont {{Arcus}}, \citenamefont {{Bernardi}},
+  \citenamefont {{Bowman}}, \citenamefont {{Briggs}}, \citenamefont {{Bunton}},
+  \citenamefont {{Cappallo}}, \citenamefont {{Corey}}, \citenamefont
+  {{deSouza}}, \citenamefont {{Emrich}}, \citenamefont {{Gaensler}},
+  \citenamefont {{Goeke}}, \citenamefont {{Greenhill}}, \citenamefont
+  {{Hazelton}}, \citenamefont {{Herne}}, \citenamefont {{Hewitt}},
+  \citenamefont {{Johnston-Hollitt}}, \citenamefont {{Kaplan}}, \citenamefont
+  {{Kasper}}, \citenamefont {{Kincaid}}, \citenamefont {{Koenig}},
+  \citenamefont {{Kratzenberg}}, \citenamefont {{Lonsdale}}, \citenamefont
+  {{Lynch}}, \citenamefont {{McWhirter}}, \citenamefont {{Mitchell}},
+  \citenamefont {{Morales}}, \citenamefont {{Morgan}}, \citenamefont
+  {{Oberoi}}, \citenamefont {{Ord}}, \citenamefont {{Pathikulangara}},
+  \citenamefont {{Remillard}}, \citenamefont {{Rogers}}, \citenamefont {{Anish
+  Roshi}}, \citenamefont {{Salah}}, \citenamefont {{Sault}}, \citenamefont
+  {{Srivani}}, \citenamefont {{Stevens}}, \citenamefont {{Thiagaraj}},
+  \citenamefont {{Tingay}}, \citenamefont {{Wayth}}, \citenamefont
+  {{Waterson}}, \citenamefont {{Webster}}, \citenamefont {{Whitney}},
+  \citenamefont {{Williams}}, \citenamefont {{Williams}},\ and\ \citenamefont
+  {{Wyithe}}}]{thy13}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {{Thyagarajan}}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {{Udaya
+  Shankar}}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {{Subrahmanyan}}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {{Arcus}}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {{Bernardi}}},
+  \bibinfo {author} {\bibfnamefont {J.~D.}\ \bibnamefont {{Bowman}}}, \bibinfo
+  {author} {\bibfnamefont {F.}~\bibnamefont {{Briggs}}}, \bibinfo {author}
+  {\bibfnamefont {J.~D.}\ \bibnamefont {{Bunton}}}, \bibinfo {author}
+  {\bibfnamefont {R.~J.}\ \bibnamefont {{Cappallo}}}, \bibinfo {author}
+  {\bibfnamefont {B.~E.}\ \bibnamefont {{Corey}}}, \bibinfo {author}
+  {\bibfnamefont {L.}~\bibnamefont {{deSouza}}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {{Emrich}}}, \bibinfo {author}
+  {\bibfnamefont {B.~M.}\ \bibnamefont {{Gaensler}}}, \bibinfo {author}
+  {\bibfnamefont {R.~F.}\ \bibnamefont {{Goeke}}}, \bibinfo {author}
+  {\bibfnamefont {L.~J.}\ \bibnamefont {{Greenhill}}}, \bibinfo {author}
+  {\bibfnamefont {B.~J.}\ \bibnamefont {{Hazelton}}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {{Herne}}}, \bibinfo {author} {\bibfnamefont
+  {J.~N.}\ \bibnamefont {{Hewitt}}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {{Johnston-Hollitt}}}, \bibinfo {author} {\bibfnamefont
+  {D.~L.}\ \bibnamefont {{Kaplan}}}, \bibinfo {author} {\bibfnamefont {J.~C.}\
+  \bibnamefont {{Kasper}}}, \bibinfo {author} {\bibfnamefont {B.~B.}\
+  \bibnamefont {{Kincaid}}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {{Koenig}}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {{Kratzenberg}}}, \bibinfo {author} {\bibfnamefont {C.~J.}\ \bibnamefont
+  {{Lonsdale}}}, \bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont
+  {{Lynch}}}, \bibinfo {author} {\bibfnamefont {S.~R.}\ \bibnamefont
+  {{McWhirter}}}, \bibinfo {author} {\bibfnamefont {D.~A.}\ \bibnamefont
+  {{Mitchell}}}, \bibinfo {author} {\bibfnamefont {M.~F.}\ \bibnamefont
+  {{Morales}}}, \bibinfo {author} {\bibfnamefont {E.~H.}\ \bibnamefont
+  {{Morgan}}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {{Oberoi}}},
+  \bibinfo {author} {\bibfnamefont {S.~M.}\ \bibnamefont {{Ord}}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {{Pathikulangara}}}, \bibinfo
+  {author} {\bibfnamefont {R.~A.}\ \bibnamefont {{Remillard}}}, \bibinfo
+  {author} {\bibfnamefont {A.~E.~E.}\ \bibnamefont {{Rogers}}}, \bibinfo
+  {author} {\bibfnamefont {D.}~\bibnamefont {{Anish Roshi}}}, \bibinfo {author}
+  {\bibfnamefont {J.~E.}\ \bibnamefont {{Salah}}}, \bibinfo {author}
+  {\bibfnamefont {R.~J.}\ \bibnamefont {{Sault}}}, \bibinfo {author}
+  {\bibfnamefont {K.~S.}\ \bibnamefont {{Srivani}}}, \bibinfo {author}
+  {\bibfnamefont {J.~B.}\ \bibnamefont {{Stevens}}}, \bibinfo {author}
+  {\bibfnamefont {P.}~\bibnamefont {{Thiagaraj}}}, \bibinfo {author}
+  {\bibfnamefont {S.~J.}\ \bibnamefont {{Tingay}}}, \bibinfo {author}
+  {\bibfnamefont {R.~B.}\ \bibnamefont {{Wayth}}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {{Waterson}}}, \bibinfo {author}
+  {\bibfnamefont {R.~L.}\ \bibnamefont {{Webster}}}, \bibinfo {author}
+  {\bibfnamefont {A.~R.}\ \bibnamefont {{Whitney}}}, \bibinfo {author}
+  {\bibfnamefont {A.~J.}\ \bibnamefont {{Williams}}}, \bibinfo {author}
+  {\bibfnamefont {C.~L.}\ \bibnamefont {{Williams}}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {J.~S.~B.}\ \bibnamefont {{Wyithe}}},\ }\href {\doibase
+  10.1088/0004-637X/776/1/6} {\bibfield  {journal} {\bibinfo  {journal} {\apj}\
+  }\textbf {\bibinfo {volume} {776}},\ \bibinfo {eid} {6} (\bibinfo {year}
+  {2013})},\ \Eprint {http://arxiv.org/abs/1308.0565} {arXiv:1308.0565
+  [astro-ph.CO]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Beardsley}}\ \emph {et~al.}(2013)\citenamefont
+  {{Beardsley}}, \citenamefont {{Hazelton}}, \citenamefont {{Morales}},
+  \citenamefont {{Arcus}}, \citenamefont {{Barnes}}, \citenamefont
+  {{Bernardi}}, \citenamefont {{Bowman}}, \citenamefont {{Briggs}},
+  \citenamefont {{Bunton}}, \citenamefont {{Cappallo}}, \citenamefont
+  {{Corey}}, \citenamefont {{Deshpande}}, \citenamefont {{deSouza}},
+  \citenamefont {{Emrich}}, \citenamefont {{Gaensler}}, \citenamefont
+  {{Goeke}}, \citenamefont {{Greenhill}}, \citenamefont {{Herne}},
+  \citenamefont {{Hewitt}}, \citenamefont {{Johnston-Hollitt}}, \citenamefont
+  {{Kaplan}}, \citenamefont {{Kasper}}, \citenamefont {{Kincaid}},
+  \citenamefont {{Koenig}}, \citenamefont {{Kratzenberg}}, \citenamefont
+  {{Lonsdale}}, \citenamefont {{Lynch}}, \citenamefont {{McWhirter}},
+  \citenamefont {{Mitchell}}, \citenamefont {{Morgan}}, \citenamefont
+  {{Oberoi}}, \citenamefont {{Ord}}, \citenamefont {{Pathikulangara}},
+  \citenamefont {{Prabu}}, \citenamefont {{Remillard}}, \citenamefont
+  {{Rogers}}, \citenamefont {{Roshi}}, \citenamefont {{Salah}}, \citenamefont
+  {{Sault}}, \citenamefont {{Udaya}}, \citenamefont {{Srivani}}, \citenamefont
+  {{Stevens}}, \citenamefont {{Subrahmanyan}}, \citenamefont {{Tingay}},
+  \citenamefont {{Wayth}}, \citenamefont {{Waterson}}, \citenamefont
+  {{Webster}}, \citenamefont {{Whitney}}, \citenamefont {{Williams}},
+  \citenamefont {{Williams}},\ and\ \citenamefont {{Wyithe}}}]{bea13}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~P.}\ \bibnamefont
+  {{Beardsley}}}, \bibinfo {author} {\bibfnamefont {B.~J.}\ \bibnamefont
+  {{Hazelton}}}, \bibinfo {author} {\bibfnamefont {M.~F.}\ \bibnamefont
+  {{Morales}}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {{Arcus}}},
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {{Barnes}}}, \bibinfo
+  {author} {\bibfnamefont {G.}~\bibnamefont {{Bernardi}}}, \bibinfo {author}
+  {\bibfnamefont {J.~D.}\ \bibnamefont {{Bowman}}}, \bibinfo {author}
+  {\bibfnamefont {F.~H.}\ \bibnamefont {{Briggs}}}, \bibinfo {author}
+  {\bibfnamefont {J.~D.}\ \bibnamefont {{Bunton}}}, \bibinfo {author}
+  {\bibfnamefont {R.~J.}\ \bibnamefont {{Cappallo}}}, \bibinfo {author}
+  {\bibfnamefont {B.~E.}\ \bibnamefont {{Corey}}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {{Deshpande}}}, \bibinfo {author}
+  {\bibfnamefont {L.}~\bibnamefont {{deSouza}}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {{Emrich}}}, \bibinfo {author}
+  {\bibfnamefont {B.~M.}\ \bibnamefont {{Gaensler}}}, \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {{Goeke}}}, \bibinfo {author} {\bibfnamefont
+  {L.~J.}\ \bibnamefont {{Greenhill}}}, \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {{Herne}}}, \bibinfo {author} {\bibfnamefont {J.~N.}\
+  \bibnamefont {{Hewitt}}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {{Johnston-Hollitt}}}, \bibinfo {author} {\bibfnamefont {D.~L.}\ \bibnamefont
+  {{Kaplan}}}, \bibinfo {author} {\bibfnamefont {J.~C.}\ \bibnamefont
+  {{Kasper}}}, \bibinfo {author} {\bibfnamefont {B.~B.}\ \bibnamefont
+  {{Kincaid}}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {{Koenig}}},
+  \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {{Kratzenberg}}}, \bibinfo
+  {author} {\bibfnamefont {C.~J.}\ \bibnamefont {{Lonsdale}}}, \bibinfo
+  {author} {\bibfnamefont {M.~J.}\ \bibnamefont {{Lynch}}}, \bibinfo {author}
+  {\bibfnamefont {S.~R.}\ \bibnamefont {{McWhirter}}}, \bibinfo {author}
+  {\bibfnamefont {D.~A.}\ \bibnamefont {{Mitchell}}}, \bibinfo {author}
+  {\bibfnamefont {E.}~\bibnamefont {{Morgan}}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {{Oberoi}}}, \bibinfo {author}
+  {\bibfnamefont {S.~M.}\ \bibnamefont {{Ord}}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {{Pathikulangara}}}, \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {{Prabu}}}, \bibinfo {author} {\bibfnamefont
+  {R.~A.}\ \bibnamefont {{Remillard}}}, \bibinfo {author} {\bibfnamefont
+  {A.~E.~E.}\ \bibnamefont {{Rogers}}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {{Roshi}}}, \bibinfo {author} {\bibfnamefont {J.~E.}\
+  \bibnamefont {{Salah}}}, \bibinfo {author} {\bibfnamefont {R.~J.}\
+  \bibnamefont {{Sault}}}, \bibinfo {author} {\bibfnamefont {S.~N.}\
+  \bibnamefont {{Udaya}}}, \bibinfo {author} {\bibfnamefont {K.~S.}\
+  \bibnamefont {{Srivani}}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {{Stevens}}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {{Subrahmanyan}}}, \bibinfo {author} {\bibfnamefont {S.~J.}\ \bibnamefont
+  {{Tingay}}}, \bibinfo {author} {\bibfnamefont {R.~B.}\ \bibnamefont
+  {{Wayth}}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {{Waterson}}},
+  \bibinfo {author} {\bibfnamefont {R.~L.}\ \bibnamefont {{Webster}}}, \bibinfo
+  {author} {\bibfnamefont {A.~R.}\ \bibnamefont {{Whitney}}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {{Williams}}}, \bibinfo {author}
+  {\bibfnamefont {C.~L.}\ \bibnamefont {{Williams}}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {J.~S.~B.}\ \bibnamefont {{Wyithe}}},\ }\href {\doibase
+  10.1093/mnrasl/sls013} {\bibfield  {journal} {\bibinfo  {journal} {\mnras}\
+  }\textbf {\bibinfo {volume} {429}},\ \bibinfo {pages} {L5} (\bibinfo {year}
+  {2013})},\ \Eprint {http://arxiv.org/abs/1204.3111} {arXiv:1204.3111
+  [astro-ph.IM]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Thyagarajan}}\ \emph
+  {et~al.}(2015{\natexlab{a}})\citenamefont {{Thyagarajan}}, \citenamefont
+  {{Jacobs}}, \citenamefont {{Bowman}}, \citenamefont {{Barry}}, \citenamefont
+  {{Beardsley}}, \citenamefont {{Bernardi}}, \citenamefont {{Briggs}},
+  \citenamefont {{Cappallo}}, \citenamefont {{Carroll}}, \citenamefont
+  {{Corey}}, \citenamefont {{de Oliveira-Costa}}, \citenamefont {{Dillon}},
+  \citenamefont {{Emrich}}, \citenamefont {{Ewall-Wice}}, \citenamefont
+  {{Feng}}, \citenamefont {{Goeke}}, \citenamefont {{Greenhill}}, \citenamefont
+  {{Hazelton}}, \citenamefont {{Hewitt}}, \citenamefont {{Hurley-Walker}},
+  \citenamefont {{Johnston-Hollitt}}, \citenamefont {{Kaplan}}, \citenamefont
+  {{Kasper}}, \citenamefont {{Kim}}, \citenamefont {{Kittiwisit}},
+  \citenamefont {{Kratzenberg}}, \citenamefont {{Lenc}}, \citenamefont
+  {{Line}}, \citenamefont {{Loeb}}, \citenamefont {{Lonsdale}}, \citenamefont
+  {{Lynch}}, \citenamefont {{McKinley}}, \citenamefont {{McWhirter}},
+  \citenamefont {{Mitchell}}, \citenamefont {{Morales}}, \citenamefont
+  {{Morgan}}, \citenamefont {{Neben}}, \citenamefont {{Oberoi}}, \citenamefont
+  {{Offringa}}, \citenamefont {{Ord}}, \citenamefont {{Paul}}, \citenamefont
+  {{Pindor}}, \citenamefont {{Pober}}, \citenamefont {{Prabu}}, \citenamefont
+  {{Procopio}}, \citenamefont {{Riding}}, \citenamefont {{Rogers}},
+  \citenamefont {{Roshi}}, \citenamefont {{Udaya Shankar}}, \citenamefont
+  {{Sethi}}, \citenamefont {{Srivani}}, \citenamefont {{Subrahmanyan}},
+  \citenamefont {{Sullivan}}, \citenamefont {{Tegmark}}, \citenamefont
+  {{Tingay}}, \citenamefont {{Trott}}, \citenamefont {{Waterson}},
+  \citenamefont {{Wayth}}, \citenamefont {{Webster}}, \citenamefont
+  {{Whitney}}, \citenamefont {{Williams}}, \citenamefont {{Williams}},
+  \citenamefont {{Wu}},\ and\ \citenamefont {{Wyithe}}}]{thy15a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {{Thyagarajan}}}, \bibinfo {author} {\bibfnamefont {D.~C.}\ \bibnamefont
+  {{Jacobs}}}, \bibinfo {author} {\bibfnamefont {J.~D.}\ \bibnamefont
+  {{Bowman}}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {{Barry}}},
+  \bibinfo {author} {\bibfnamefont {A.~P.}\ \bibnamefont {{Beardsley}}},
+  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {{Bernardi}}}, \bibinfo
+  {author} {\bibfnamefont {F.}~\bibnamefont {{Briggs}}}, \bibinfo {author}
+  {\bibfnamefont {R.~J.}\ \bibnamefont {{Cappallo}}}, \bibinfo {author}
+  {\bibfnamefont {P.}~\bibnamefont {{Carroll}}}, \bibinfo {author}
+  {\bibfnamefont {B.~E.}\ \bibnamefont {{Corey}}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {{de Oliveira-Costa}}}, \bibinfo {author}
+  {\bibfnamefont {J.~S.}\ \bibnamefont {{Dillon}}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {{Emrich}}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {{Ewall-Wice}}}, \bibinfo {author}
+  {\bibfnamefont {L.}~\bibnamefont {{Feng}}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {{Goeke}}}, \bibinfo {author} {\bibfnamefont {L.~J.}\
+  \bibnamefont {{Greenhill}}}, \bibinfo {author} {\bibfnamefont {B.~J.}\
+  \bibnamefont {{Hazelton}}}, \bibinfo {author} {\bibfnamefont {J.~N.}\
+  \bibnamefont {{Hewitt}}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {{Hurley-Walker}}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {{Johnston-Hollitt}}}, \bibinfo {author} {\bibfnamefont {D.~L.}\ \bibnamefont
+  {{Kaplan}}}, \bibinfo {author} {\bibfnamefont {J.~C.}\ \bibnamefont
+  {{Kasper}}}, \bibinfo {author} {\bibfnamefont {H.-S.}\ \bibnamefont {{Kim}}},
+  \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {{Kittiwisit}}}, \bibinfo
+  {author} {\bibfnamefont {E.}~\bibnamefont {{Kratzenberg}}}, \bibinfo {author}
+  {\bibfnamefont {E.}~\bibnamefont {{Lenc}}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {{Line}}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {{Loeb}}}, \bibinfo {author} {\bibfnamefont {C.~J.}\
+  \bibnamefont {{Lonsdale}}}, \bibinfo {author} {\bibfnamefont {M.~J.}\
+  \bibnamefont {{Lynch}}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {{McKinley}}}, \bibinfo {author} {\bibfnamefont {S.~R.}\ \bibnamefont
+  {{McWhirter}}}, \bibinfo {author} {\bibfnamefont {D.~A.}\ \bibnamefont
+  {{Mitchell}}}, \bibinfo {author} {\bibfnamefont {M.~F.}\ \bibnamefont
+  {{Morales}}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {{Morgan}}},
+  \bibinfo {author} {\bibfnamefont {A.~R.}\ \bibnamefont {{Neben}}}, \bibinfo
+  {author} {\bibfnamefont {D.}~\bibnamefont {{Oberoi}}}, \bibinfo {author}
+  {\bibfnamefont {A.~R.}\ \bibnamefont {{Offringa}}}, \bibinfo {author}
+  {\bibfnamefont {S.~M.}\ \bibnamefont {{Ord}}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {{Paul}}}, \bibinfo {author} {\bibfnamefont
+  {B.}~\bibnamefont {{Pindor}}}, \bibinfo {author} {\bibfnamefont {J.~C.}\
+  \bibnamefont {{Pober}}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {{Prabu}}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {{Procopio}}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {{Riding}}}, \bibinfo
+  {author} {\bibfnamefont {A.~E.~E.}\ \bibnamefont {{Rogers}}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {{Roshi}}}, \bibinfo {author}
+  {\bibfnamefont {N.}~\bibnamefont {{Udaya Shankar}}}, \bibinfo {author}
+  {\bibfnamefont {S.~K.}\ \bibnamefont {{Sethi}}}, \bibinfo {author}
+  {\bibfnamefont {K.~S.}\ \bibnamefont {{Srivani}}}, \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {{Subrahmanyan}}}, \bibinfo {author}
+  {\bibfnamefont {I.~S.}\ \bibnamefont {{Sullivan}}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {{Tegmark}}}, \bibinfo {author}
+  {\bibfnamefont {S.~J.}\ \bibnamefont {{Tingay}}}, \bibinfo {author}
+  {\bibfnamefont {C.~M.}\ \bibnamefont {{Trott}}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {{Waterson}}}, \bibinfo {author}
+  {\bibfnamefont {R.~B.}\ \bibnamefont {{Wayth}}}, \bibinfo {author}
+  {\bibfnamefont {R.~L.}\ \bibnamefont {{Webster}}}, \bibinfo {author}
+  {\bibfnamefont {A.~R.}\ \bibnamefont {{Whitney}}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {{Williams}}}, \bibinfo {author}
+  {\bibfnamefont {C.~L.}\ \bibnamefont {{Williams}}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {{Wu}}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {J.~S.~B.}\ \bibnamefont {{Wyithe}}},\ }\href {\doibase
+  10.1088/0004-637X/804/1/14} {\bibfield  {journal} {\bibinfo  {journal}
+  {\apj}\ }\textbf {\bibinfo {volume} {804}},\ \bibinfo {eid} {14} (\bibinfo
+  {year} {2015}{\natexlab{a}})},\ \Eprint {http://arxiv.org/abs/1502.07596}
+  {arXiv:1502.07596 [astro-ph.IM]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Thyagarajan}}\ \emph
+  {et~al.}(2015{\natexlab{b}})\citenamefont {{Thyagarajan}}, \citenamefont
+  {{Jacobs}}, \citenamefont {{Bowman}}, \citenamefont {{Barry}}, \citenamefont
+  {{Beardsley}}, \citenamefont {{Bernardi}}, \citenamefont {{Briggs}},
+  \citenamefont {{Cappallo}}, \citenamefont {{Carroll}}, \citenamefont
+  {{Deshpande}}, \citenamefont {{de Oliveira-Costa}}, \citenamefont {{Dillon}},
+  \citenamefont {{Ewall-Wice}}, \citenamefont {{Feng}}, \citenamefont
+  {{Greenhill}}, \citenamefont {{Hazelton}}, \citenamefont {{Hernquist}},
+  \citenamefont {{Hewitt}}, \citenamefont {{Hurley-Walker}}, \citenamefont
+  {{Johnston-Hollitt}}, \citenamefont {{Kaplan}}, \citenamefont {{Kim}},
+  \citenamefont {{Kittiwisit}}, \citenamefont {{Lenc}}, \citenamefont {{Line}},
+  \citenamefont {{Loeb}}, \citenamefont {{Lonsdale}}, \citenamefont
+  {{McKinley}}, \citenamefont {{McWhirter}}, \citenamefont {{Mitchell}},
+  \citenamefont {{Morales}}, \citenamefont {{Morgan}}, \citenamefont {{Neben}},
+  \citenamefont {{Oberoi}}, \citenamefont {{Offringa}}, \citenamefont {{Ord}},
+  \citenamefont {{Paul}}, \citenamefont {{Pindor}}, \citenamefont {{Pober}},
+  \citenamefont {{Prabu}}, \citenamefont {{Procopio}}, \citenamefont
+  {{Riding}}, \citenamefont {{Udaya Shankar}}, \citenamefont {{Sethi}},
+  \citenamefont {{Srivani}}, \citenamefont {{Subrahmanyan}}, \citenamefont
+  {{Sullivan}}, \citenamefont {{Tegmark}}, \citenamefont {{Tingay}},
+  \citenamefont {{Trott}}, \citenamefont {{Wayth}}, \citenamefont {{Webster}},
+  \citenamefont {{Williams}}, \citenamefont {{Williams}},\ and\ \citenamefont
+  {{Wyithe}}}]{thy15b}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {{Thyagarajan}}}, \bibinfo {author} {\bibfnamefont {D.~C.}\ \bibnamefont
+  {{Jacobs}}}, \bibinfo {author} {\bibfnamefont {J.~D.}\ \bibnamefont
+  {{Bowman}}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {{Barry}}},
+  \bibinfo {author} {\bibfnamefont {A.~P.}\ \bibnamefont {{Beardsley}}},
+  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {{Bernardi}}}, \bibinfo
+  {author} {\bibfnamefont {F.}~\bibnamefont {{Briggs}}}, \bibinfo {author}
+  {\bibfnamefont {R.~J.}\ \bibnamefont {{Cappallo}}}, \bibinfo {author}
+  {\bibfnamefont {P.}~\bibnamefont {{Carroll}}}, \bibinfo {author}
+  {\bibfnamefont {A.~A.}\ \bibnamefont {{Deshpande}}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {{de Oliveira-Costa}}}, \bibinfo {author}
+  {\bibfnamefont {J.~S.}\ \bibnamefont {{Dillon}}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {{Ewall-Wice}}}, \bibinfo {author}
+  {\bibfnamefont {L.}~\bibnamefont {{Feng}}}, \bibinfo {author} {\bibfnamefont
+  {L.~J.}\ \bibnamefont {{Greenhill}}}, \bibinfo {author} {\bibfnamefont
+  {B.~J.}\ \bibnamefont {{Hazelton}}}, \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {{Hernquist}}}, \bibinfo {author} {\bibfnamefont {J.~N.}\
+  \bibnamefont {{Hewitt}}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {{Hurley-Walker}}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {{Johnston-Hollitt}}}, \bibinfo {author} {\bibfnamefont {D.~L.}\ \bibnamefont
+  {{Kaplan}}}, \bibinfo {author} {\bibfnamefont {H.-S.}\ \bibnamefont {{Kim}}},
+  \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {{Kittiwisit}}}, \bibinfo
+  {author} {\bibfnamefont {E.}~\bibnamefont {{Lenc}}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {{Line}}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {{Loeb}}}, \bibinfo {author} {\bibfnamefont {C.~J.}\
+  \bibnamefont {{Lonsdale}}}, \bibinfo {author} {\bibfnamefont
+  {B.}~\bibnamefont {{McKinley}}}, \bibinfo {author} {\bibfnamefont {S.~R.}\
+  \bibnamefont {{McWhirter}}}, \bibinfo {author} {\bibfnamefont {D.~A.}\
+  \bibnamefont {{Mitchell}}}, \bibinfo {author} {\bibfnamefont {M.~F.}\
+  \bibnamefont {{Morales}}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {{Morgan}}}, \bibinfo {author} {\bibfnamefont {A.~R.}\ \bibnamefont
+  {{Neben}}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {{Oberoi}}},
+  \bibinfo {author} {\bibfnamefont {A.~R.}\ \bibnamefont {{Offringa}}},
+  \bibinfo {author} {\bibfnamefont {S.~M.}\ \bibnamefont {{Ord}}}, \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {{Paul}}}, \bibinfo {author}
+  {\bibfnamefont {B.}~\bibnamefont {{Pindor}}}, \bibinfo {author}
+  {\bibfnamefont {J.~C.}\ \bibnamefont {{Pober}}}, \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {{Prabu}}}, \bibinfo {author} {\bibfnamefont
+  {P.}~\bibnamefont {{Procopio}}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {{Riding}}}, \bibinfo {author} {\bibfnamefont
+  {N.}~\bibnamefont {{Udaya Shankar}}}, \bibinfo {author} {\bibfnamefont
+  {S.~K.}\ \bibnamefont {{Sethi}}}, \bibinfo {author} {\bibfnamefont {K.~S.}\
+  \bibnamefont {{Srivani}}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {{Subrahmanyan}}}, \bibinfo {author} {\bibfnamefont {I.~S.}\ \bibnamefont
+  {{Sullivan}}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {{Tegmark}}}, \bibinfo {author} {\bibfnamefont {S.~J.}\ \bibnamefont
+  {{Tingay}}}, \bibinfo {author} {\bibfnamefont {C.~M.}\ \bibnamefont
+  {{Trott}}}, \bibinfo {author} {\bibfnamefont {R.~B.}\ \bibnamefont
+  {{Wayth}}}, \bibinfo {author} {\bibfnamefont {R.~L.}\ \bibnamefont
+  {{Webster}}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {{Williams}}}, \bibinfo {author} {\bibfnamefont {C.~L.}\ \bibnamefont
+  {{Williams}}}, \ and\ \bibinfo {author} {\bibfnamefont {J.~S.~B.}\
+  \bibnamefont {{Wyithe}}},\ }\href {\doibase 10.1088/2041-8205/807/2/L28}
+  {\bibfield  {journal} {\bibinfo  {journal} {\apjl}\ }\textbf {\bibinfo
+  {volume} {807}},\ \bibinfo {eid} {L28} (\bibinfo {year}
+  {2015}{\natexlab{b}})},\ \Eprint {http://arxiv.org/abs/1506.06150}
+  {arXiv:1506.06150} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Thyagarajan}}\ \emph {et~al.}(2016)\citenamefont
+  {{Thyagarajan}}, \citenamefont {{Parsons}}, \citenamefont {{DeBoer}},
+  \citenamefont {{Bowman}}, \citenamefont {{Ewall-Wice}}, \citenamefont
+  {{Neben}},\ and\ \citenamefont {{Patra}}}]{thy16}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {{Thyagarajan}}}, \bibinfo {author} {\bibfnamefont {A.~R.}\ \bibnamefont
+  {{Parsons}}}, \bibinfo {author} {\bibfnamefont {D.~R.}\ \bibnamefont
+  {{DeBoer}}}, \bibinfo {author} {\bibfnamefont {J.~D.}\ \bibnamefont
+  {{Bowman}}}, \bibinfo {author} {\bibfnamefont {A.~M.}\ \bibnamefont
+  {{Ewall-Wice}}}, \bibinfo {author} {\bibfnamefont {A.~R.}\ \bibnamefont
+  {{Neben}}}, \ and\ \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {{Patra}}},\ }\href {\doibase 10.3847/0004-637X/825/1/9} {\bibfield
+  {journal} {\bibinfo  {journal} {\apj}\ }\textbf {\bibinfo {volume} {825}},\
+  \bibinfo {eid} {9} (\bibinfo {year} {2016})},\ \Eprint
+  {http://arxiv.org/abs/1603.08958} {arXiv:1603.08958} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Datta}}\ \emph {et~al.}(2009)\citenamefont
+  {{Datta}}, \citenamefont {{Bhatnagar}},\ and\ \citenamefont
+  {{Carilli}}}]{dat09}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {{Datta}}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {{Bhatnagar}}}, \ and\ \bibinfo {author} {\bibfnamefont {C.~L.}\ \bibnamefont
+  {{Carilli}}},\ }\href {\doibase 10.1088/0004-637X/703/2/1851} {\bibfield
+  {journal} {\bibinfo  {journal} {\apj}\ }\textbf {\bibinfo {volume} {703}},\
+  \bibinfo {pages} {1851} (\bibinfo {year} {2009})},\ \Eprint
+  {http://arxiv.org/abs/0908.2639} {arXiv:0908.2639} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Datta}}\ \emph {et~al.}(2010)\citenamefont
+  {{Datta}}, \citenamefont {{Bowman}},\ and\ \citenamefont
+  {{Carilli}}}]{dat10}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {{Datta}}}, \bibinfo {author} {\bibfnamefont {J.~D.}\ \bibnamefont
+  {{Bowman}}}, \ and\ \bibinfo {author} {\bibfnamefont {C.~L.}\ \bibnamefont
+  {{Carilli}}},\ }\href {\doibase 10.1088/0004-637X/724/1/526} {\bibfield
+  {journal} {\bibinfo  {journal} {\apj}\ }\textbf {\bibinfo {volume} {724}},\
+  \bibinfo {pages} {526} (\bibinfo {year} {2010})},\ \Eprint
+  {http://arxiv.org/abs/1005.4071} {arXiv:1005.4071 [astro-ph.CO]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{Trott}}\ and\ \citenamefont
+  {{Wayth}}(2016)}]{tro16}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~M.}\ \bibnamefont
+  {{Trott}}}\ and\ \bibinfo {author} {\bibfnamefont {R.~B.}\ \bibnamefont
+  {{Wayth}}},\ }\href {\doibase 10.1017/pasa.2016.18} {\bibfield  {journal}
+  {\bibinfo  {journal} {\pasa}\ }\textbf {\bibinfo {volume} {33}},\ \bibinfo
+  {eid} {e019} (\bibinfo {year} {2016})},\ \Eprint
+  {http://arxiv.org/abs/1604.03273} {arXiv:1604.03273 [astro-ph.IM]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Paciga}}\ \emph {et~al.}(2013)\citenamefont
+  {{Paciga}}, \citenamefont {{Albert}}, \citenamefont {{Bandura}},
+  \citenamefont {{Chang}}, \citenamefont {{Gupta}}, \citenamefont {{Hirata}},
+  \citenamefont {{Odegova}}, \citenamefont {{Pen}}, \citenamefont {{Peterson}},
+  \citenamefont {{Roy}}, \citenamefont {{Shaw}}, \citenamefont {{Sigurdson}},\
+  and\ \citenamefont {{Voytek}}}]{pac13}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {{Paciga}}}, \bibinfo {author} {\bibfnamefont {J.~G.}\ \bibnamefont
+  {{Albert}}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {{Bandura}}},
+  \bibinfo {author} {\bibfnamefont {T.-C.}\ \bibnamefont {{Chang}}}, \bibinfo
+  {author} {\bibfnamefont {Y.}~\bibnamefont {{Gupta}}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {{Hirata}}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {{Odegova}}}, \bibinfo {author}
+  {\bibfnamefont {U.-L.}\ \bibnamefont {{Pen}}}, \bibinfo {author}
+  {\bibfnamefont {J.~B.}\ \bibnamefont {{Peterson}}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {{Roy}}}, \bibinfo {author} {\bibfnamefont
+  {J.~R.}\ \bibnamefont {{Shaw}}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {{Sigurdson}}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {T.}~\bibnamefont {{Voytek}}},\ }\href {\doibase 10.1093/mnras/stt753}
+  {\bibfield  {journal} {\bibinfo  {journal} {\mnras}\ }\textbf {\bibinfo
+  {volume} {433}},\ \bibinfo {pages} {639} (\bibinfo {year} {2013})},\ \Eprint
+  {http://arxiv.org/abs/1301.5906} {arXiv:1301.5906} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Ali}}\ \emph {et~al.}(2015)\citenamefont {{Ali}},
+  \citenamefont {{Parsons}}, \citenamefont {{Zheng}}, \citenamefont {{Pober}},
+  \citenamefont {{Liu}}, \citenamefont {{Aguirre}}, \citenamefont {{Bradley}},
+  \citenamefont {{Bernardi}}, \citenamefont {{Carilli}}, \citenamefont
+  {{Cheng}}, \citenamefont {{DeBoer}}, \citenamefont {{Dexter}}, \citenamefont
+  {{Grobbelaar}}, \citenamefont {{Horrell}}, \citenamefont {{Jacobs}},
+  \citenamefont {{Klima}}, \citenamefont {{MacMahon}}, \citenamefont {{Maree}},
+  \citenamefont {{Moore}}, \citenamefont {{Razavi}}, \citenamefont {{Stefan}},
+  \citenamefont {{Walbrugh}},\ and\ \citenamefont {{Walker}}}]{ali15}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Z.~S.}\ \bibnamefont
+  {{Ali}}}, \bibinfo {author} {\bibfnamefont {A.~R.}\ \bibnamefont
+  {{Parsons}}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {{Zheng}}},
+  \bibinfo {author} {\bibfnamefont {J.~C.}\ \bibnamefont {{Pober}}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {{Liu}}}, \bibinfo {author}
+  {\bibfnamefont {J.~E.}\ \bibnamefont {{Aguirre}}}, \bibinfo {author}
+  {\bibfnamefont {R.~F.}\ \bibnamefont {{Bradley}}}, \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {{Bernardi}}}, \bibinfo {author}
+  {\bibfnamefont {C.~L.}\ \bibnamefont {{Carilli}}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {{Cheng}}}, \bibinfo {author} {\bibfnamefont
+  {D.~R.}\ \bibnamefont {{DeBoer}}}, \bibinfo {author} {\bibfnamefont {M.~R.}\
+  \bibnamefont {{Dexter}}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {{Grobbelaar}}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {{Horrell}}}, \bibinfo {author} {\bibfnamefont {D.~C.}\ \bibnamefont
+  {{Jacobs}}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {{Klima}}},
+  \bibinfo {author} {\bibfnamefont {D.~H.~E.}\ \bibnamefont {{MacMahon}}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {{Maree}}}, \bibinfo
+  {author} {\bibfnamefont {D.~F.}\ \bibnamefont {{Moore}}}, \bibinfo {author}
+  {\bibfnamefont {N.}~\bibnamefont {{Razavi}}}, \bibinfo {author}
+  {\bibfnamefont {I.~I.}\ \bibnamefont {{Stefan}}}, \bibinfo {author}
+  {\bibfnamefont {W.~P.}\ \bibnamefont {{Walbrugh}}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {{Walker}}},\ }\href {\doibase
+  10.1088/0004-637X/809/1/61} {\bibfield  {journal} {\bibinfo  {journal}
+  {\apj}\ }\textbf {\bibinfo {volume} {809}},\ \bibinfo {eid} {61} (\bibinfo
+  {year} {2015})},\ \Eprint {http://arxiv.org/abs/1502.06016}
+  {arXiv:1502.06016} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Patil}}\ \emph {et~al.}(2017)\citenamefont
+  {{Patil}}, \citenamefont {{Yatawatta}}, \citenamefont {{Koopmans}},
+  \citenamefont {{de Bruyn}}, \citenamefont {{Brentjens}}, \citenamefont
+  {{Zaroubi}}, \citenamefont {{Asad}}, \citenamefont {{Hatef}}, \citenamefont
+  {{Jeli{\'c}}}, \citenamefont {{Mevius}}, \citenamefont {{Offringa}},
+  \citenamefont {{Pandey}}, \citenamefont {{Vedantham}}, \citenamefont
+  {{Abdalla}}, \citenamefont {{Brouw}}, \citenamefont {{Chapman}},
+  \citenamefont {{Ciardi}}, \citenamefont {{Gehlot}}, \citenamefont {{Ghosh}},
+  \citenamefont {{Harker}}, \citenamefont {{Iliev}}, \citenamefont
+  {{Kakiichi}}, \citenamefont {{Majumdar}}, \citenamefont {{Mellema}},
+  \citenamefont {{Silva}}, \citenamefont {{Schaye}}, \citenamefont
+  {{Vrbanec}},\ and\ \citenamefont {{Wijnholds}}}]{patil17}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~H.}\ \bibnamefont
+  {{Patil}}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {{Yatawatta}}}, \bibinfo {author} {\bibfnamefont {L.~V.~E.}\ \bibnamefont
+  {{Koopmans}}}, \bibinfo {author} {\bibfnamefont {A.~G.}\ \bibnamefont {{de
+  Bruyn}}}, \bibinfo {author} {\bibfnamefont {M.~A.}\ \bibnamefont
+  {{Brentjens}}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {{Zaroubi}}}, \bibinfo {author} {\bibfnamefont {K.~M.~B.}\ \bibnamefont
+  {{Asad}}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {{Hatef}}},
+  \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {{Jeli{\'c}}}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {{Mevius}}}, \bibinfo {author}
+  {\bibfnamefont {A.~R.}\ \bibnamefont {{Offringa}}}, \bibinfo {author}
+  {\bibfnamefont {V.~N.}\ \bibnamefont {{Pandey}}}, \bibinfo {author}
+  {\bibfnamefont {H.}~\bibnamefont {{Vedantham}}}, \bibinfo {author}
+  {\bibfnamefont {F.~B.}\ \bibnamefont {{Abdalla}}}, \bibinfo {author}
+  {\bibfnamefont {W.~N.}\ \bibnamefont {{Brouw}}}, \bibinfo {author}
+  {\bibfnamefont {E.}~\bibnamefont {{Chapman}}}, \bibinfo {author}
+  {\bibfnamefont {B.}~\bibnamefont {{Ciardi}}}, \bibinfo {author}
+  {\bibfnamefont {B.~K.}\ \bibnamefont {{Gehlot}}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {{Ghosh}}}, \bibinfo {author} {\bibfnamefont
+  {G.}~\bibnamefont {{Harker}}}, \bibinfo {author} {\bibfnamefont {I.~T.}\
+  \bibnamefont {{Iliev}}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {{Kakiichi}}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {{Majumdar}}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {{Mellema}}}, \bibinfo {author} {\bibfnamefont {M.~B.}\ \bibnamefont
+  {{Silva}}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {{Schaye}}},
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {{Vrbanec}}}, \ and\
+  \bibinfo {author} {\bibfnamefont {S.~J.}\ \bibnamefont {{Wijnholds}}},\
+  }\href {\doibase 10.3847/1538-4357/aa63e7} {\bibfield  {journal} {\bibinfo
+  {journal} {\apj}\ }\textbf {\bibinfo {volume} {838}},\ \bibinfo {eid} {65}
+  (\bibinfo {year} {2017})},\ \Eprint {http://arxiv.org/abs/1702.08679}
+  {arXiv:1702.08679} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Pober}}\ \emph {et~al.}(2015)\citenamefont
+  {{Pober}}, \citenamefont {{Ali}}, \citenamefont {{Parsons}}, \citenamefont
+  {{McQuinn}}, \citenamefont {{Aguirre}}, \citenamefont {{Bernardi}},
+  \citenamefont {{Bradley}}, \citenamefont {{Carilli}}, \citenamefont
+  {{Cheng}}, \citenamefont {{DeBoer}}, \citenamefont {{Dexter}}, \citenamefont
+  {{Furlanetto}}, \citenamefont {{Grobbelaar}}, \citenamefont {{Horrell}},
+  \citenamefont {{Jacobs}}, \citenamefont {{Klima}}, \citenamefont {{Kohn}},
+  \citenamefont {{Liu}}, \citenamefont {{MacMahon}}, \citenamefont {{Maree}},
+  \citenamefont {{Mesinger}}, \citenamefont {{Moore}}, \citenamefont
+  {{Razavi-Ghods}}, \citenamefont {{Stefan}}, \citenamefont {{Walbrugh}},
+  \citenamefont {{Walker}},\ and\ \citenamefont {{Zheng}}}]{pob15}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~C.}\ \bibnamefont
+  {{Pober}}}, \bibinfo {author} {\bibfnamefont {Z.~S.}\ \bibnamefont {{Ali}}},
+  \bibinfo {author} {\bibfnamefont {A.~R.}\ \bibnamefont {{Parsons}}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {{McQuinn}}}, \bibinfo {author}
+  {\bibfnamefont {J.~E.}\ \bibnamefont {{Aguirre}}}, \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {{Bernardi}}}, \bibinfo {author}
+  {\bibfnamefont {R.~F.}\ \bibnamefont {{Bradley}}}, \bibinfo {author}
+  {\bibfnamefont {C.~L.}\ \bibnamefont {{Carilli}}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {{Cheng}}}, \bibinfo {author} {\bibfnamefont
+  {D.~R.}\ \bibnamefont {{DeBoer}}}, \bibinfo {author} {\bibfnamefont {M.~R.}\
+  \bibnamefont {{Dexter}}}, \bibinfo {author} {\bibfnamefont {S.~R.}\
+  \bibnamefont {{Furlanetto}}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {{Grobbelaar}}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {{Horrell}}}, \bibinfo {author} {\bibfnamefont {D.~C.}\
+  \bibnamefont {{Jacobs}}}, \bibinfo {author} {\bibfnamefont {P.~J.}\
+  \bibnamefont {{Klima}}}, \bibinfo {author} {\bibfnamefont {S.~A.}\
+  \bibnamefont {{Kohn}}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {{Liu}}}, \bibinfo {author} {\bibfnamefont {D.~H.~E.}\ \bibnamefont
+  {{MacMahon}}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {{Maree}}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {{Mesinger}}}, \bibinfo
+  {author} {\bibfnamefont {D.~F.}\ \bibnamefont {{Moore}}}, \bibinfo {author}
+  {\bibfnamefont {N.}~\bibnamefont {{Razavi-Ghods}}}, \bibinfo {author}
+  {\bibfnamefont {I.~I.}\ \bibnamefont {{Stefan}}}, \bibinfo {author}
+  {\bibfnamefont {W.~P.}\ \bibnamefont {{Walbrugh}}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {{Walker}}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {H.}~\bibnamefont {{Zheng}}},\ }\href {\doibase
+  10.1088/0004-637X/809/1/62} {\bibfield  {journal} {\bibinfo  {journal}
+  {\apj}\ }\textbf {\bibinfo {volume} {809}},\ \bibinfo {eid} {62} (\bibinfo
+  {year} {2015})},\ \Eprint {http://arxiv.org/abs/1503.00045}
+  {arXiv:1503.00045} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Liu}}\ \emph {et~al.}(2010)\citenamefont {{Liu}},
+  \citenamefont {{Tegmark}}, \citenamefont {{Morrison}}, \citenamefont
+  {{Lutomirski}},\ and\ \citenamefont {{Zaldarriaga}}}]{liu10}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {{Liu}}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {{Tegmark}}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {{Morrison}}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {{Lutomirski}}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {{Zaldarriaga}}},\ }\href {\doibase
+  10.1111/j.1365-2966.2010.17174.x} {\bibfield  {journal} {\bibinfo  {journal}
+  {\mnras}\ }\textbf {\bibinfo {volume} {408}},\ \bibinfo {pages} {1029}
+  (\bibinfo {year} {2010})},\ \Eprint {http://arxiv.org/abs/1001.5268}
+  {arXiv:1001.5268 [astro-ph.IM]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Zheng}}\ \emph {et~al.}(2014)\citenamefont
+  {{Zheng}}, \citenamefont {{Tegmark}}, \citenamefont {{Buza}}, \citenamefont
+  {{Dillon}}, \citenamefont {{Gharibyan}}, \citenamefont {{Hickish}},
+  \citenamefont {{Kunz}}, \citenamefont {{Liu}}, \citenamefont {{Losh}},
+  \citenamefont {{Lutomirski}}, \citenamefont {{Morrison}}, \citenamefont
+  {{Narayanan}}, \citenamefont {{Perko}}, \citenamefont {{Rosner}},
+  \citenamefont {{Sanchez}}, \citenamefont {{Schutz}}, \citenamefont
+  {{Tribiano}}, \citenamefont {{Valdez}}, \citenamefont {{Yang}}, \citenamefont
+  {{Adami}}, \citenamefont {{Zelko}}, \citenamefont {{Zheng}}, \citenamefont
+  {{Armstrong}}, \citenamefont {{Bradley}}, \citenamefont {{Dexter}},
+  \citenamefont {{Ewall-Wice}}, \citenamefont {{Magro}}, \citenamefont
+  {{Matejek}}, \citenamefont {{Morgan}}, \citenamefont {{Neben}}, \citenamefont
+  {{Pan}}, \citenamefont {{Penna}}, \citenamefont {{Peterson}}, \citenamefont
+  {{Su}}, \citenamefont {{Villasenor}}, \citenamefont {{Williams}},\ and\
+  \citenamefont {{Zhu}}}]{zhe14}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {{Zheng}}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {{Tegmark}}},
+  \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {{Buza}}}, \bibinfo
+  {author} {\bibfnamefont {J.~S.}\ \bibnamefont {{Dillon}}}, \bibinfo {author}
+  {\bibfnamefont {H.}~\bibnamefont {{Gharibyan}}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {{Hickish}}}, \bibinfo {author}
+  {\bibfnamefont {E.}~\bibnamefont {{Kunz}}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {{Liu}}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {{Losh}}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {{Lutomirski}}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {{Morrison}}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {{Narayanan}}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {{Perko}}}, \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {{Rosner}}}, \bibinfo {author} {\bibfnamefont
+  {N.}~\bibnamefont {{Sanchez}}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {{Schutz}}}, \bibinfo {author} {\bibfnamefont {S.~M.}\
+  \bibnamefont {{Tribiano}}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {{Valdez}}}, \bibinfo {author} {\bibfnamefont
+  {H.}~\bibnamefont {{Yang}}}, \bibinfo {author} {\bibfnamefont {K.~Z.}\
+  \bibnamefont {{Adami}}}, \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {{Zelko}}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {{Zheng}}},
+  \bibinfo {author} {\bibfnamefont {R.~P.}\ \bibnamefont {{Armstrong}}},
+  \bibinfo {author} {\bibfnamefont {R.~F.}\ \bibnamefont {{Bradley}}}, \bibinfo
+  {author} {\bibfnamefont {M.~R.}\ \bibnamefont {{Dexter}}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {{Ewall-Wice}}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {{Magro}}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {{Matejek}}}, \bibinfo {author} {\bibfnamefont
+  {E.}~\bibnamefont {{Morgan}}}, \bibinfo {author} {\bibfnamefont {A.~R.}\
+  \bibnamefont {{Neben}}}, \bibinfo {author} {\bibfnamefont {Q.}~\bibnamefont
+  {{Pan}}}, \bibinfo {author} {\bibfnamefont {R.~F.}\ \bibnamefont {{Penna}}},
+  \bibinfo {author} {\bibfnamefont {C.~M.}\ \bibnamefont {{Peterson}}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {{Su}}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {{Villasenor}}}, \bibinfo {author}
+  {\bibfnamefont {C.~L.}\ \bibnamefont {{Williams}}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {Y.}~\bibnamefont {{Zhu}}},\ }\href {\doibase
+  10.1093/mnras/stu1773} {\bibfield  {journal} {\bibinfo  {journal} {\mnras}\
+  }\textbf {\bibinfo {volume} {445}},\ \bibinfo {pages} {1084} (\bibinfo {year}
+  {2014})},\ \Eprint {http://arxiv.org/abs/1405.5527} {arXiv:1405.5527
+  [astro-ph.IM]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Barry}}\ \emph {et~al.}(2016)\citenamefont
+  {{Barry}}, \citenamefont {{Hazelton}}, \citenamefont {{Sullivan}},
+  \citenamefont {{Morales}},\ and\ \citenamefont {{Pober}}}]{barry16}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {{Barry}}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {{Hazelton}}},
+  \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {{Sullivan}}}, \bibinfo
+  {author} {\bibfnamefont {M.~F.}\ \bibnamefont {{Morales}}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {J.~C.}\ \bibnamefont {{Pober}}},\ }\href {\doibase
+  10.1093/mnras/stw1380} {\bibfield  {journal} {\bibinfo  {journal} {\mnras}\
+  }\textbf {\bibinfo {volume} {461}},\ \bibinfo {pages} {3135} (\bibinfo {year}
+  {2016})},\ \Eprint {http://arxiv.org/abs/1603.00607} {arXiv:1603.00607
+  [astro-ph.IM]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Sievers}}(2017)}]{sie17}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~L.}\ \bibnamefont
+  {{Sievers}}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {ArXiv e-prints}\ } (\bibinfo {year} {2017})},\ \Eprint
+  {http://arxiv.org/abs/1701.01860} {arXiv:1701.01860 [astro-ph.IM]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Dillon}}\ \emph {et~al.}(2017)\citenamefont
+  {{Dillon}}, \citenamefont {{Kohn}}, \citenamefont {{Parsons}}, \citenamefont
+  {{Aguirre}}, \citenamefont {{Ali}}, \citenamefont {{Bernardi}}, \citenamefont
+  {{Kern}}, \citenamefont {{Li}}, \citenamefont {{Liu}}, \citenamefont
+  {{Nunhokee}},\ and\ \citenamefont {{Pober}}}]{dil17}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~S.}\ \bibnamefont
+  {{Dillon}}}, \bibinfo {author} {\bibfnamefont {S.~A.}\ \bibnamefont
+  {{Kohn}}}, \bibinfo {author} {\bibfnamefont {A.~R.}\ \bibnamefont
+  {{Parsons}}}, \bibinfo {author} {\bibfnamefont {J.~E.}\ \bibnamefont
+  {{Aguirre}}}, \bibinfo {author} {\bibfnamefont {Z.~S.}\ \bibnamefont
+  {{Ali}}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {{Bernardi}}},
+  \bibinfo {author} {\bibfnamefont {N.~S.}\ \bibnamefont {{Kern}}}, \bibinfo
+  {author} {\bibfnamefont {W.}~\bibnamefont {{Li}}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {{Liu}}}, \bibinfo {author} {\bibfnamefont
+  {C.~D.}\ \bibnamefont {{Nunhokee}}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {J.~C.}\ \bibnamefont {{Pober}}},\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {ArXiv e-prints}\ } (\bibinfo {year} {2017})},\ \Eprint
+  {http://arxiv.org/abs/1712.07212} {arXiv:1712.07212 [astro-ph.IM]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Carilli}}\ and\ \citenamefont
+  {{Sims}}(2016)}]{car16}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~L.}\ \bibnamefont
+  {{Carilli}}}\ and\ \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {{Sims}}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {ArXiv
+  e-prints}\ } (\bibinfo {year} {2016})},\ \Eprint
+  {http://arxiv.org/abs/1607.00147} {arXiv:1607.00147 [astro-ph.IM]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Bandura}}\ \emph {et~al.}(2014)\citenamefont
+  {{Bandura}}, \citenamefont {{Addison}}, \citenamefont {{Amiri}},
+  \citenamefont {{Bond}}, \citenamefont {{Campbell-Wilson}}, \citenamefont
+  {{Connor}}, \citenamefont {{Cliche}}, \citenamefont {{Davis}}, \citenamefont
+  {{Deng}}, \citenamefont {{Denman}}, \citenamefont {{Dobbs}}, \citenamefont
+  {{Fandino}}, \citenamefont {{Gibbs}}, \citenamefont {{Gilbert}},
+  \citenamefont {{Halpern}}, \citenamefont {{Hanna}}, \citenamefont {{Hincks}},
+  \citenamefont {{Hinshaw}}, \citenamefont {{H{\"o}fer}}, \citenamefont
+  {{Klages}}, \citenamefont {{Landecker}}, \citenamefont {{Masui}},
+  \citenamefont {{Mena Parra}}, \citenamefont {{Newburgh}}, \citenamefont
+  {{Pen}}, \citenamefont {{Peterson}}, \citenamefont {{Recnik}}, \citenamefont
+  {{Shaw}}, \citenamefont {{Sigurdson}}, \citenamefont {{Sitwell}},
+  \citenamefont {{Smecher}}, \citenamefont {{Smegal}}, \citenamefont
+  {{Vanderlinde}},\ and\ \citenamefont {{Wiebe}}}]{ban14}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {{Bandura}}}, \bibinfo {author} {\bibfnamefont {G.~E.}\ \bibnamefont
+  {{Addison}}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {{Amiri}}},
+  \bibinfo {author} {\bibfnamefont {J.~R.}\ \bibnamefont {{Bond}}}, \bibinfo
+  {author} {\bibfnamefont {D.}~\bibnamefont {{Campbell-Wilson}}}, \bibinfo
+  {author} {\bibfnamefont {L.}~\bibnamefont {{Connor}}}, \bibinfo {author}
+  {\bibfnamefont {J.-F.}\ \bibnamefont {{Cliche}}}, \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {{Davis}}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {{Deng}}}, \bibinfo {author} {\bibfnamefont
+  {N.}~\bibnamefont {{Denman}}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {{Dobbs}}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {{Fandino}}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {{Gibbs}}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {{Gilbert}}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {{Halpern}}}, \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {{Hanna}}}, \bibinfo {author} {\bibfnamefont {A.~D.}\
+  \bibnamefont {{Hincks}}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {{Hinshaw}}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {{H{\"o}fer}}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {{Klages}}}, \bibinfo {author} {\bibfnamefont {T.~L.}\ \bibnamefont
+  {{Landecker}}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {{Masui}}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {{Mena
+  Parra}}}, \bibinfo {author} {\bibfnamefont {L.~B.}\ \bibnamefont
+  {{Newburgh}}}, \bibinfo {author} {\bibfnamefont {U.-l.}\ \bibnamefont
+  {{Pen}}}, \bibinfo {author} {\bibfnamefont {J.~B.}\ \bibnamefont
+  {{Peterson}}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {{Recnik}}}, \bibinfo {author} {\bibfnamefont {J.~R.}\ \bibnamefont
+  {{Shaw}}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {{Sigurdson}}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {{Sitwell}}}, \bibinfo
+  {author} {\bibfnamefont {G.}~\bibnamefont {{Smecher}}}, \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {{Smegal}}}, \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {{Vanderlinde}}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {{Wiebe}}},\ }in\ \href {\doibase
+  10.1117/12.2054950} {\emph {\bibinfo {booktitle} {Ground-based and Airborne
+  Telescopes V}}},\ \bibinfo {series} {\procspie}, Vol.\ \bibinfo {volume}
+  {9145}\ (\bibinfo {year} {2014})\ p.\ \bibinfo {pages} {914522},\ \Eprint
+  {http://arxiv.org/abs/1406.2288} {arXiv:1406.2288 [astro-ph.IM]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{Newburgh}}\ \emph {et~al.}(2016)\citenamefont
+  {{Newburgh}}, \citenamefont {{Bandura}}, \citenamefont {{Bucher}},
+  \citenamefont {{Chang}}, \citenamefont {{Chiang}}, \citenamefont {{Cliche}},
+  \citenamefont {{Dav{\'e}}}, \citenamefont {{Dobbs}}, \citenamefont
+  {{Clarkson}}, \citenamefont {{Ganga}}, \citenamefont {{Gogo}}, \citenamefont
+  {{Gumba}}, \citenamefont {{Gupta}}, \citenamefont {{Hilton}}, \citenamefont
+  {{Johnstone}}, \citenamefont {{Karastergiou}}, \citenamefont {{Kunz}},
+  \citenamefont {{Lokhorst}}, \citenamefont {{Maartens}}, \citenamefont
+  {{Macpherson}}, \citenamefont {{Mdlalose}}, \citenamefont {{Moodley}},
+  \citenamefont {{Ngwenya}}, \citenamefont {{Parra}}, \citenamefont
+  {{Peterson}}, \citenamefont {{Recnik}}, \citenamefont {{Saliwanchik}},
+  \citenamefont {{Santos}}, \citenamefont {{Sievers}}, \citenamefont
+  {{Smirnov}}, \citenamefont {{Stronkhorst}}, \citenamefont {{Taylor}},
+  \citenamefont {{Vanderlinde}}, \citenamefont {{Van Vuuren}}, \citenamefont
+  {{Weltman}},\ and\ \citenamefont {{Witzemann}}}]{new16}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~B.}\ \bibnamefont
+  {{Newburgh}}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {{Bandura}}}, \bibinfo {author} {\bibfnamefont {M.~A.}\ \bibnamefont
+  {{Bucher}}}, \bibinfo {author} {\bibfnamefont {T.-C.}\ \bibnamefont
+  {{Chang}}}, \bibinfo {author} {\bibfnamefont {H.~C.}\ \bibnamefont
+  {{Chiang}}}, \bibinfo {author} {\bibfnamefont {J.~F.}\ \bibnamefont
+  {{Cliche}}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {{Dav{\'e}}}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {{Dobbs}}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {{Clarkson}}}, \bibinfo
+  {author} {\bibfnamefont {K.~M.}\ \bibnamefont {{Ganga}}}, \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {{Gogo}}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {{Gumba}}}, \bibinfo {author} {\bibfnamefont
+  {N.}~\bibnamefont {{Gupta}}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {{Hilton}}}, \bibinfo {author} {\bibfnamefont
+  {B.}~\bibnamefont {{Johnstone}}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {{Karastergiou}}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {{Kunz}}}, \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {{Lokhorst}}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {{Maartens}}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {{Macpherson}}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {{Mdlalose}}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {{Moodley}}}, \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {{Ngwenya}}}, \bibinfo {author} {\bibfnamefont {J.~M.}\
+  \bibnamefont {{Parra}}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {{Peterson}}}, \bibinfo {author} {\bibfnamefont {O.}~\bibnamefont
+  {{Recnik}}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {{Saliwanchik}}}, \bibinfo {author} {\bibfnamefont {M.~G.}\ \bibnamefont
+  {{Santos}}}, \bibinfo {author} {\bibfnamefont {J.~L.}\ \bibnamefont
+  {{Sievers}}}, \bibinfo {author} {\bibfnamefont {O.}~\bibnamefont
+  {{Smirnov}}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {{Stronkhorst}}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {{Taylor}}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {{Vanderlinde}}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {{Van
+  Vuuren}}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {{Weltman}}}, \
+  and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {{Witzemann}}},\ }in\
+  \href {\doibase 10.1117/12.2234286} {\emph {\bibinfo {booktitle}
+  {Ground-based and Airborne Telescopes VI}}},\ \bibinfo {series} {\procspie},
+  Vol.\ \bibinfo {volume} {9906}\ (\bibinfo {year} {2016})\ p.\ \bibinfo
+  {pages} {99065X},\ \Eprint {http://arxiv.org/abs/1607.02059}
+  {arXiv:1607.02059 [astro-ph.IM]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Xu}}\ \emph {et~al.}(2015)\citenamefont {{Xu}},
+  \citenamefont {{Wang}},\ and\ \citenamefont {{Chen}}}]{xu15}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {{Xu}}}, \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont {{Wang}}}, \ and\
+  \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont {{Chen}}},\ }\href
+  {\doibase 10.1088/0004-637X/798/1/40} {\bibfield  {journal} {\bibinfo
+  {journal} {\apj}\ }\textbf {\bibinfo {volume} {798}},\ \bibinfo {eid} {40}
+  (\bibinfo {year} {2015})},\ \Eprint {http://arxiv.org/abs/1410.7794}
+  {arXiv:1410.7794} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Jennison}}(1958)}]{jen58}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~C.}\ \bibnamefont
+  {{Jennison}}},\ }\href {\doibase 10.1093/mnras/118.3.276} {\bibfield
+  {journal} {\bibinfo  {journal} {\mnras}\ }\textbf {\bibinfo {volume} {118}},\
+  \bibinfo {pages} {276} (\bibinfo {year} {1958})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Kulkarni}}(1989)}]{kul89}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~R.}\ \bibnamefont
+  {{Kulkarni}}},\ }\href {\doibase 10.1086/115202} {\bibfield  {journal}
+  {\bibinfo  {journal} {\aj}\ }\textbf {\bibinfo {volume} {98}},\ \bibinfo
+  {pages} {1112} (\bibinfo {year} {1989})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Taylor}}\ \emph {et~al.}(1999)\citenamefont
+  {{Taylor}}, \citenamefont {{Carilli}},\ and\ \citenamefont
+  {{Perley}}}]{tay99}%
+  \BibitemOpen
+  \bibinfo {editor} {\bibfnamefont {G.~B.}\ \bibnamefont {{Taylor}}}, \bibinfo
+  {editor} {\bibfnamefont {C.~L.}\ \bibnamefont {{Carilli}}}, \ and\ \bibinfo
+  {editor} {\bibfnamefont {R.~A.}\ \bibnamefont {{Perley}}},\ eds.,\ \href@noop
+  {} {\emph {\bibinfo {title} {Synthesis Imaging in Radio Astronomy II}}},\
+  \bibinfo {series} {Astronomical Society of the Pacific Conference Series},
+  Vol.\ \bibinfo {volume} {180}\ (\bibinfo {year} {1999})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Thompson}}\ \emph {et~al.}(2001)\citenamefont
+  {{Thompson}}, \citenamefont {{Moran}},\ and\ \citenamefont
+  {{Swenson}}}]{tho01}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~R.}\ \bibnamefont
+  {{Thompson}}}, \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
+  {{Moran}}}, \ and\ \bibinfo {author} {\bibfnamefont {G.~W.}\ \bibnamefont
+  {{Swenson}}, \bibfnamefont {Jr.}},\ }\href@noop {} {\emph {\bibinfo {title}
+  {''Interferometry and synthesis in radio astronomy by A.~Richard Thompson,
+  James M.~Moran, and George W.~Swenson, Jr.~2nd ed.~ New York : Wiley,
+  c2001.xxiii, 692 p.~: ill.~; 25 cm.~''A Wiley-Interscience publication.''
+  Includes bibliographical references and indexes.~ISBN : 0471254924''}}}\
+  (\bibinfo  {publisher} {Wiley},\ \bibinfo {year} {2001})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{Monnier}}\ \emph {et~al.}(2006)\citenamefont
+  {{Monnier}}, \citenamefont {{Berger}}, \citenamefont {{Millan-Gabet}},
+  \citenamefont {{Traub}}, \citenamefont {{Schloerb}}, \citenamefont
+  {{Pedretti}}, \citenamefont {{Benisty}}, \citenamefont {{Carleton}},
+  \citenamefont {{Haguenauer}}, \citenamefont {{Kern}}, \citenamefont
+  {{Labeye}}, \citenamefont {{Lacasse}}, \citenamefont {{Malbet}},
+  \citenamefont {{Perraut}}, \citenamefont {{Pearlman}},\ and\ \citenamefont
+  {{Zhao}}}]{mon06}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~D.}\ \bibnamefont
+  {{Monnier}}}, \bibinfo {author} {\bibfnamefont {J.-P.}\ \bibnamefont
+  {{Berger}}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {{Millan-Gabet}}}, \bibinfo {author} {\bibfnamefont {W.~A.}\ \bibnamefont
+  {{Traub}}}, \bibinfo {author} {\bibfnamefont {F.~P.}\ \bibnamefont
+  {{Schloerb}}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {{Pedretti}}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {{Benisty}}}, \bibinfo {author} {\bibfnamefont {N.~P.}\ \bibnamefont
+  {{Carleton}}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {{Haguenauer}}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {{Kern}}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {{Labeye}}},
+  \bibinfo {author} {\bibfnamefont {M.~G.}\ \bibnamefont {{Lacasse}}}, \bibinfo
+  {author} {\bibfnamefont {F.}~\bibnamefont {{Malbet}}}, \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {{Perraut}}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {{Pearlman}}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {{Zhao}}},\ }\href {\doibase 10.1086/505340}
+  {\bibfield  {journal} {\bibinfo  {journal} {\apj}\ }\textbf {\bibinfo
+  {volume} {647}},\ \bibinfo {pages} {444} (\bibinfo {year} {2006})},\ \Eprint
+  {http://arxiv.org/abs/astro-ph/0606052} {astro-ph/0606052} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{Carilli}}\ \emph {et~al.}(2018)\citenamefont
+  {{Carilli}}, \citenamefont {{Nikolic}}, \citenamefont {{Thyagarajan}},\ and\
+  \citenamefont {{others}}}]{car18}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~L.}\ \bibnamefont
+  {{Carilli}}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {{Nikolic}}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {{Thyagarajan}}}, \ and\ \bibinfo {author} {\bibnamefont {{others}}},\
+  }\href@noop {} {} (\bibinfo {year} {2018}),\ \bibinfo {note} {accepted in
+  Radio Science}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Monnier}}(2007)}]{mon07}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~D.}\ \bibnamefont
+  {{Monnier}}},\ }\href {\doibase 10.1016/j.newar.2007.06.006} {\bibfield
+  {journal} {\bibinfo  {journal} {\nar}\ }\textbf {\bibinfo {volume} {51}},\
+  \bibinfo {pages} {604} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Crane}}\ and\ \citenamefont
+  {{Napier}}(1989)}]{cra89}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~C.}\ \bibnamefont
+  {{Crane}}}\ and\ \bibinfo {author} {\bibfnamefont {P.~J.}\ \bibnamefont
+  {{Napier}}},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {Synthesis
+  Imaging in Radio Astronomy}}},\ \bibinfo {series} {Astronomical Society of
+  the Pacific Conference Series}, Vol.~\bibinfo {volume} {6},\ \bibinfo
+  {editor} {edited by\ \bibinfo {editor} {\bibfnamefont {R.~A.}\ \bibnamefont
+  {{Perley}}}, \bibinfo {editor} {\bibfnamefont {F.~R.}\ \bibnamefont
+  {{Schwab}}}, \ and\ \bibinfo {editor} {\bibfnamefont {A.~H.}\ \bibnamefont
+  {{Bridle}}}}\ (\bibinfo {year} {1989})\ p.\ \bibinfo {pages}
+  {139}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{DeBoer}}\ \emph {et~al.}(2017)\citenamefont
+  {{DeBoer}}, \citenamefont {{Parsons}}, \citenamefont {{Aguirre}},
+  \citenamefont {{Alexander}}, \citenamefont {{Ali}}, \citenamefont
+  {{Beardsley}}, \citenamefont {{Bernardi}}, \citenamefont {{Bowman}},
+  \citenamefont {{Bradley}}, \citenamefont {{Carilli}}, \citenamefont
+  {{Cheng}}, \citenamefont {{de Lera Acedo}}, \citenamefont {{Dillon}},
+  \citenamefont {{Ewall-Wice}}, \citenamefont {{Fadana}}, \citenamefont
+  {{Fagnoni}}, \citenamefont {{Fritz}}, \citenamefont {{Furlanetto}},
+  \citenamefont {{Glendenning}}, \citenamefont {{Greig}}, \citenamefont
+  {{Grobbelaar}}, \citenamefont {{Hazelton}}, \citenamefont {{Hewitt}},
+  \citenamefont {{Hickish}}, \citenamefont {{Jacobs}}, \citenamefont
+  {{Julius}}, \citenamefont {{Kariseb}}, \citenamefont {{Kohn}}, \citenamefont
+  {{Lekalake}}, \citenamefont {{Liu}}, \citenamefont {{Loots}}, \citenamefont
+  {{MacMahon}}, \citenamefont {{Malan}}, \citenamefont {{Malgas}},
+  \citenamefont {{Maree}}, \citenamefont {{Martinot}}, \citenamefont
+  {{Mathison}}, \citenamefont {{Matsetela}}, \citenamefont {{Mesinger}},
+  \citenamefont {{Morales}}, \citenamefont {{Neben}}, \citenamefont {{Patra}},
+  \citenamefont {{Pieterse}}, \citenamefont {{Pober}}, \citenamefont
+  {{Razavi-Ghods}}, \citenamefont {{Ringuette}}, \citenamefont {{Robnett}},
+  \citenamefont {{Rosie}}, \citenamefont {{Sell}}, \citenamefont {{Smith}},
+  \citenamefont {{Syce}}, \citenamefont {{Tegmark}}, \citenamefont
+  {{Thyagarajan}}, \citenamefont {{Williams}},\ and\ \citenamefont
+  {{Zheng}}}]{deb17}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~R.}\ \bibnamefont
+  {{DeBoer}}}, \bibinfo {author} {\bibfnamefont {A.~R.}\ \bibnamefont
+  {{Parsons}}}, \bibinfo {author} {\bibfnamefont {J.~E.}\ \bibnamefont
+  {{Aguirre}}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {{Alexander}}}, \bibinfo {author} {\bibfnamefont {Z.~S.}\ \bibnamefont
+  {{Ali}}}, \bibinfo {author} {\bibfnamefont {A.~P.}\ \bibnamefont
+  {{Beardsley}}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {{Bernardi}}}, \bibinfo {author} {\bibfnamefont {J.~D.}\ \bibnamefont
+  {{Bowman}}}, \bibinfo {author} {\bibfnamefont {R.~F.}\ \bibnamefont
+  {{Bradley}}}, \bibinfo {author} {\bibfnamefont {C.~L.}\ \bibnamefont
+  {{Carilli}}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {{Cheng}}},
+  \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {{de Lera Acedo}}},
+  \bibinfo {author} {\bibfnamefont {J.~S.}\ \bibnamefont {{Dillon}}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {{Ewall-Wice}}}, \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {{Fadana}}}, \bibinfo {author}
+  {\bibfnamefont {N.}~\bibnamefont {{Fagnoni}}}, \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {{Fritz}}}, \bibinfo {author} {\bibfnamefont
+  {S.~R.}\ \bibnamefont {{Furlanetto}}}, \bibinfo {author} {\bibfnamefont
+  {B.}~\bibnamefont {{Glendenning}}}, \bibinfo {author} {\bibfnamefont
+  {B.}~\bibnamefont {{Greig}}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {{Grobbelaar}}}, \bibinfo {author} {\bibfnamefont {B.~J.}\
+  \bibnamefont {{Hazelton}}}, \bibinfo {author} {\bibfnamefont {J.~N.}\
+  \bibnamefont {{Hewitt}}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {{Hickish}}}, \bibinfo {author} {\bibfnamefont {D.~C.}\ \bibnamefont
+  {{Jacobs}}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {{Julius}}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {{Kariseb}}}, \bibinfo
+  {author} {\bibfnamefont {S.~A.}\ \bibnamefont {{Kohn}}}, \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {{Lekalake}}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {{Liu}}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {{Loots}}}, \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {{MacMahon}}}, \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {{Malan}}}, \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {{Malgas}}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {{Maree}}}, \bibinfo {author} {\bibfnamefont
+  {Z.}~\bibnamefont {{Martinot}}}, \bibinfo {author} {\bibfnamefont
+  {N.}~\bibnamefont {{Mathison}}}, \bibinfo {author} {\bibfnamefont
+  {E.}~\bibnamefont {{Matsetela}}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {{Mesinger}}}, \bibinfo {author} {\bibfnamefont {M.~F.}\
+  \bibnamefont {{Morales}}}, \bibinfo {author} {\bibfnamefont {A.~R.}\
+  \bibnamefont {{Neben}}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {{Patra}}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {{Pieterse}}},
+  \bibinfo {author} {\bibfnamefont {J.~C.}\ \bibnamefont {{Pober}}}, \bibinfo
+  {author} {\bibfnamefont {N.}~\bibnamefont {{Razavi-Ghods}}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {{Ringuette}}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {{Robnett}}}, \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {{Rosie}}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {{Sell}}}, \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {{Smith}}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {{Syce}}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {{Tegmark}}}, \bibinfo {author} {\bibfnamefont
+  {N.}~\bibnamefont {{Thyagarajan}}}, \bibinfo {author} {\bibfnamefont
+  {P.~K.~G.}\ \bibnamefont {{Williams}}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {H.}~\bibnamefont {{Zheng}}},\ }\href {\doibase
+  10.1088/1538-3873/129/974/045001} {\bibfield  {journal} {\bibinfo  {journal}
+  {\pasp}\ }\textbf {\bibinfo {volume} {129}},\ \bibinfo {pages} {045001}
+  (\bibinfo {year} {2017})},\ \Eprint {http://arxiv.org/abs/1606.07473}
+  {arXiv:1606.07473 [astro-ph.IM]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Ewall-Wice}}\ \emph {et~al.}(2016)\citenamefont
+  {{Ewall-Wice}}, \citenamefont {{Bradley}}, \citenamefont {{DeBoer}},
+  \citenamefont {{Hewitt}}, \citenamefont {{Parsons}}, \citenamefont
+  {{Aguirre}}, \citenamefont {{Ali}}, \citenamefont {{Bowman}}, \citenamefont
+  {{Cheng}}, \citenamefont {{Neben}}, \citenamefont {{Patra}}, \citenamefont
+  {{Thyagarajan}}, \citenamefont {{Venter}}, \citenamefont {{de Lera Acedo}},
+  \citenamefont {{Dillon}}, \citenamefont {{Doolittle}}, \citenamefont
+  {{Egan}}, \citenamefont {{Hendrick}}, \citenamefont {{Klima}}, \citenamefont
+  {{Kohn}}, \citenamefont {{Schaffner}}, \citenamefont {{Shelton}},
+  \citenamefont {{Saliwanchik}}, \citenamefont {{Tegmark}}, \citenamefont
+  {{Taylor}}, \citenamefont {{Taylor}},\ and\ \citenamefont {{Wirt}}}]{ewa16}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {{Ewall-Wice}}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {{Bradley}}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {{DeBoer}}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {{Hewitt}}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {{Parsons}}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {{Aguirre}}}, \bibinfo {author}
+  {\bibfnamefont {Z.~S.}\ \bibnamefont {{Ali}}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {{Bowman}}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {{Cheng}}}, \bibinfo {author} {\bibfnamefont
+  {A.~R.}\ \bibnamefont {{Neben}}}, \bibinfo {author} {\bibfnamefont
+  {N.}~\bibnamefont {{Patra}}}, \bibinfo {author} {\bibfnamefont
+  {N.}~\bibnamefont {{Thyagarajan}}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {{Venter}}}, \bibinfo {author} {\bibfnamefont
+  {E.}~\bibnamefont {{de Lera Acedo}}}, \bibinfo {author} {\bibfnamefont
+  {J.~S.}\ \bibnamefont {{Dillon}}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {{Doolittle}}}, \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {{Egan}}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {{Hendrick}}}, \bibinfo {author} {\bibfnamefont
+  {P.}~\bibnamefont {{Klima}}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {{Kohn}}}, \bibinfo {author} {\bibfnamefont
+  {P.}~\bibnamefont {{Schaffner}}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {{Shelton}}}, \bibinfo {author} {\bibfnamefont
+  {B.}~\bibnamefont {{Saliwanchik}}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {{Tegmark}}}, \bibinfo {author} {\bibfnamefont {H.~A.}\
+  \bibnamefont {{Taylor}}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {{Taylor}}}, \ and\ \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {{Wirt}}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {ArXiv
+  e-prints}\ } (\bibinfo {year} {2016})},\ \Eprint
+  {http://arxiv.org/abs/1602.06277} {arXiv:1602.06277} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Neben}}\ \emph {et~al.}(2016)\citenamefont
+  {{Neben}}, \citenamefont {{Bradley}}, \citenamefont {{Hewitt}}, \citenamefont
+  {{DeBoer}}, \citenamefont {{Parsons}}, \citenamefont {{Aguirre}},
+  \citenamefont {{Ali}}, \citenamefont {{Cheng}}, \citenamefont {{Ewall-Wice}},
+  \citenamefont {{Patra}}, \citenamefont {{Thyagarajan}}, \citenamefont
+  {{Bowman}}, \citenamefont {{Dickenson}}, \citenamefont {{Dillon}},
+  \citenamefont {{Doolittle}}, \citenamefont {{Egan}}, \citenamefont
+  {{Hedrick}}, \citenamefont {{Jacobs}}, \citenamefont {{Kohn}}, \citenamefont
+  {{Klima}}, \citenamefont {{Moodley}}, \citenamefont {{Saliwanchik}},
+  \citenamefont {{Schaffner}}, \citenamefont {{Shelton}}, \citenamefont
+  {{Taylor}}, \citenamefont {{Taylor}}, \citenamefont {{Tegmark}},
+  \citenamefont {{Wirt}},\ and\ \citenamefont {{Zheng}}}]{neb16}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~R.}\ \bibnamefont
+  {{Neben}}}, \bibinfo {author} {\bibfnamefont {R.~F.}\ \bibnamefont
+  {{Bradley}}}, \bibinfo {author} {\bibfnamefont {J.~N.}\ \bibnamefont
+  {{Hewitt}}}, \bibinfo {author} {\bibfnamefont {D.~R.}\ \bibnamefont
+  {{DeBoer}}}, \bibinfo {author} {\bibfnamefont {A.~R.}\ \bibnamefont
+  {{Parsons}}}, \bibinfo {author} {\bibfnamefont {J.~E.}\ \bibnamefont
+  {{Aguirre}}}, \bibinfo {author} {\bibfnamefont {Z.~S.}\ \bibnamefont
+  {{Ali}}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {{Cheng}}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {{Ewall-Wice}}}, \bibinfo
+  {author} {\bibfnamefont {N.}~\bibnamefont {{Patra}}}, \bibinfo {author}
+  {\bibfnamefont {N.}~\bibnamefont {{Thyagarajan}}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {{Bowman}}}, \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {{Dickenson}}}, \bibinfo {author}
+  {\bibfnamefont {J.~S.}\ \bibnamefont {{Dillon}}}, \bibinfo {author}
+  {\bibfnamefont {P.}~\bibnamefont {{Doolittle}}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {{Egan}}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {{Hedrick}}}, \bibinfo {author} {\bibfnamefont {D.~C.}\
+  \bibnamefont {{Jacobs}}}, \bibinfo {author} {\bibfnamefont {S.~A.}\
+  \bibnamefont {{Kohn}}}, \bibinfo {author} {\bibfnamefont {P.~J.}\
+  \bibnamefont {{Klima}}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {{Moodley}}}, \bibinfo {author} {\bibfnamefont {B.~R.~B.}\ \bibnamefont
+  {{Saliwanchik}}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {{Schaffner}}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {{Shelton}}}, \bibinfo {author} {\bibfnamefont {H.~A.}\ \bibnamefont
+  {{Taylor}}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {{Taylor}}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {{Tegmark}}}, \bibinfo
+  {author} {\bibfnamefont {B.}~\bibnamefont {{Wirt}}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {H.}~\bibnamefont {{Zheng}}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {ArXiv e-prints}\ } (\bibinfo {year}
+  {2016})},\ \Eprint {http://arxiv.org/abs/1602.03887} {arXiv:1602.03887
+  [astro-ph.IM]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Patra}}\ \emph {et~al.}(2017)\citenamefont
+  {{Patra}}, \citenamefont {{Parsons}}, \citenamefont {{DeBoer}}, \citenamefont
+  {{Thyagarajan}}, \citenamefont {{Ewall-Wice}}, \citenamefont {{Hsyu}},
+  \citenamefont {{Kuk Leung}}, \citenamefont {{Day}}, \citenamefont
+  {{Aguirre}}, \citenamefont {{Alexander}}, \citenamefont {{Ali}},
+  \citenamefont {{Beardsley}}, \citenamefont {{Bowman}}, \citenamefont
+  {{Bradley}}, \citenamefont {{Carilli}}, \citenamefont {{Cheng}},
+  \citenamefont {{de Lera Acedo}}, \citenamefont {{Dillon}}, \citenamefont
+  {{Fadana}}, \citenamefont {{Fagnoni}}, \citenamefont {{Fritz}}, \citenamefont
+  {{Furlanetto}}, \citenamefont {{Glendenning}}, \citenamefont {{Greig}},
+  \citenamefont {{Grobbelaar}}, \citenamefont {{Hazelton}}, \citenamefont
+  {{Hewitt}}, \citenamefont {{Jacobs}}, \citenamefont {{Julius}}, \citenamefont
+  {{Kariseb}}, \citenamefont {{Kohn}}, \citenamefont {{Lebedeva}},
+  \citenamefont {{Lekalake}}, \citenamefont {{Liu}}, \citenamefont {{Loots}},
+  \citenamefont {{MacMahon}}, \citenamefont {{Malan}}, \citenamefont
+  {{Malgas}}, \citenamefont {{Maree}}, \citenamefont {{Martinot}},
+  \citenamefont {{Mathison}}, \citenamefont {{Matsetela}}, \citenamefont
+  {{Mesinger}}, \citenamefont {{Morales}}, \citenamefont {{Neben}},
+  \citenamefont {{Pieterse}}, \citenamefont {{Pober}}, \citenamefont
+  {{Razavi-Ghods}}, \citenamefont {{Ringuette}}, \citenamefont {{Robnett}},
+  \citenamefont {{Rosie}}, \citenamefont {{Sell}}, \citenamefont {{Smith}},
+  \citenamefont {{Syce}}, \citenamefont {{Tegmark}}, \citenamefont
+  {{Williams}},\ and\ \citenamefont {{Zheng}}}]{patra17}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {{Patra}}}, \bibinfo {author} {\bibfnamefont {A.~R.}\ \bibnamefont
+  {{Parsons}}}, \bibinfo {author} {\bibfnamefont {D.~R.}\ \bibnamefont
+  {{DeBoer}}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {{Thyagarajan}}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {{Ewall-Wice}}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {{Hsyu}}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {{Kuk Leung}}},
+  \bibinfo {author} {\bibfnamefont {C.~K.}\ \bibnamefont {{Day}}}, \bibinfo
+  {author} {\bibfnamefont {J.~E.}\ \bibnamefont {{Aguirre}}}, \bibinfo {author}
+  {\bibfnamefont {P.}~\bibnamefont {{Alexander}}}, \bibinfo {author}
+  {\bibfnamefont {Z.~S.}\ \bibnamefont {{Ali}}}, \bibinfo {author}
+  {\bibfnamefont {A.~P.}\ \bibnamefont {{Beardsley}}}, \bibinfo {author}
+  {\bibfnamefont {J.~D.}\ \bibnamefont {{Bowman}}}, \bibinfo {author}
+  {\bibfnamefont {R.~F.}\ \bibnamefont {{Bradley}}}, \bibinfo {author}
+  {\bibfnamefont {C.~L.}\ \bibnamefont {{Carilli}}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {{Cheng}}}, \bibinfo {author} {\bibfnamefont
+  {E.}~\bibnamefont {{de Lera Acedo}}}, \bibinfo {author} {\bibfnamefont
+  {J.~S.}\ \bibnamefont {{Dillon}}}, \bibinfo {author} {\bibfnamefont
+  {G.}~\bibnamefont {{Fadana}}}, \bibinfo {author} {\bibfnamefont
+  {N.}~\bibnamefont {{Fagnoni}}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {{Fritz}}}, \bibinfo {author} {\bibfnamefont {S.~R.}\
+  \bibnamefont {{Furlanetto}}}, \bibinfo {author} {\bibfnamefont
+  {B.}~\bibnamefont {{Glendenning}}}, \bibinfo {author} {\bibfnamefont
+  {B.}~\bibnamefont {{Greig}}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {{Grobbelaar}}}, \bibinfo {author} {\bibfnamefont {B.~J.}\
+  \bibnamefont {{Hazelton}}}, \bibinfo {author} {\bibfnamefont {J.~N.}\
+  \bibnamefont {{Hewitt}}}, \bibinfo {author} {\bibfnamefont {D.~C.}\
+  \bibnamefont {{Jacobs}}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {{Julius}}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {{Kariseb}}},
+  \bibinfo {author} {\bibfnamefont {S.~A.}\ \bibnamefont {{Kohn}}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {{Lebedeva}}}, \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {{Lekalake}}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {{Liu}}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {{Loots}}}, \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {{MacMahon}}}, \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {{Malan}}}, \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {{Malgas}}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {{Maree}}}, \bibinfo {author} {\bibfnamefont
+  {Z.}~\bibnamefont {{Martinot}}}, \bibinfo {author} {\bibfnamefont
+  {N.}~\bibnamefont {{Mathison}}}, \bibinfo {author} {\bibfnamefont
+  {E.}~\bibnamefont {{Matsetela}}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {{Mesinger}}}, \bibinfo {author} {\bibfnamefont {M.~F.}\
+  \bibnamefont {{Morales}}}, \bibinfo {author} {\bibfnamefont {A.~R.}\
+  \bibnamefont {{Neben}}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {{Pieterse}}}, \bibinfo {author} {\bibfnamefont {J.~C.}\ \bibnamefont
+  {{Pober}}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {{Razavi-Ghods}}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {{Ringuette}}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {{Robnett}}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {{Rosie}}},
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {{Sell}}}, \bibinfo
+  {author} {\bibfnamefont {C.}~\bibnamefont {{Smith}}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {{Syce}}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {{Tegmark}}}, \bibinfo {author} {\bibfnamefont {P.~K.~G.}\
+  \bibnamefont {{Williams}}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {H.}~\bibnamefont {{Zheng}}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+   {journal} {ArXiv e-prints}\ } (\bibinfo {year} {2017})},\ \Eprint
+  {http://arxiv.org/abs/1701.03209} {arXiv:1701.03209 [astro-ph.IM]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Dillon}}\ and\ \citenamefont
+  {{Parsons}}(2016)}]{dil16}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~S.}\ \bibnamefont
+  {{Dillon}}}\ and\ \bibinfo {author} {\bibfnamefont {A.~R.}\ \bibnamefont
+  {{Parsons}}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {ArXiv e-prints}\ } (\bibinfo {year} {2016})},\ \Eprint
+  {http://arxiv.org/abs/1602.06259} {arXiv:1602.06259 [astro-ph.IM]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Greig}}\ and\ \citenamefont
+  {{Mesinger}}(2017{\natexlab{b}})}]{gre17b}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {{Greig}}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {{Mesinger}}},\ }\href {\doibase 10.1093/mnras/stx2118} {\bibfield  {journal}
+  {\bibinfo  {journal} {\mnras}\ }\textbf {\bibinfo {volume} {472}},\ \bibinfo
+  {pages} {2651} (\bibinfo {year} {2017}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Mesinger}}\ \emph {et~al.}(2011)\citenamefont
+  {{Mesinger}}, \citenamefont {{Furlanetto}},\ and\ \citenamefont
+  {{Cen}}}]{mes11}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {{Mesinger}}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {{Furlanetto}}}, \ and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {{Cen}}},\ }\href {\doibase 10.1111/j.1365-2966.2010.17731.x} {\bibfield
+  {journal} {\bibinfo  {journal} {\mnras}\ }\textbf {\bibinfo {volume} {411}},\
+  \bibinfo {pages} {955} (\bibinfo {year} {2011})},\ \Eprint
+  {http://arxiv.org/abs/1003.3878} {arXiv:1003.3878} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Parsons}}\ \emph
+  {et~al.}(2012{\natexlab{a}})\citenamefont {{Parsons}}, \citenamefont
+  {{Pober}}, \citenamefont {{McQuinn}}, \citenamefont {{Jacobs}},\ and\
+  \citenamefont {{Aguirre}}}]{par12a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {{Parsons}}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {{Pober}}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {{McQuinn}}}, \bibinfo
+  {author} {\bibfnamefont {D.}~\bibnamefont {{Jacobs}}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {{Aguirre}}},\ }\href {\doibase
+  10.1088/0004-637X/753/1/81} {\bibfield  {journal} {\bibinfo  {journal}
+  {\apj}\ }\textbf {\bibinfo {volume} {753}},\ \bibinfo {eid} {81} (\bibinfo
+  {year} {2012}{\natexlab{a}})},\ \Eprint {http://arxiv.org/abs/1103.2135}
+  {arXiv:1103.2135 [astro-ph.IM]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Parsons}}\ \emph
+  {et~al.}(2012{\natexlab{b}})\citenamefont {{Parsons}}, \citenamefont
+  {{Pober}}, \citenamefont {{Aguirre}}, \citenamefont {{Carilli}},
+  \citenamefont {{Jacobs}},\ and\ \citenamefont {{Moore}}}]{par12b}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~R.}\ \bibnamefont
+  {{Parsons}}}, \bibinfo {author} {\bibfnamefont {J.~C.}\ \bibnamefont
+  {{Pober}}}, \bibinfo {author} {\bibfnamefont {J.~E.}\ \bibnamefont
+  {{Aguirre}}}, \bibinfo {author} {\bibfnamefont {C.~L.}\ \bibnamefont
+  {{Carilli}}}, \bibinfo {author} {\bibfnamefont {D.~C.}\ \bibnamefont
+  {{Jacobs}}}, \ and\ \bibinfo {author} {\bibfnamefont {D.~F.}\ \bibnamefont
+  {{Moore}}},\ }\href {\doibase 10.1088/0004-637X/756/2/165} {\bibfield
+  {journal} {\bibinfo  {journal} {\apj}\ }\textbf {\bibinfo {volume} {756}},\
+  \bibinfo {eid} {165} (\bibinfo {year} {2012}{\natexlab{b}})},\ \Eprint
+  {http://arxiv.org/abs/1204.4749} {arXiv:1204.4749 [astro-ph.IM]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{Planck Collaboration}}\ \emph
+  {et~al.}(2016{\natexlab{b}})\citenamefont {{Planck Collaboration}},
+  \citenamefont {{Ade}}, \citenamefont {{Aghanim}}, \citenamefont {{Arnaud}},
+  \citenamefont {{Ashdown}}, \citenamefont {{Aumont}}, \citenamefont
+  {{Baccigalupi}}, \citenamefont {{Banday}}, \citenamefont {{Barreiro}},
+  \citenamefont {{Bartlett}},\ and\ \citenamefont {et~al.}}]{planck15xiii}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{Planck
+  Collaboration}}}, \bibinfo {author} {\bibfnamefont {P.~A.~R.}\ \bibnamefont
+  {{Ade}}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {{Aghanim}}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {{Arnaud}}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {{Ashdown}}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {{Aumont}}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {{Baccigalupi}}}, \bibinfo {author}
+  {\bibfnamefont {A.~J.}\ \bibnamefont {{Banday}}}, \bibinfo {author}
+  {\bibfnamefont {R.~B.}\ \bibnamefont {{Barreiro}}}, \bibinfo {author}
+  {\bibfnamefont {J.~G.}\ \bibnamefont {{Bartlett}}}, \ and\ \bibinfo {author}
+  {\bibnamefont {et~al.}},\ }\href {\doibase 10.1051/0004-6361/201525830}
+  {\bibfield  {journal} {\bibinfo  {journal} {\aap}\ }\textbf {\bibinfo
+  {volume} {594}},\ \bibinfo {eid} {A13} (\bibinfo {year}
+  {2016}{\natexlab{b}})},\ \Eprint {http://arxiv.org/abs/1502.01589}
+  {arXiv:1502.01589} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Bowman}}\ \emph {et~al.}(2009)\citenamefont
+  {{Bowman}}, \citenamefont {{Morales}},\ and\ \citenamefont
+  {{Hewitt}}}]{bow09}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~D.}\ \bibnamefont
+  {{Bowman}}}, \bibinfo {author} {\bibfnamefont {M.~F.}\ \bibnamefont
+  {{Morales}}}, \ and\ \bibinfo {author} {\bibfnamefont {J.~N.}\ \bibnamefont
+  {{Hewitt}}},\ }\href {\doibase 10.1088/0004-637X/695/1/183} {\bibfield
+  {journal} {\bibinfo  {journal} {\apj}\ }\textbf {\bibinfo {volume} {695}},\
+  \bibinfo {pages} {183} (\bibinfo {year} {2009})},\ \Eprint
+  {http://arxiv.org/abs/0807.3956} {arXiv:0807.3956} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Liu}}\ \emph {et~al.}(2009)\citenamefont {{Liu}},
+  \citenamefont {{Tegmark}}, \citenamefont {{Bowman}}, \citenamefont
+  {{Hewitt}},\ and\ \citenamefont {{Zaldarriaga}}}]{liu09}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {{Liu}}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {{Tegmark}}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {{Bowman}}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {{Hewitt}}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {{Zaldarriaga}}},\ }\href {\doibase
+  10.1111/j.1365-2966.2009.15156.x} {\bibfield  {journal} {\bibinfo  {journal}
+  {\mnras}\ }\textbf {\bibinfo {volume} {398}},\ \bibinfo {pages} {401}
+  (\bibinfo {year} {2009})},\ \Eprint {http://arxiv.org/abs/0903.4890}
+  {arXiv:0903.4890 [astro-ph.CO]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Liu}}\ \emph
+  {et~al.}(2014{\natexlab{a}})\citenamefont {{Liu}}, \citenamefont
+  {{Parsons}},\ and\ \citenamefont {{Trott}}}]{liu14a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {{Liu}}}, \bibinfo {author} {\bibfnamefont {A.~R.}\ \bibnamefont
+  {{Parsons}}}, \ and\ \bibinfo {author} {\bibfnamefont {C.~M.}\ \bibnamefont
+  {{Trott}}},\ }\href {\doibase 10.1103/PhysRevD.90.023018} {\bibfield
+  {journal} {\bibinfo  {journal} {\prd}\ }\textbf {\bibinfo {volume} {90}},\
+  \bibinfo {eid} {023018} (\bibinfo {year} {2014}{\natexlab{a}})},\ \Eprint
+  {http://arxiv.org/abs/1404.2596} {arXiv:1404.2596} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Liu}}\ \emph
+  {et~al.}(2014{\natexlab{b}})\citenamefont {{Liu}}, \citenamefont
+  {{Parsons}},\ and\ \citenamefont {{Trott}}}]{liu14b}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {{Liu}}}, \bibinfo {author} {\bibfnamefont {A.~R.}\ \bibnamefont
+  {{Parsons}}}, \ and\ \bibinfo {author} {\bibfnamefont {C.~M.}\ \bibnamefont
+  {{Trott}}},\ }\href {\doibase 10.1103/PhysRevD.90.023019} {\bibfield
+  {journal} {\bibinfo  {journal} {\prd}\ }\textbf {\bibinfo {volume} {90}},\
+  \bibinfo {eid} {023019} (\bibinfo {year} {2014}{\natexlab{b}})},\ \Eprint
+  {http://arxiv.org/abs/1404.4372} {arXiv:1404.4372} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Liu}}\ and\ \citenamefont
+  {{Tegmark}}(2011)}]{liu11}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {{Liu}}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {{Tegmark}}},\ }\href {\doibase 10.1103/PhysRevD.83.103006} {\bibfield
+  {journal} {\bibinfo  {journal} {\prd}\ }\textbf {\bibinfo {volume} {83}},\
+  \bibinfo {eid} {103006} (\bibinfo {year} {2011})},\ \Eprint
+  {http://arxiv.org/abs/1103.0281} {arXiv:1103.0281 [astro-ph.CO]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{Ghosh}}\ \emph {et~al.}(2012)\citenamefont
+  {{Ghosh}}, \citenamefont {{Prasad}}, \citenamefont {{Bharadwaj}},
+  \citenamefont {{Ali}},\ and\ \citenamefont {{Chengalur}}}]{gho12}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {{Ghosh}}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {{Prasad}}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {{Bharadwaj}}}, \bibinfo
+  {author} {\bibfnamefont {S.~S.}\ \bibnamefont {{Ali}}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {J.~N.}\ \bibnamefont {{Chengalur}}},\ }\href
+  {\doibase 10.1111/j.1365-2966.2012.21889.x} {\bibfield  {journal} {\bibinfo
+  {journal} {\mnras}\ }\textbf {\bibinfo {volume} {426}},\ \bibinfo {pages}
+  {3295} (\bibinfo {year} {2012})},\ \Eprint {http://arxiv.org/abs/1208.1617}
+  {arXiv:1208.1617 [astro-ph.CO]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Morales}}\ \emph {et~al.}(2012)\citenamefont
+  {{Morales}}, \citenamefont {{Hazelton}}, \citenamefont {{Sullivan}},\ and\
+  \citenamefont {{Beardsley}}}]{mor12}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~F.}\ \bibnamefont
+  {{Morales}}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {{Hazelton}}}, \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {{Sullivan}}}, \ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {{Beardsley}}},\ }\href {\doibase 10.1088/0004-637X/752/2/137} {\bibfield
+  {journal} {\bibinfo  {journal} {\apj}\ }\textbf {\bibinfo {volume} {752}},\
+  \bibinfo {eid} {137} (\bibinfo {year} {2012})},\ \Eprint
+  {http://arxiv.org/abs/1202.3830} {arXiv:1202.3830 [astro-ph.IM]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{Trott}}\ \emph {et~al.}(2012)\citenamefont
+  {{Trott}}, \citenamefont {{Wayth}},\ and\ \citenamefont {{Tingay}}}]{tro12}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~M.}\ \bibnamefont
+  {{Trott}}}, \bibinfo {author} {\bibfnamefont {R.~B.}\ \bibnamefont
+  {{Wayth}}}, \ and\ \bibinfo {author} {\bibfnamefont {S.~J.}\ \bibnamefont
+  {{Tingay}}},\ }\href {\doibase 10.1088/0004-637X/757/1/101} {\bibfield
+  {journal} {\bibinfo  {journal} {\apj}\ }\textbf {\bibinfo {volume} {757}},\
+  \bibinfo {eid} {101} (\bibinfo {year} {2012})},\ \Eprint
+  {http://arxiv.org/abs/1208.0646} {arXiv:1208.0646 [astro-ph.CO]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{Vedantham}}\ \emph {et~al.}(2012)\citenamefont
+  {{Vedantham}}, \citenamefont {{Udaya Shankar}},\ and\ \citenamefont
+  {{Subrahmanyan}}}]{ved12}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {{Vedantham}}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {{Udaya
+  Shankar}}}, \ and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {{Subrahmanyan}}},\ }\href {\doibase 10.1088/0004-637X/745/2/176} {\bibfield
+  {journal} {\bibinfo  {journal} {\apj}\ }\textbf {\bibinfo {volume} {745}},\
+  \bibinfo {eid} {176} (\bibinfo {year} {2012})},\ \Eprint
+  {http://arxiv.org/abs/1106.1297} {arXiv:1106.1297 [astro-ph.IM]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Dillon}\ \emph {et~al.}(2013)\citenamefont {Dillon},
+  \citenamefont {Liu},\ and\ \citenamefont {Tegmark}}]{dil13}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~S.}\ \bibnamefont
+  {Dillon}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Liu}}, \ and\
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Tegmark}},\ }\href
+  {\doibase 10.1103/PhysRevD.87.043005} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo {volume} {87}},\ \bibinfo
+  {pages} {043005} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Pober}}\ \emph {et~al.}(2013)\citenamefont
+  {{Pober}}, \citenamefont {{Parsons}}, \citenamefont {{Aguirre}},
+  \citenamefont {{Ali}}, \citenamefont {{Bradley}}, \citenamefont {{Carilli}},
+  \citenamefont {{DeBoer}}, \citenamefont {{Dexter}}, \citenamefont
+  {{Gugliucci}}, \citenamefont {{Jacobs}}, \citenamefont {{Klima}},
+  \citenamefont {{MacMahon}}, \citenamefont {{Manley}}, \citenamefont
+  {{Moore}}, \citenamefont {{Stefan}},\ and\ \citenamefont
+  {{Walbrugh}}}]{pob13}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~C.}\ \bibnamefont
+  {{Pober}}}, \bibinfo {author} {\bibfnamefont {A.~R.}\ \bibnamefont
+  {{Parsons}}}, \bibinfo {author} {\bibfnamefont {J.~E.}\ \bibnamefont
+  {{Aguirre}}}, \bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont {{Ali}}},
+  \bibinfo {author} {\bibfnamefont {R.~F.}\ \bibnamefont {{Bradley}}}, \bibinfo
+  {author} {\bibfnamefont {C.~L.}\ \bibnamefont {{Carilli}}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {{DeBoer}}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {{Dexter}}}, \bibinfo {author}
+  {\bibfnamefont {N.~E.}\ \bibnamefont {{Gugliucci}}}, \bibinfo {author}
+  {\bibfnamefont {D.~C.}\ \bibnamefont {{Jacobs}}}, \bibinfo {author}
+  {\bibfnamefont {P.~J.}\ \bibnamefont {{Klima}}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {{MacMahon}}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {{Manley}}}, \bibinfo {author}
+  {\bibfnamefont {D.~F.}\ \bibnamefont {{Moore}}}, \bibinfo {author}
+  {\bibfnamefont {I.~I.}\ \bibnamefont {{Stefan}}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {W.~P.}\ \bibnamefont {{Walbrugh}}},\ }\href {\doibase
+  10.1088/2041-8205/768/2/L36} {\bibfield  {journal} {\bibinfo  {journal}
+  {\apjl}\ }\textbf {\bibinfo {volume} {768}},\ \bibinfo {eid} {L36} (\bibinfo
+  {year} {2013})},\ \Eprint {http://arxiv.org/abs/1301.7099} {arXiv:1301.7099
+  [astro-ph.CO]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Dillon}}\ \emph {et~al.}(2014)\citenamefont
+  {{Dillon}}, \citenamefont {{Liu}}, \citenamefont {{Williams}}, \citenamefont
+  {{Hewitt}}, \citenamefont {{Tegmark}}, \citenamefont {{Morgan}},
+  \citenamefont {{Levine}}, \citenamefont {{Morales}}, \citenamefont
+  {{Tingay}}, \citenamefont {{Bernardi}}, \citenamefont {{Bowman}},
+  \citenamefont {{Briggs}}, \citenamefont {{Cappallo}}, \citenamefont
+  {{Emrich}}, \citenamefont {{Mitchell}}, \citenamefont {{Oberoi}},
+  \citenamefont {{Prabu}}, \citenamefont {{Wayth}},\ and\ \citenamefont
+  {{Webster}}}]{dil14}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~S.}\ \bibnamefont
+  {{Dillon}}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {{Liu}}},
+  \bibinfo {author} {\bibfnamefont {C.~L.}\ \bibnamefont {{Williams}}},
+  \bibinfo {author} {\bibfnamefont {J.~N.}\ \bibnamefont {{Hewitt}}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {{Tegmark}}}, \bibinfo {author}
+  {\bibfnamefont {E.~H.}\ \bibnamefont {{Morgan}}}, \bibinfo {author}
+  {\bibfnamefont {A.~M.}\ \bibnamefont {{Levine}}}, \bibinfo {author}
+  {\bibfnamefont {M.~F.}\ \bibnamefont {{Morales}}}, \bibinfo {author}
+  {\bibfnamefont {S.~J.}\ \bibnamefont {{Tingay}}}, \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {{Bernardi}}}, \bibinfo {author}
+  {\bibfnamefont {J.~D.}\ \bibnamefont {{Bowman}}}, \bibinfo {author}
+  {\bibfnamefont {F.~H.}\ \bibnamefont {{Briggs}}}, \bibinfo {author}
+  {\bibfnamefont {R.~C.}\ \bibnamefont {{Cappallo}}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {{Emrich}}}, \bibinfo {author}
+  {\bibfnamefont {D.~A.}\ \bibnamefont {{Mitchell}}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {{Oberoi}}}, \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {{Prabu}}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {{Wayth}}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {R.~L.}\ \bibnamefont {{Webster}}},\ }\href {\doibase
+  10.1103/PhysRevD.89.023002} {\bibfield  {journal} {\bibinfo  {journal}
+  {\prd}\ }\textbf {\bibinfo {volume} {89}},\ \bibinfo {eid} {023002} (\bibinfo
+  {year} {2014})},\ \Eprint {http://arxiv.org/abs/1304.4229} {arXiv:1304.4229
+  [astro-ph.CO]} \BibitemShut {NoStop}%
+\bibitem [{Note1()}]{Note1}%
+  \BibitemOpen
+  \bibinfo {note} {The Precision Radio Interferometry Simulator (PRISim) Python
+  package is available at \protect \href
+  {https://github.com/nithyanandan/PRISim}{https://github.com/nithyanandan/PRISim}.}\BibitemShut
+  {Stop}%
+\bibitem [{\citenamefont {{Harris}}(1978)}]{har78}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.~J.}\ \bibnamefont
+  {{Harris}}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {IEEE
+  Proceedings}\ }\textbf {\bibinfo {volume} {66}},\ \bibinfo {pages} {51}
+  (\bibinfo {year} {1978})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Pober}}\ \emph {et~al.}(2016)\citenamefont
+  {{Pober}}, \citenamefont {{Greig}},\ and\ \citenamefont
+  {{Mesinger}}}]{pob16b}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~C.}\ \bibnamefont
+  {{Pober}}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {{Greig}}}, \
+  and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {{Mesinger}}},\
+  }\href {\doibase 10.1093/mnrasl/slw156} {\bibfield  {journal} {\bibinfo
+  {journal} {\mnras}\ }\textbf {\bibinfo {volume} {463}},\ \bibinfo {pages}
+  {L56} (\bibinfo {year} {2016})},\ \Eprint {http://arxiv.org/abs/1608.01324}
+  {arXiv:1608.01324} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Dillon}}\ \emph {et~al.}(2015)\citenamefont
+  {{Dillon}}, \citenamefont {{Neben}}, \citenamefont {{Hewitt}}, \citenamefont
+  {{Tegmark}}, \citenamefont {{Barry}}, \citenamefont {{Beardsley}},
+  \citenamefont {{Bowman}}, \citenamefont {{Briggs}}, \citenamefont
+  {{Carroll}}, \citenamefont {{de Oliveira-Costa}}, \citenamefont
+  {{Ewall-Wice}}, \citenamefont {{Feng}}, \citenamefont {{Greenhill}},
+  \citenamefont {{Hazelton}}, \citenamefont {{Hernquist}}, \citenamefont
+  {{Hurley-Walker}}, \citenamefont {{Jacobs}}, \citenamefont {{Kim}},
+  \citenamefont {{Kittiwisit}}, \citenamefont {{Lenc}}, \citenamefont {{Line}},
+  \citenamefont {{Loeb}}, \citenamefont {{McKinley}}, \citenamefont
+  {{Mitchell}}, \citenamefont {{Morales}}, \citenamefont {{Offringa}},
+  \citenamefont {{Paul}}, \citenamefont {{Pindor}}, \citenamefont {{Pober}},
+  \citenamefont {{Procopio}}, \citenamefont {{Riding}}, \citenamefont
+  {{Sethi}}, \citenamefont {{Shankar}}, \citenamefont {{Subrahmanyan}},
+  \citenamefont {{Sullivan}}, \citenamefont {{Thyagarajan}}, \citenamefont
+  {{Tingay}}, \citenamefont {{Trott}}, \citenamefont {{Wayth}}, \citenamefont
+  {{Webster}}, \citenamefont {{Wyithe}}, \citenamefont {{Bernardi}},
+  \citenamefont {{Cappallo}}, \citenamefont {{Deshpande}}, \citenamefont
+  {{Johnston-Hollitt}}, \citenamefont {{Kaplan}}, \citenamefont {{Lonsdale}},
+  \citenamefont {{McWhirter}}, \citenamefont {{Morgan}}, \citenamefont
+  {{Oberoi}}, \citenamefont {{Ord}}, \citenamefont {{Prabu}}, \citenamefont
+  {{Srivani}}, \citenamefont {{Williams}},\ and\ \citenamefont
+  {{Williams}}}]{dil15}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~S.}\ \bibnamefont
+  {{Dillon}}}, \bibinfo {author} {\bibfnamefont {A.~R.}\ \bibnamefont
+  {{Neben}}}, \bibinfo {author} {\bibfnamefont {J.~N.}\ \bibnamefont
+  {{Hewitt}}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {{Tegmark}}},
+  \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {{Barry}}}, \bibinfo
+  {author} {\bibfnamefont {A.~P.}\ \bibnamefont {{Beardsley}}}, \bibinfo
+  {author} {\bibfnamefont {J.~D.}\ \bibnamefont {{Bowman}}}, \bibinfo {author}
+  {\bibfnamefont {F.}~\bibnamefont {{Briggs}}}, \bibinfo {author}
+  {\bibfnamefont {P.}~\bibnamefont {{Carroll}}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {{de Oliveira-Costa}}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {{Ewall-Wice}}}, \bibinfo {author}
+  {\bibfnamefont {L.}~\bibnamefont {{Feng}}}, \bibinfo {author} {\bibfnamefont
+  {L.~J.}\ \bibnamefont {{Greenhill}}}, \bibinfo {author} {\bibfnamefont
+  {B.~J.}\ \bibnamefont {{Hazelton}}}, \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {{Hernquist}}}, \bibinfo {author} {\bibfnamefont
+  {N.}~\bibnamefont {{Hurley-Walker}}}, \bibinfo {author} {\bibfnamefont
+  {D.~C.}\ \bibnamefont {{Jacobs}}}, \bibinfo {author} {\bibfnamefont {H.~S.}\
+  \bibnamefont {{Kim}}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {{Kittiwisit}}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {{Lenc}}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {{Line}}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {{Loeb}}}, \bibinfo
+  {author} {\bibfnamefont {B.}~\bibnamefont {{McKinley}}}, \bibinfo {author}
+  {\bibfnamefont {D.~A.}\ \bibnamefont {{Mitchell}}}, \bibinfo {author}
+  {\bibfnamefont {M.~F.}\ \bibnamefont {{Morales}}}, \bibinfo {author}
+  {\bibfnamefont {A.~R.}\ \bibnamefont {{Offringa}}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {{Paul}}}, \bibinfo {author} {\bibfnamefont
+  {B.}~\bibnamefont {{Pindor}}}, \bibinfo {author} {\bibfnamefont {J.~C.}\
+  \bibnamefont {{Pober}}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {{Procopio}}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {{Riding}}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {{Sethi}}},
+  \bibinfo {author} {\bibfnamefont {N.~U.}\ \bibnamefont {{Shankar}}}, \bibinfo
+  {author} {\bibfnamefont {R.}~\bibnamefont {{Subrahmanyan}}}, \bibinfo
+  {author} {\bibfnamefont {I.}~\bibnamefont {{Sullivan}}}, \bibinfo {author}
+  {\bibfnamefont {N.}~\bibnamefont {{Thyagarajan}}}, \bibinfo {author}
+  {\bibfnamefont {S.~J.}\ \bibnamefont {{Tingay}}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {{Trott}}}, \bibinfo {author} {\bibfnamefont
+  {R.~B.}\ \bibnamefont {{Wayth}}}, \bibinfo {author} {\bibfnamefont {R.~L.}\
+  \bibnamefont {{Webster}}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {{Wyithe}}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {{Bernardi}}}, \bibinfo {author} {\bibfnamefont {R.~J.}\ \bibnamefont
+  {{Cappallo}}}, \bibinfo {author} {\bibfnamefont {A.~A.}\ \bibnamefont
+  {{Deshpande}}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {{Johnston-Hollitt}}}, \bibinfo {author} {\bibfnamefont {D.~L.}\ \bibnamefont
+  {{Kaplan}}}, \bibinfo {author} {\bibfnamefont {C.~J.}\ \bibnamefont
+  {{Lonsdale}}}, \bibinfo {author} {\bibfnamefont {S.~R.}\ \bibnamefont
+  {{McWhirter}}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {{Morgan}}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {{Oberoi}}},
+  \bibinfo {author} {\bibfnamefont {S.~M.}\ \bibnamefont {{Ord}}}, \bibinfo
+  {author} {\bibfnamefont {T.}~\bibnamefont {{Prabu}}}, \bibinfo {author}
+  {\bibfnamefont {K.~S.}\ \bibnamefont {{Srivani}}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {{Williams}}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {C.~L.}\ \bibnamefont {{Williams}}},\ }\href {\doibase
+  10.1103/PhysRevD.91.123011} {\bibfield  {journal} {\bibinfo  {journal}
+  {\prd}\ }\textbf {\bibinfo {volume} {91}},\ \bibinfo {eid} {123011} (\bibinfo
+  {year} {2015})},\ \Eprint {http://arxiv.org/abs/1506.01026}
+  {arXiv:1506.01026} \BibitemShut {NoStop}%
 \end{thebibliography}%
